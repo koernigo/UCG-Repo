@@ -1,0 +1,29 @@
+#!/bin/sh
+#assumes all files for this script on present on this directory
+#assumes you installed the dcos cli and the cluster is running.
+
+#DCOS install
+     #create an IAM key pair which will be used in the next phase. 
+     #   store the pem file that is downloaded this directory
+     #create DCOS on AWS by launching the Cloud Formation template
+     #    Ex for 1.9 via DCOS docs - https://dcos.io/docs/1.9/installing/cloud/aws/basic/
+     # Single Master - POC  --  HA/3 Master -- Production High Availability
+     #    Template prompts - Select UCG key pair, 3 Public , 2 Private Slaves, IAM security role checked
+     # Find the Mesos Master in the AWS EC2 Instance dashboard, use the DNS name to launch the DCOS Console
+     #Install the cli - Login to DCOS, look under menu - top left - follow instructions for your OS
+     # Find the Public Slave External IPs - Go to AWS EC2 Instances that have Public in the Security Group
+     # For HAProxy States <Public IP or Public DNS>:9090/haproxy?stats
+     # Config Note - Instances of marathon-LB must equal Number of Public Slaves
+     # Contig Note - As you increase NodeRed instances you must ensure you scale Public Slaves
+     # Config Note - As of 1.9, increasing Public/Private Slaves requires Updating/Restarting the Stack. 
+     #     Can be done on the fly, but complicated. 
+
+#assumes you set the configuration to your cluster and your are logged in via "dcos auth login"
+
+#configure nodeRed docker container. Assumes docker container is available on dockerhub
+dcos marathon app add nodeRed.json
+#configure external load balancer
+dcos package install --options=marathon-lb-config.json marathon-lb
+#configure app to autoscale by requests per second. 
+dcos marathon app add marathon-lb-autoscale.json
+

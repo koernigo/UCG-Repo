@@ -1,0 +1,39 @@
+{
+    "id": "nodered",
+    "container": {
+    "type": "DOCKER",
+    "docker": {
+          "image": "dennisnotojr/nodered-loadtest:version9",
+
+          "parameters": [
+                { "key": "memory-swap", "value": "1G" },
+                { "key": "memory", "value": "512M" },
+                { "key": "env", "value":"httpAdminRoot=false"}
+            ],
+
+          "network": "BRIDGE",
+          "portMappings": [
+            { "hostPort": 0, "containerPort": 0, "protocol": "tcp", "servicePort": 10000  }
+          ]
+        }
+    },
+    
+    "acceptedResourceRoles": ["slave_public"],
+    "instances": 20,
+    "cpus": 0.25,
+    "mem": 1024,
+    "healthChecks": [{
+      "protocol": "HTTP",
+      "portIndex": 0,
+      "timeoutSeconds": 10,
+      "gracePeriodSeconds": 10,
+      "intervalSeconds": 10,
+      "maxConsecutiveFailures": 10
+  }],
+  "labels":{
+    "HAPROXY_GROUP":"external",
+    "HAPROXY_0_VHOST": "54.234.57.77"
+
+  }
+
+}
