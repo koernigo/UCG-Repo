@@ -1,1 +1,246 @@
-[{"id":"82e51e98.8b421","type":"http in","z":"13b190c9.7080df","name":"Slack HTTP in","url":"/slack","method":"post","swaggerDoc":"","x":84,"y":279.4999532699585,"wires":[["94444cf.781623"]]},{"id":"94444cf.781623","type":"function","z":"13b190c9.7080df","name":"slackVars","func":"var channel = msg.payload.channel_name;\nvar username = msg.payload.user_name;\nvar team = msg.payload.team_domain;\nvar text = msg.payload.text;\n\nnode.log(\"Team:\" + team);\nnode.log(\"username:\" + username);\nnode.log(\"channel:\" + channel);\nnode.log(\"text:\" + text);\n\nif(username == \"slackbot\") {\n    global.set(\"tlength\",0);}\nelse\n{global.set(\"tlength\",text.length); }\n\nvar test = global.get(\"tlength\")\nnode.log(\"length:\" + test);\n\nreturn msg;","outputs":1,"noerr":0,"x":213.05556106567383,"y":183.16663646697998,"wires":[["39c84f97.5f972"]]},{"id":"39c84f97.5f972","type":"switch","z":"13b190c9.7080df","name":"","property":"tlength","propertyType":"global","rules":[{"t":"gt","v":"0","vt":"num"},{"t":"else"}],"checkall":"false","outputs":2,"x":284.5000114440918,"y":281.27772998809814,"wires":[["99ee0e8c.d47718"],["abfa48f6.c4609"]]},{"id":"99ee0e8c.d47718","type":"function","z":"13b190c9.7080df","name":"Set Params","func":"var channel = msg.payload.channel_name;\nvar user = msg.payload.user_name;\nvar user_id = msg.payload.user_id;\nvar team = msg.payload.team_domain;\nvar workspace_id = msg.req.query.workspace_id;\nvar fname = msg.req.query.fname;\n\n\nnode.log(\"Team:\" + team);\nnode.log(\"username:\" + user);\nnode.log(\"channel:\" + channel);\n\n\nvar temp_msg = msg.payload.text;\nvar newmsg = temp_msg.replace(\"Watson\", \"\");\nmsg.payload = newmsg;\n\nglobal.set(\"last_question\",newmsg);\nglobal.set(\"user\",user);\n\nif ((temp_msg.toUpperCase().substring(0,5) == \"HELLO\") && (temp_msg.length > 5)){\nswitch(temp_msg.toUpperCase()) {\n    case 'HELLO BANK ASSIST':\n        workspace_id = \"e162651d-3bf1-4cdb-9b88-c700511eef66\";\n        app = \"BankAssist\";\n        break;\n    case 'HELLO INSURE ASSIST':\n        workspace_id = \"be10696f-c581-4c7b-a4b7-8cac928c3e56\";\n        app = \"InsureAssist\";\n        break;\n    case 'HELLO INSURE CALL CENTER ASSIST':\n        workspace_id = \"faf6e421-43ae-474a-8f9e-e8e10e71e3df\";\n        app = \"InsureCCAssist\";\n        break;\n    case 'HELLO WEALTH ASSIST':\n        workspace_id = \"8a43bb91-62b9-4f45-93c9-dee8075a49fa\";\n        app = \"WealthAssist\";\n        break;\n    case 'HELLO METLIFE ASSIST':\n        workspace_id = \"5fd7c1c7-9ea2-4fc8-b6fa-7920e10aad5a\";\n        app = \"MetLifeAssist\";\n        break;\n    case 'HELLO FIDELITY ASSIST':\n        workspace_id = \"46975d17-120f-4757-8fe8-4a6649b3a257\";\n        app = \"FidelityAssist\";\n        break;\n    default: \n        workspace_id = \"17df222b-bf8c-41fc-8bec-da21317d993c\";\n        app = \"InsureAssist\";\n }\n global.set(\"app\",app);\n global.set(\"workspace_id\",workspace_id);\n}\n\nmsg.app = global.get(\"app\");\nworkspace_id = global.get(\"workspace_id\");\n\n\nvar params = {\n //   context: Watson_gvar\n    workspace_id : workspace_id\n   \n};\n\nvar additional_context = {\n    fname: fname\n};\n\n\n//return msg;\n\nreturn {\n    payload: newmsg,\n    user : user_id,\n    additional_context : additional_context,\n    params : params\n    \n};","outputs":1,"noerr":0,"x":418.94445419311523,"y":215.7221851348877,"wires":[["50f7259a.4741dc","2e1ce927.26242e"]]},{"id":"abfa48f6.c4609","type":"function","z":"13b190c9.7080df","name":"unhandled chat","func":"node.log(msg.payload.text);","outputs":1,"noerr":0,"x":422.5000114440918,"y":339.8332805633545,"wires":[[]]},{"id":"88d091d1.4dba38","type":"watson-conversation-v1","z":"13b190c9.7080df","name":"","workspaceid":"17df222b-bf8c-41fc-8bec-da21317d993c","multiuser":true,"context":true,"x":914.3888702392578,"y":103.138840675354,"wires":[["8de59eb9.291d88"]]},{"id":"50f7259a.4741dc","type":"debug","z":"13b190c9.7080df","name":"Slack inbound","active":true,"console":"false","complete":"payload","x":488.1667137145996,"y":31,"wires":[]},{"id":"2e1ce927.26242e","type":"watson-tone-analyzer-v3","z":"13b190c9.7080df","name":"Tone","tones":"all","sentences":"true","contentType":"false","x":594.388858795166,"y":103.6111011505127,"wires":[["89baf31a.5a502"]]},{"id":"8de59eb9.291d88","type":"function","z":"13b190c9.7080df","name":"1st Level msg","func":"var Watson_msg = msg.payload;\nvar Watson_response = JSON.stringify(msg.payload.output.text);\n\nMyresponse = Watson_response.substring(2,Watson_response.length-2);\n\n//var texts = Myresponse.split(\"\\\",\\\"\");\nvar texts = msg.payload.output.text\nfor (i = 0; i < texts.length; i++) {\n   Myresponse = texts[i];\n   node.log(\"**********  length ******* \" + texts.length);\n\n// causing issues for multiple output responses\n//if (Myresponse.match(\"\\\",\\\"\")) {\n  if (Myresponse.substring(0,Myresponse,2) == \"\\\",\\\"\") {\n     Myresponse = Myresponse.substring(3,Myresponse.length)\n     node.log(\"Found a comma\")\n     node.log(Myresponse)\n}\n\n \nif (Myresponse.lastIndexOf(\"[\") >= 0 ) {\n     findindex = Myresponse.lastIndexOf(\"[\")\n     Myresponse = Myresponse.substring(0,findindex)\n     node.log(\"Found a buttons at index:\", findindex)\n     node.log(Myresponse)\n} \nif (Myresponse.lastIndexOf(\"InsMap\") >= 0 ) {\n     findindex = Myresponse.lastIndexOf(\"InsMap\")\n     Myresponse = Myresponse.substring(0,findindex)\n     node.log(\"Found a maps at index:\", findindex)\n     node.log(Myresponse)\n} \n\n// Dennis added because SSML tag was escaping the \" with \\\" and the replace command fixes it!!!!\nMyresponse = Myresponse.replace(/\\\\/g, \"\");\n//Dennis - Remove XML SSML tags from chat systems\nMyresponse = Myresponse.replace(/<[^>]+>/g, \"\");\n\n\nif (Myresponse.lastIndexOf(\"future training\") >= 0) {\n var response = {\n    text: \"Sorry I can't answer this question. Escalating to Second Level Support, please stand by\" ,\n    question: Myresponse,\n    escalate: \"Yes\",\n    username: \"Watson\",\n    icon_url: \"https://developer.ibm.com/watson/wp-content/uploads/sites/19/2015/01/IBM_Watson_avatar_pos.png\"\n};}\n\nelse {\n var response = {\n    text: Myresponse,\n    username: \"Watson\",\n    icon_url: \"https://developer.ibm.com/watson/wp-content/uploads/sites/19/2015/01/IBM_Watson_avatar_pos.png\"\n};}\n\n\n//node.log(Watson_gvar);\n//node.log(Watson_response);\n//var Watson_gvar = global.get(\"Watson_context\"); \n//node.log(JSON.stringify(Watson_gvar));\n\n//var newMsg = {payload: response};\nmsg.payload = response;\n\n//return [newMsg,newMsg];\n//return[msg,msg];\nnode.send([msg,msg]);\n}\nreturn null;\n","outputs":"2","noerr":0,"x":638.0555686950684,"y":238.83327674865723,"wires":[["a14b6fe5.d08278","7866dc17.bf717c"],["85fb204e.715fd"]]},{"id":"a14b6fe5.d08278","type":"http request","z":"13b190c9.7080df","name":"Slack Response","method":"POST","ret":"txt","url":"https://hooks.slack.com/services/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","tls":"","x":863.833423614502,"y":236.27773475646973,"wires":[[]]},{"id":"7866dc17.bf717c","type":"debug","z":"13b190c9.7080df","name":"Level 1 message","active":true,"console":"false","complete":"payload.text","x":907.0556468963623,"y":299.11103439331055,"wires":[]},{"id":"85fb204e.715fd","type":"function","z":"13b190c9.7080df","name":"2nd Level Msg","func":"\nnode.log(\"text:\" + msg.payload.text);\n\nif (msg.payload.escalate == \"Yes\"){\n  \nvar response = {\n    text: \"Level 1 Support member, \" + global.get(\"user\") + \", asked: \" + global.get(\"last_question\"),\n    username: \"Watson\",\n    icon_url: \"https://developer.ibm.com/watson/wp-content/uploads/sites/19/2015/01/IBM_Watson_avatar_pos.png\"\n};\nvar newMsg = {payload: response};}\nelse {\n    newMsg = null;\n}\nreturn newMsg;","outputs":1,"noerr":0,"x":740.6111450195312,"y":372.6110544204712,"wires":[["19ad984f.d2b86","7c3bd95c.e70be"]]},{"id":"19ad984f.d2b86","type":"http request","z":"13b190c9.7080df","name":"Escalate to 2 Level Channel","method":"POST","ret":"txt","url":"https://hooks.slack.com/services/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","tls":"","x":980.3889427185059,"y":372.72217559814453,"wires":[[]]},{"id":"7c3bd95c.e70be","type":"debug","z":"13b190c9.7080df","name":"Level 2 message","active":true,"console":"false","complete":"payload.text","x":927.8333473205566,"y":473.888822555542,"wires":[]},{"id":"89baf31a.5a502","type":"function","z":"13b190c9.7080df","name":"Add Tone","func":"\nnode.log(\"*********Found Tone ********\" + msg.response.document_tone.tone_categories[0].tones[0].tone_id);\nnode.log(\"*********Found Tone **Score*****\" + msg.response.document_tone.tone_categories[0].tones[0].score.toFixed(3));\n\nmsg.additional_context.angerName = msg.response.document_tone.tone_categories[0].tones[0].tone_name;\nmsg.additional_context.angerScore = msg.response.document_tone.tone_categories[0].tones[0].score.toFixed(3);\nmsg.additional_context.disgustName = msg.response.document_tone.tone_categories[0].tones[1].tone_name;\nmsg.additional_context.disgustScore = msg.response.document_tone.tone_categories[0].tones[1].score.toFixed(3);\nmsg.additional_context.fearName = msg.response.document_tone.tone_categories[0].tones[2].tone_name;\nmsg.additional_context.fearScore = msg.response.document_tone.tone_categories[0].tones[2].score.toFixed(3);\nmsg.additional_context.joyName = msg.response.document_tone.tone_categories[0].tones[3].tone_name;\nmsg.additional_context.joyScore = msg.response.document_tone.tone_categories[0].tones[3].score.toFixed(3);\nmsg.additional_context.sadnessName = msg.response.document_tone.tone_categories[0].tones[4].tone_name;\nmsg.additional_context.sadnessScore = msg.response.document_tone.tone_categories[0].tones[4].score.toFixed(3);\n\nmsg.additional_context.analyticalName = msg.response.document_tone.tone_categories[1].tones[0].tone_name;\nmsg.additional_context.analyticalScore = msg.response.document_tone.tone_categories[1].tones[0].score.toFixed(3);\nmsg.additional_context.confidentName = msg.response.document_tone.tone_categories[1].tones[1].tone_name;\nmsg.additional_context.confidentScore = msg.response.document_tone.tone_categories[1].tones[1].score.toFixed(3);\nmsg.additional_context.tentativeName = msg.response.document_tone.tone_categories[1].tones[2].tone_name;\nmsg.additional_context.tentativeScore = msg.response.document_tone.tone_categories[1].tones[2].score.toFixed(3);\n\nmsg.additional_context.OpenName = msg.response.document_tone.tone_categories[2].tones[0].tone_name;\nmsg.additional_context.OpenScore = msg.response.document_tone.tone_categories[2].tones[0].score.toFixed(3);\nmsg.additional_context.conTitle = msg.response.document_tone.tone_categories[2].tones[1].tone_name;\nmsg.additional_context.conScore = msg.response.document_tone.tone_categories[2].tones[1].score.toFixed(3);\nmsg.additional_context.extName = msg.response.document_tone.tone_categories[2].tones[2].tone_name;\nmsg.additional_context.extScore = msg.response.document_tone.tone_categories[2].tones[2].score.toFixed(3);\nmsg.additional_context.agreeName = msg.response.document_tone.tone_categories[2].tones[3].tone_name;\nmsg.additional_context.agreeScore = msg.response.document_tone.tone_categories[2].tones[3].score.toFixed(3);\nmsg.additional_context.emoName = msg.response.document_tone.tone_categories[2].tones[4].tone_name;\nmsg.additional_context.emoScore = msg.response.document_tone.tone_categories[2].tones[4].score.toFixed(3);\n\nreturn msg;","outputs":1,"noerr":0,"x":747.9999885559082,"y":104.16671180725098,"wires":[["88d091d1.4dba38"]]}]
+[
+    {
+        "id": "82e51e98.8b421",
+        "type": "http in",
+        "z": "13b190c9.7080df",
+        "name": "Slack HTTP in",
+        "url": "/slack",
+        "method": "post",
+        "swaggerDoc": "",
+        "x": 84,
+        "y": 279.4999532699585,
+        "wires": [
+            [
+                "94444cf.781623"
+            ]
+        ]
+    },
+    {
+        "id": "94444cf.781623",
+        "type": "function",
+        "z": "13b190c9.7080df",
+        "name": "slackVars",
+        "func": "var channel = msg.payload.channel_name;\nvar username = msg.payload.user_name;\nvar team = msg.payload.team_domain;\nvar text = msg.payload.text;\n\nnode.log(\"Team:\" + team);\nnode.log(\"username:\" + username);\nnode.log(\"channel:\" + channel);\nnode.log(\"text:\" + text);\n\nif(username == \"slackbot\") {\n    global.set(\"tlength\",0);}\nelse\n{global.set(\"tlength\",text.length); }\n\nvar test = global.get(\"tlength\")\nnode.log(\"length:\" + test);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 213.05556106567383,
+        "y": 183.16663646697998,
+        "wires": [
+            [
+                "39c84f97.5f972"
+            ]
+        ]
+    },
+    {
+        "id": "39c84f97.5f972",
+        "type": "switch",
+        "z": "13b190c9.7080df",
+        "name": "",
+        "property": "tlength",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "outputs": 2,
+        "x": 284.5000114440918,
+        "y": 281.27772998809814,
+        "wires": [
+            [
+                "99ee0e8c.d47718"
+            ],
+            [
+                "abfa48f6.c4609"
+            ]
+        ]
+    },
+    {
+        "id": "99ee0e8c.d47718",
+        "type": "function",
+        "z": "13b190c9.7080df",
+        "name": "Set Params",
+        "func": "var channel = msg.payload.channel_name;\nvar user = msg.payload.user_name;\nvar user_id = msg.payload.user_id;\nvar team = msg.payload.team_domain;\nvar workspace_id = msg.req.query.workspace_id;\nvar fname = msg.req.query.fname;\n\n\nnode.log(\"Team:\" + team);\nnode.log(\"username:\" + user);\nnode.log(\"channel:\" + channel);\n\n\nvar temp_msg = msg.payload.text;\nvar newmsg = temp_msg.replace(\"Watson\", \"\");\nmsg.payload = newmsg;\n\nglobal.set(\"last_question\",newmsg);\nglobal.set(\"user\",user);\n\nif ((temp_msg.toUpperCase().substring(0,5) == \"HELLO\") && (temp_msg.length > 5)){\nswitch(temp_msg.toUpperCase()) {\n    case 'HELLO BANK ASSIST':\n        workspace_id = \"e162651d-3bf1-4cdb-9b88-c700511eef66\";\n        app = \"BankAssist\";\n        break;\n    case 'HELLO INSURE ASSIST':\n        workspace_id = \"be10696f-c581-4c7b-a4b7-8cac928c3e56\";\n        app = \"InsureAssist\";\n        break;\n    case 'HELLO INSURE CALL CENTER ASSIST':\n        workspace_id = \"faf6e421-43ae-474a-8f9e-e8e10e71e3df\";\n        app = \"InsureCCAssist\";\n        break;\n    case 'HELLO WEALTH ASSIST':\n        workspace_id = \"8a43bb91-62b9-4f45-93c9-dee8075a49fa\";\n        app = \"WealthAssist\";\n        break;\n    case 'HELLO METLIFE ASSIST':\n        workspace_id = \"5fd7c1c7-9ea2-4fc8-b6fa-7920e10aad5a\";\n        app = \"MetLifeAssist\";\n        break;\n    case 'HELLO FIDELITY ASSIST':\n        workspace_id = \"46975d17-120f-4757-8fe8-4a6649b3a257\";\n        app = \"FidelityAssist\";\n        break;\n    default: \n        workspace_id = \"17df222b-bf8c-41fc-8bec-da21317d993c\";\n        app = \"InsureAssist\";\n }\n global.set(\"app\",app);\n global.set(\"workspace_id\",workspace_id);\n}\n\nmsg.app = global.get(\"app\");\nworkspace_id = global.get(\"workspace_id\");\n\n\nvar params = {\n //   context: Watson_gvar\n    workspace_id : workspace_id\n   \n};\n\nvar additional_context = {\n    fname: fname\n};\n\n\n//return msg;\n\nreturn {\n    payload: newmsg,\n    user : user_id,\n    additional_context : additional_context,\n    params : params\n    \n};",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 418.94445419311523,
+        "y": 215.7221851348877,
+        "wires": [
+            [
+                "50f7259a.4741dc",
+                "2e1ce927.26242e"
+            ]
+        ]
+    },
+    {
+        "id": "abfa48f6.c4609",
+        "type": "function",
+        "z": "13b190c9.7080df",
+        "name": "unhandled chat",
+        "func": "node.log(msg.payload.text);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 422.5000114440918,
+        "y": 339.8332805633545,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "88d091d1.4dba38",
+        "type": "watson-conversation-v1",
+        "z": "13b190c9.7080df",
+        "name": "",
+        "workspaceid": "17df222b-bf8c-41fc-8bec-da21317d993c",
+        "multiuser": true,
+        "context": true,
+        "x": 914.3888702392578,
+        "y": 103.138840675354,
+        "wires": [
+            [
+                "8de59eb9.291d88"
+            ]
+        ]
+    },
+    {
+        "id": "50f7259a.4741dc",
+        "type": "debug",
+        "z": "13b190c9.7080df",
+        "name": "Slack inbound",
+        "active": true,
+        "console": "false",
+        "complete": "payload",
+        "x": 488.1667137145996,
+        "y": 31,
+        "wires": []
+    },
+    {
+        "id": "2e1ce927.26242e",
+        "type": "watson-tone-analyzer-v3",
+        "z": "13b190c9.7080df",
+        "name": "Tone",
+        "tones": "all",
+        "sentences": "true",
+        "contentType": "false",
+        "x": 594.388858795166,
+        "y": 103.6111011505127,
+        "wires": [
+            [
+                "89baf31a.5a502"
+            ]
+        ]
+    },
+    {
+        "id": "8de59eb9.291d88",
+        "type": "function",
+        "z": "13b190c9.7080df",
+        "name": "1st Level msg",
+        "func": "var Watson_msg = msg.payload;\nvar Watson_response = JSON.stringify(msg.payload.output.text);\n\nMyresponse = Watson_response.substring(2,Watson_response.length-2);\n\n//var texts = Myresponse.split(\"\\\",\\\"\");\nvar texts = msg.payload.output.text\nfor (i = 0; i < texts.length; i++) {\n   Myresponse = texts[i];\n   node.log(\"**********  length ******* \" + texts.length);\n\n// causing issues for multiple output responses\n//if (Myresponse.match(\"\\\",\\\"\")) {\n  if (Myresponse.substring(0,Myresponse,2) == \"\\\",\\\"\") {\n     Myresponse = Myresponse.substring(3,Myresponse.length)\n     node.log(\"Found a comma\")\n     node.log(Myresponse)\n}\n\n \nif (Myresponse.lastIndexOf(\"[\") >= 0 ) {\n     findindex = Myresponse.lastIndexOf(\"[\")\n     Myresponse = Myresponse.substring(0,findindex)\n     node.log(\"Found a buttons at index:\", findindex)\n     node.log(Myresponse)\n} \nif (Myresponse.lastIndexOf(\"InsMap\") >= 0 ) {\n     findindex = Myresponse.lastIndexOf(\"InsMap\")\n     Myresponse = Myresponse.substring(0,findindex)\n     node.log(\"Found a maps at index:\", findindex)\n     node.log(Myresponse)\n} \n\n// Dennis added because SSML tag was escaping the \" with \\\" and the replace command fixes it!!!!\nMyresponse = Myresponse.replace(/\\\\/g, \"\");\n//Dennis - Remove XML SSML tags from chat systems\nMyresponse = Myresponse.replace(/<[^>]+>/g, \"\");\n\n\nif (Myresponse.lastIndexOf(\"future training\") >= 0) {\n var response = {\n    text: \"Sorry I can't answer this question. Escalating to Second Level Support, please stand by\" ,\n    question: Myresponse,\n    escalate: \"Yes\",\n    username: \"Watson\",\n    icon_url: \"https://developer.ibm.com/watson/wp-content/uploads/sites/19/2015/01/IBM_Watson_avatar_pos.png\"\n};}\n\nelse {\n var response = {\n    text: Myresponse,\n    username: \"Watson\",\n    icon_url: \"https://developer.ibm.com/watson/wp-content/uploads/sites/19/2015/01/IBM_Watson_avatar_pos.png\"\n};}\n\n\n//node.log(Watson_gvar);\n//node.log(Watson_response);\n//var Watson_gvar = global.get(\"Watson_context\"); \n//node.log(JSON.stringify(Watson_gvar));\n\n//var newMsg = {payload: response};\nmsg.payload = response;\n\n//return [newMsg,newMsg];\n//return[msg,msg];\nnode.send([msg,msg]);\n}\nreturn null;\n",
+        "outputs": "2",
+        "noerr": 0,
+        "x": 638.0555686950684,
+        "y": 238.83327674865723,
+        "wires": [
+            [
+                "a14b6fe5.d08278",
+                "7866dc17.bf717c"
+            ],
+            [
+                "85fb204e.715fd"
+            ]
+        ]
+    },
+    {
+        "id": "a14b6fe5.d08278",
+        "type": "http request",
+        "z": "13b190c9.7080df",
+        "name": "Slack Response",
+        "method": "POST",
+        "ret": "txt",
+        "url": "https://hooks.slack.com/services/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",
+        "tls": "",
+        "x": 863.833423614502,
+        "y": 236.27773475646973,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7866dc17.bf717c",
+        "type": "debug",
+        "z": "13b190c9.7080df",
+        "name": "Level 1 message",
+        "active": true,
+        "console": "false",
+        "complete": "payload.text",
+        "x": 907.0556468963623,
+        "y": 299.11103439331055,
+        "wires": []
+    },
+    {
+        "id": "85fb204e.715fd",
+        "type": "function",
+        "z": "13b190c9.7080df",
+        "name": "2nd Level Msg",
+        "func": "\nnode.log(\"text:\" + msg.payload.text);\n\nif (msg.payload.escalate == \"Yes\"){\n  \nvar response = {\n    text: \"Level 1 Support member, \" + global.get(\"user\") + \", asked: \" + global.get(\"last_question\"),\n    username: \"Watson\",\n    icon_url: \"https://developer.ibm.com/watson/wp-content/uploads/sites/19/2015/01/IBM_Watson_avatar_pos.png\"\n};\nvar newMsg = {payload: response};}\nelse {\n    newMsg = null;\n}\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 740.6111450195312,
+        "y": 372.6110544204712,
+        "wires": [
+            [
+                "19ad984f.d2b86",
+                "7c3bd95c.e70be"
+            ]
+        ]
+    },
+    {
+        "id": "19ad984f.d2b86",
+        "type": "http request",
+        "z": "13b190c9.7080df",
+        "name": "Escalate to 2 Level Channel",
+        "method": "POST",
+        "ret": "txt",
+        "url": "https://hooks.slack.com/services/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",
+        "tls": "",
+        "x": 980.3889427185059,
+        "y": 372.72217559814453,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c3bd95c.e70be",
+        "type": "debug",
+        "z": "13b190c9.7080df",
+        "name": "Level 2 message",
+        "active": true,
+        "console": "false",
+        "complete": "payload.text",
+        "x": 927.8333473205566,
+        "y": 473.888822555542,
+        "wires": []
+    },
+    {
+        "id": "89baf31a.5a502",
+        "type": "function",
+        "z": "13b190c9.7080df",
+        "name": "Add Tone",
+        "func": "\nnode.log(\"*********Found Tone ********\" + msg.response.document_tone.tone_categories[0].tones[0].tone_id);\nnode.log(\"*********Found Tone **Score*****\" + msg.response.document_tone.tone_categories[0].tones[0].score.toFixed(3));\n\nmsg.additional_context.angerName = msg.response.document_tone.tone_categories[0].tones[0].tone_name;\nmsg.additional_context.angerScore = msg.response.document_tone.tone_categories[0].tones[0].score.toFixed(3);\nmsg.additional_context.disgustName = msg.response.document_tone.tone_categories[0].tones[1].tone_name;\nmsg.additional_context.disgustScore = msg.response.document_tone.tone_categories[0].tones[1].score.toFixed(3);\nmsg.additional_context.fearName = msg.response.document_tone.tone_categories[0].tones[2].tone_name;\nmsg.additional_context.fearScore = msg.response.document_tone.tone_categories[0].tones[2].score.toFixed(3);\nmsg.additional_context.joyName = msg.response.document_tone.tone_categories[0].tones[3].tone_name;\nmsg.additional_context.joyScore = msg.response.document_tone.tone_categories[0].tones[3].score.toFixed(3);\nmsg.additional_context.sadnessName = msg.response.document_tone.tone_categories[0].tones[4].tone_name;\nmsg.additional_context.sadnessScore = msg.response.document_tone.tone_categories[0].tones[4].score.toFixed(3);\n\nmsg.additional_context.analyticalName = msg.response.document_tone.tone_categories[1].tones[0].tone_name;\nmsg.additional_context.analyticalScore = msg.response.document_tone.tone_categories[1].tones[0].score.toFixed(3);\nmsg.additional_context.confidentName = msg.response.document_tone.tone_categories[1].tones[1].tone_name;\nmsg.additional_context.confidentScore = msg.response.document_tone.tone_categories[1].tones[1].score.toFixed(3);\nmsg.additional_context.tentativeName = msg.response.document_tone.tone_categories[1].tones[2].tone_name;\nmsg.additional_context.tentativeScore = msg.response.document_tone.tone_categories[1].tones[2].score.toFixed(3);\n\nmsg.additional_context.OpenName = msg.response.document_tone.tone_categories[2].tones[0].tone_name;\nmsg.additional_context.OpenScore = msg.response.document_tone.tone_categories[2].tones[0].score.toFixed(3);\nmsg.additional_context.conTitle = msg.response.document_tone.tone_categories[2].tones[1].tone_name;\nmsg.additional_context.conScore = msg.response.document_tone.tone_categories[2].tones[1].score.toFixed(3);\nmsg.additional_context.extName = msg.response.document_tone.tone_categories[2].tones[2].tone_name;\nmsg.additional_context.extScore = msg.response.document_tone.tone_categories[2].tones[2].score.toFixed(3);\nmsg.additional_context.agreeName = msg.response.document_tone.tone_categories[2].tones[3].tone_name;\nmsg.additional_context.agreeScore = msg.response.document_tone.tone_categories[2].tones[3].score.toFixed(3);\nmsg.additional_context.emoName = msg.response.document_tone.tone_categories[2].tones[4].tone_name;\nmsg.additional_context.emoScore = msg.response.document_tone.tone_categories[2].tones[4].score.toFixed(3);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 747.9999885559082,
+        "y": 104.16671180725098,
+        "wires": [
+            [
+                "88d091d1.4dba38"
+            ]
+        ]
+    }
+]

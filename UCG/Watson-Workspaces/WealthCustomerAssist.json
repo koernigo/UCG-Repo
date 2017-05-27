@@ -1,1 +1,3253 @@
-{"name":"Wealth Customer Assist - V1","created":"2017-02-02T20:34:37.249Z","intents":[{"intent":"RMD-Withdrawal-Setup","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"When should I set up withdrawals","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"When should I set up RMDs","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"When should I activate withdrawals","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"How much time do I have to set up RMDs","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"How much time do I have to establish withdrawls","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Visit-a-Branch","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"Where is the nearest branch","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What is the closest branch bank","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Visit the nearest branch","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Visit the branch","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Please find the nearest bank","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I need directions to the nearest bank","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Go to the branch","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Can I get directions to the nearest bank","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Who-created-me","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"Who programmed you?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Who is your master?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Who invented you?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Who created you?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Are you human?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"test","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"test please","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"test me","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Foreign-Fees-DebtCard","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"Will my debt card be charged a foreign fee?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Will I pay a fee when I take cash out?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Will I have to pay a fee when I take cash out","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Will a cash withdrawal cause a foreign fee?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Does my debt card charge foreign fees?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Use-Debt-Card","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"Will my debt card work in the united states?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Does my debt card work in the US?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Does my cash card work?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Can I use my atm card?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Can I still  use my debt card?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Fee-for-cash","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"Will I have to pay a fee when I take out cash?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"will I have to pay a fee to withdraw money","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Will I get charged for getting money?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"When I withdraw cash from an ATM, will I be charged a fee?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Tell me about ATM Fees","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"How can I avoid the fee for withdrawing money?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Does it cost to withdraw money?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Exchange-rates","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"When I use my debt card in a foreign country, what are the currency conversion rates?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What happens when I use my debt in a foreign country?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What can you tell me about exchange rates using my debt card?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What are the exchange rates for the US?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What are the exchange rates?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What are the exchange fees","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"If I use my debit card, what are the exchange rates?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"How does money get converted in a foreign country?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Foreign-Fees-CreditCard","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"When does a foreign fee apply to my credit card?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What is the foreign fee for my credit card","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What are Foreign-Fees","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Tell me about Foreign Fees on my credit card","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"foreign fees","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Does my credit card charge foreign fees","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Mail-Home","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"Send to the house","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Send to my home","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Please send to my house","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Please send to my home","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Please mail to my house","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Mail to the house","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Mail to the home","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Bye","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"See you later","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Have to run","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Got to go","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Good Bye","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"goodbye","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"RMD-dont-take-out","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"With if I don't take a required minimum distribution?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What if I forget about taking an RMD","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What if I don't take out the required amount?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What if I do not take an RMD?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What happens if I fail to withdraw the required amount?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Thanks","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"Thank you","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Thanks","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Many Thanks","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Held-Responsible-Fraud","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"Will I need to pay for unauthorized transactions?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Will I be stuck with these bogus transactions?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Will I be responsible for fraudulent charges?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Hey, will I be liable for the fraudulent charges?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Am I responsible for fraudulent charges?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Bank-Account-Balance","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"What's the balance of my accounts","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What are my current account balances?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I want to see the balance on my account","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I want to check the balance of my account","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I want to check the balance of all my accounts","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Acct Balance","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Lost-mobile-device","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"What should I do if I lost my mobile device","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I lost my phone?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I lost my mobile device?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I lost my cell phone?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Hello","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"What is up","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"How are you","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Hi","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Hello Wealth Assist","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Greetings","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Good Morning","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"RMD-Question","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"What are RMDs","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What are required minimum distributions","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Please explain RMD","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Please explain required minimum distribution","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I do not understand required minimum distribution","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Personal-information","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"Is my personal information safe with you?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Is my personal information safe with the bank?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"How do you secure personal information?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Do I have to worry about you getting hacked?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Can I trust the bank to secure my personal information?","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Received-Alert","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"Somebody is charing on my card","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Received Alert","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I was contacted about a fraudulent transaction","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I received a notification about a transaction","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I received an alert about a suspicious transaction","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I did not purchase the item on my card","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Forget-Password","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"What if I forget my password","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I need a new passwowrd","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I misplaced my password","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I forgot my password","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I do not remember my password","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I am locked out of my account","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Transfer-Money","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"I want to transfer money","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"I want to move money","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"how do I transfer money","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Can I transfer money between accounts","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Can I transfer money","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Can I move money between accounts","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null},{"intent":"Accounts-Online","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","examples":[{"text":"Which accounts can I see online","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What accounts can I see online","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What accounts can I access online","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"What accounts can I access from Mobile Banking","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"},{"text":"Can I see my accounts online","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z"}],"description":null}],"updated":"2017-02-03T04:53:41.343Z","entities":[{"entity":"Visit-Branch","values":[{"value":"Visit Branch","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"Visit my branch","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"Visit the branch","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Astor","values":[{"value":"Astor Place","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Carnegie","values":[{"value":"Carnegie","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Watson","values":[{"value":"Watson","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Password","values":[{"value":"Password","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Mail-Home","values":[{"value":"Mail Home","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"Mail to my home","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"Mail to my house","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"Send to my home","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Toringdon","values":[{"value":"Toringdon","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Work","values":[{"value":"Work","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Receiving-Alerts","values":[{"value":"Receiving Alerts","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"ATM-Fees","values":[{"value":"ATM Fees","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Foreign-Fees","values":[{"value":"Credit Card","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":["Charge Chard"]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Bill-Pays","values":[{"value":"cable","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"credit card","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"insurance","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"internet","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"mobile","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"mortgage","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"rent","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"utilities","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"water","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"month","values":[{"value":"April","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"August","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"December","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"February","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"January","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"July","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"June","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"March","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"May","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"November","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"September","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Lost-Phone","values":[{"value":"Lost Phone","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"US-Branch","values":[{"value":"branch","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"US Branch","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Mobile","values":[{"value":"Mobile","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Madison","values":[{"value":"Madison Ave","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"day","values":[{"value":"eighteenth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"eighth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"eleventh","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"fifth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"fifthteenth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"first","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"forth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"forthteenth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"nineteenth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"nineth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"second","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"seventeenth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"seventh","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"sixteenth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"sixth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"tenth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"third","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"thirteenth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"thirtieth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"thirty first","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"twelveth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"twentieth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"twenty eighth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"twenty fifth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"twenty first","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"twenty forth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"twenty nineteenth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"twenty second","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"twenty seventh","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"twenty sixth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"twenty third","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Agent","values":[{"value":"Agent","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"agent please","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"discuss with an agent","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"Talk to an agent","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]},{"value":"Work with an Agent","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Ack-Pos","values":[{"value":"Yes","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":["yup","Yes please","Yeah","Yea","ya","totally","Sure","sounds good","Okay","Great","fantastic","Awesome","Absolutely"]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"bank-accounts","values":[{"value":"brokerage account","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":["brokerage"]},{"value":"checking account","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":["checking","check acct","check account"]},{"value":"home equity line of credit","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":["home equity","HELOC","equity line"]},{"value":"mortgage account","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":["mortgage"]},{"value":"savings account","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":["savings acct","savings"]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"IRA-Acounts","values":[{"value":"Employer","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":["Employer IRA"]},{"value":"Roth","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":["Roth IRA"]},{"value":"Traditional","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":["Traditional IRA"]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Ack-Neg","values":[{"value":"No","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":["That is ridiculous","no way","Not at this time","Not at this moment","Nope","Never mind","negative","Forget it"]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Home-Bank","values":[{"value":"Home Bank","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Accts-Online","values":[{"value":"Accts Online","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Home","values":[{"value":"Home","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null},{"entity":"Exchange-Rates","values":[{"value":"Exchange Rates","created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"synonyms":[]}],"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"description":null}],"language":"en","metadata":{"runtime_version":"2016-09-20"},"description":null,"dialog_nodes":[{"go_to":null,"output":{},"parent":"node_31_1472829604091","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Pos","description":null,"dialog_node":"node_32_1472829666145","previous_sibling":null},{"go_to":null,"output":{"text":"$age years old today and growing financially stronger every day! Just so I know, are you currently employed? [Yes, No]"},"parent":"node_3_1477542671937","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_4_1477543108286","previous_sibling":null},{"go_to":null,"output":{"text":"Awesome $fname, John is available 4 PM today, 9:30 AM tomorrow, or 1 PM tomorrow. [4 PM today, 9:30 AM tomorrow, 1 PM tomorrow]"},"parent":"node_1_1477600579682","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Pos","description":null,"dialog_node":"node_2_1477600686443","previous_sibling":null},{"go_to":null,"output":{"text":"Awesome, here’s the updated balance of your accounts. Checking Account  Ending in 2321 -  2,000 dollars, Savings Account Ending in 2355 - 50,700 dollars, and Brokerage Account  Ending in 2401 - 30,560 dollars"},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#Bank-Account-Balance","description":null,"dialog_node":"node_6_1473032113223","previous_sibling":"node_33_1472829794779"},{"go_to":null,"output":{"text":"Can I schedule an appointment with John Longfellow, one of our top advisors in your area? [Yes, No]"},"parent":"node_19_1477580518518","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Pos","description":null,"dialog_node":"node_1_1477600579682","previous_sibling":null},{"go_to":null,"output":{"text":"Choose “Forget Password?” from the Username and Password entry screen or 1-800-Watson. If you forget your password we will help you create a new one.  We will need your account number and other verification information depending on your account type."},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#Forget-Password || @Password","description":null,"dialog_node":"node_30_1472829479608","previous_sibling":"node_29_1472829296380"},{"go_to":null,"output":{"text":"First, follow all of the steps recommended by your service provider for a lost or stolen device.  Second, you will need to speak to a bank agent. Can I get an agent for you? [Yes, No]"},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#Lost-mobile-device || @Lost-Phone","description":null,"dialog_node":"node_31_1472829604091","previous_sibling":"node_30_1472829479608"},{"go_to":null,"output":{"text":"$fname, have a wonderful day! Remember, you can chat with me anytime and anywhere, social, app, or web. I'm here for you."},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#Bye","description":null,"dialog_node":"node_6_1472877170940","previous_sibling":"node_8_1473114176986"},{"go_to":null,"output":{"text":"$fname, I need to confirm that you would like to transfer $tAmount from $fromAcct to $toAcct? [Yes, No]"},"parent":"node_3_1473207243924","context":{"tAmount":"<? input.text ?>"},"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_4_1473207716736","previous_sibling":null},{"go_to":null,"output":{"text":"$fname, I wasn't expecting that answer, let's try this question again.[OK]"},"parent":"node_29_1472829296380","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_44_1473139574963","previous_sibling":"node_4_1473031070613"},{"go_to":null,"output":{"text":"$fname, that's not the  answer I was expecting, I must ask this question again.[OK]"},"parent":"node_31_1472829604091","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_46_1473139609770","previous_sibling":"node_2_1472861669736"},{"go_to":null,"output":{"text":"Good news $fname. You don't need to start your RMD yet.  Would you like to learn about RMD calculations? [Yes, No]"},"parent":"node_1_1477541736391","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"$ageEOY.toDouble() < 70.49","description":null,"dialog_node":"node_34_1477591395433","previous_sibling":"node_6_1477545823070"},{"go_to":null,"output":{"text":"Good news $fname. You don't need to start your RMD yet.  Would you like to learn about RMD calculations? [Yes, No]"},"parent":"node_4_1477509167094","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"$ageEOY.toDouble() < 70.49","description":null,"dialog_node":"node_5_1477545017083","previous_sibling":null},{"go_to":null,"output":{"text":"Good news. Minimum distribution rules do not apply to your Employer retirement account at your current age.  Would you like to learn about RMD calculations? [Yes, No]"},"parent":"node_4_1477509167094","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_22_1477585285738","previous_sibling":"node_5_1477545017083"},{"go_to":null,"output":{"text":"Good news. Minimum distribution rules do not apply to your Employer retirement account at your current age.  Would you like to learn about RMD calculations? [Yes, No]"},"parent":"node_7_1477577531402","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_20_1477585103622","previous_sibling":"node_32_1477590532023"},{"go_to":null,"output":{"text":"Good news. Minimum distribution rules do not apply to your Traditional retirement account at your current age.  Would you like to learn about RMD calculations? [Yes, No]"},"parent":"node_1_1477541736391","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_21_1477585259503","previous_sibling":"node_10_1477578546849"},{"go_to":null,"output":{"text":"Great $fname, you're doing your part to stay safe!"},"parent":"node_29_1472829296380","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Pos","description":null,"dialog_node":"node_3_1473031015803","previous_sibling":null},{"go_to":null,"output":{"text":"Had a change of heart, no worries, we can transfer money anytime. Anything else on your mind?"},"parent":"node_4_1473207716736","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Neg","description":null,"dialog_node":"node_10_1473218738454","previous_sibling":"node_1_1473214717376"},{"go_to":null,"output":{"text":"Hello! I'm your personal investment virtual assistant. You can ask me about anything?"},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#Hello","description":null,"dialog_node":"node_1_1472825289051","previous_sibling":null},{"go_to":null,"output":{"text":"I believe you said Employer sponsored retirement account, Is that correct?   [Yes, No]"},"parent":"node_6_1477509430921","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@IRA-Acounts:Employer","description":null,"dialog_node":"node_7_1477577531402","previous_sibling":"node_2_1477541796017"},{"go_to":null,"output":{"text":"I believe you said Roth and Employer  retirement accounts, Is that correct? [Yes, No]"},"parent":"node_6_1477509430921","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@IRA-Acounts:Roth && @IRA-Acounts:Employer","description":null,"dialog_node":"node_5_1477509268693","previous_sibling":"node_4_1477509167094"},{"go_to":null,"output":{"text":"I believe you said, Roth and Traditional retirement accounts, Is that correct? [Yes, No]"},"parent":"node_6_1477509430921","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@IRA-Acounts:Roth && @IRA-Acounts:Traditional","description":null,"dialog_node":"node_2_1477504693957","previous_sibling":null},{"go_to":null,"output":{"text":"I believe you said Roth retirement account, Is that correct? [Yes, No]"},"parent":"node_6_1477509430921","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@IRA-Acounts:Roth","description":null,"dialog_node":"node_2_1477541796017","previous_sibling":"node_1_1477541736391"},{"go_to":null,"output":{"text":"I believe you said, Roth, Traditional, and Employer  retirement accounts, Is that correct? [Yes, No]"},"parent":"node_6_1477509430921","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@IRA-Acounts:Roth && @IRA-Acounts:Traditional && @IRA-Acounts:Employer","description":null,"dialog_node":"node_3_1477509074729","previous_sibling":"node_2_1477504693957"},{"go_to":null,"output":{"text":"I believe you said Traditional and Employer  retirement accounts, Is that correct? [Yes, No]"},"parent":"node_6_1477509430921","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@IRA-Acounts:Traditional && @IRA-Acounts:Employer","description":null,"dialog_node":"node_4_1477509167094","previous_sibling":"node_3_1477509074729"},{"go_to":null,"output":{"text":"I believe you said Traditional retirement account, Is that correct?  [Yes, No]"},"parent":"node_6_1477509430921","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@IRA-Acounts:Traditional","description":null,"dialog_node":"node_1_1477541736391","previous_sibling":"node_5_1477509268693"},{"go_to":null,"output":{"text":"If you take out cash at one of our branches in the US,  you will not be charged an ATM Fee. However, anytime you use any ATM in a foreign country, including our ATMs, you may also incur international currency exchange and usage fees."},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#Foreign-Fees-DebtCard || @ATM-Fees","description":null,"dialog_node":"node_7_1473184123543","previous_sibling":"node_18_1477580470706"},{"go_to":null,"output":{"text":"I suggest you change your password soon, even before our 90 day policy to stay safe!"},"parent":"node_29_1472829296380","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Neg","description":null,"dialog_node":"node_4_1473031070613","previous_sibling":"node_3_1473031015803"},{"go_to":null,"output":{"text":"No worries, we can connect with an agent anytime. What else can I do?"},"parent":"node_31_1472829604091","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Neg","description":null,"dialog_node":"node_2_1472861669736","previous_sibling":"node_32_1472829666145"},{"go_to":null,"output":{"text":"Ok, transfer to which account?[Checking, Savings, Brokerage]"},"parent":"node_1_1473206683037","context":{"fromAcct":"<? input.text ?>"},"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_2_1473207180561","previous_sibling":null},{"go_to":null,"output":{"text":"So you want to know who brought me to life [Yes, No]?"},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#Who-created-me","description":null,"dialog_node":"node_8_1473114176986","previous_sibling":"node_6_1473113546995"},{"go_to":null,"output":{"text":"Sure $fname, I can transfer money for you? What account? [Checking, Savings, Brokerage]"},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#Transfer-Money","description":null,"dialog_node":"node_1_1473206683037","previous_sibling":"node_6_1473032113223"},{"go_to":null,"output":{"text":"The man, the myth, the legend, he is the most masterful innovator of our time, not Steve Jobs, but Dennis Noto!"},"parent":"node_8_1473114176986","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Pos","description":null,"dialog_node":"node_9_1473114196269","previous_sibling":null},{"go_to":null,"output":{"text":"Transfer complete, what else can I do for you $fname?"},"parent":"node_4_1473207716736","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Pos","description":null,"dialog_node":"node_1_1473214717376","previous_sibling":null},{"go_to":null,"output":{"text":"Well, I will tell you anyway!  The man, the myth, the legend, he is the most masterful innovator of our time, not Steve Jobs, but Dennis Noto!"},"parent":"node_8_1473114176986","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Neg","description":null,"dialog_node":"node_10_1473114215034","previous_sibling":"node_9_1473114196269"},{"go_to":null,"output":{"text":"What amount would you like to transfer?"},"parent":"node_2_1473207180561","context":{"toAcct":"<? input.text ?>"},"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_3_1473207243924","previous_sibling":null},{"go_to":null,"output":{"text":"What other RMD or investment questions can I answer?"},"parent":"node_6_1477545823070","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Neg","description":null,"dialog_node":"node_28_1477585628087","previous_sibling":"node_13_1477579484840"},{"go_to":null,"output":{"text":"You can see your checking, savings, credit cards, loans, and any lines of credit via our mobile banking website or mobile app."},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#Accounts-Online || @Accts-Online","description":null,"dialog_node":"node_33_1472829794779","previous_sibling":"node_31_1472829604091"},{"go_to":null,"output":{"text":"Your personal information is safe with us.  We secure your accounts with unique Personal ID and password, never request personal information through email, and we use secure chat/phone encryption  technology. Have you changed your password recently? [Yes, No]"},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#Personal-information","description":null,"dialog_node":"node_29_1472829296380","previous_sibling":"node_7_1473184123543"},{"go_to":null,"output":{"text":{"values":["Good news. Minimum distribution rules do not apply to Roth IRA at anytime in your life. However, your beneficiaries will have required minimum distributions once they inherit your IRA. Would you like to learn about RMD calculations? [Yes, No]"]}},"parent":"node_2_1477541796017","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_11_1477578972343","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["Great $fname, the other key variable pertains to your type of retirement account. Which ones do you own? [Traditional, Roth, Employer]"]}},"parent":"node_4_1477543108286","context":{"Employed":"<?input.text?>"},"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_6_1477509430921","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["Great, I have created an appointment for you and John for $appt $fname.  Let's pick an office near you? [Okay]"]}},"parent":"node_2_1477600686443","context":{"appt":"<? input.text ?>"},"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-03T04:49:35.648Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_3_1477600770481","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["Here's a map to the Astor Place office."]}},"parent":"node_4_1477601164604","context":{"map":{"values":["https://maps.googleapis.com/maps/api/staticmap?format=png&zoom=13&markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=cafe%257C996600%7C%51+Astor+Place+New+York+New+York&key=AIzaSyA22GwDjEAwd58byf7JRxcQ5X0IK6JlT9k"],"display":"Yes"}},"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Astor:(Astor Place)","description":null,"dialog_node":"node_5_1477601348408","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["Here's a map to the Madison Ave office."]}},"parent":"node_4_1477601164604","context":{"map":{"values":["https://maps.googleapis.com/maps/api/staticmap?format=png&zoom=13&markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=cafe%257C996600%7C%590+madison+avenue+New+York+New+York&key=AIzaSyA22GwDjEAwd58byf7JRxcQ5X0IK6JlT9k"],"display":"Yes"}},"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Madison:(Madison Ave)","description":null,"dialog_node":"node_6_1477601438038","previous_sibling":"node_5_1477601348408"},{"go_to":null,"output":{"text":{"values":["Here's a satellite view of the Astor Place office for a visual reference. Can I help with anything else?"]}},"parent":"node_5_1477601348408","context":{"map":{"values":["https://maps.googleapis.com/maps/api/staticmap?maptype=satellite&format=png&zoom=18&markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=cafe%257C996600%7C%51+Astor+Place+New+York+New+York&key=AIzaSyA22GwDjEAwd58byf7JRxcQ5X0IK6JlT9k"],"display":"Yes"}},"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_7_1477602247658","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["Here's a satellite view of the Madison Ave office for a visual reference. Can I help with anything else?"]}},"parent":"node_6_1477601438038","context":{"map":{"values":["https://maps.googleapis.com/maps/api/staticmap?maptype=satellite&format=png&zoom=18&markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=cafe%257C996600%7C%590+madison+avenue+New+York+New+York&key=AIzaSyA22GwDjEAwd58byf7JRxcQ5X0IK6JlT9k"],"display":"Yes"}},"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_8_1477602295246","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["If you tell me your date of birth, I can customize my answer for you $fname?"]}},"parent":"node_1_1477504667532","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-03T04:53:33.728Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_3_1477542671937","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["Our financial consultants can help you with understanding your overall financial picture and goals, identifying retirement saving strategies specific to you, and assessing your current investment portfolio strategies.  Are you interested in speaking with one of our consultants? [Yes, No]"]}},"parent":"node_18_1477580470706","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Pos","description":null,"dialog_node":"node_19_1477580518518","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["The amount is based on your year-end account balance and your life expectancy. Your RMD changes every year based on those two numbers. Since you're participating in a 4O3(b) retirement plan, any contributions and earnings credited before 1987 are not subject to RMD rules until you turn 75. Withdrawals taken before you are subject to the RMD rules, or withdrawals in excess of the required amounts, reduces your pre-1987 balance first. Can I help you with something else?"]}},"parent":"node_8_1477577571023","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-03T04:43:07.156Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_16_1477579742962","previous_sibling":"node_14_1477579618805"},{"go_to":null,"output":{"text":{"values":["The amount is based on your year-end account balance and your life expectancy. Your RMD will change every year based on those two numbers. Can I help you with something else?"]}},"parent":"node_6_1477545823070","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Pos","description":null,"dialog_node":"node_13_1477579484840","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["The amount is based on your year-end account balance and your life expectancy. Your RMD will change every year based on those two numbers. Can I help you with something else?"]}},"parent":"node_8_1477577571023","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"@Ack-Pos && $ageEOY.toDouble() > 74.99","description":null,"dialog_node":"node_14_1477579618805","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["The penalty is one of the largest US tax penalties at 50%. If you are concerned with prior RMDs, please contact a tax advisor. How else can I help you? "]}},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#RMD-dont-take-out","description":null,"dialog_node":"node_17_1477580266054","previous_sibling":"node_7_1477509928439"},{"go_to":null,"output":{"text":{"values":["We have 2 offices in your city, 51 Astor Place (9.6 miles away) or 590 Madison Avenue (12.3 miles away).  Which do you prefer? [Astor Place, Madison Ave]"]}},"parent":"node_3_1477600770481","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_4_1477601164604","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["While I haven't been trained on that subject, I will note it for the future. Do you have another question for me?"]}},"parent":null,"context":{"a":"@month","b":"@day","c":"@sys-number","d":"@sys-number[1]"},"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-03T04:53:41.343Z","metadata":null,"conditions":"\"Anything else\"","description":null,"dialog_node":"node_2_1473214762304","previous_sibling":"node_6_1472877170940"},{"go_to":null,"output":{"text":{"values":["You should already be withdrawing money annually from your employer-sponsored retirement plans. If you are concerned about prior RMDs, contact your tax advisor; there could be sizable tax consequences. Would you like to learn about RMD calculations? [Yes, No]"]}},"parent":"node_1_1477541736391","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"$ageBOY.toDouble() > 70.99","description":null,"dialog_node":"node_10_1477578546849","previous_sibling":"node_34_1477591395433"},{"go_to":null,"output":{"text":{"values":["You should be withdrawing money annually from your employer-sponsored retirement plans. If you haven't already started your RMD, you should take your distribution by December 31st. If you are concerned about prior RMDs, contact your tax advisor; there could be sizable tax consequences.  Would you like to learn about RMD calculations? [Yes, No]"]}},"parent":"node_7_1477577531402","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"$ageBOY.toDouble() >  70.99 && $Employed.contains('No')","description":null,"dialog_node":"node_12_1477579094665","previous_sibling":"node_9_1477578102735"},{"go_to":null,"output":{"text":{"values":["You should contact us a few months before the distributions are required. Would you like to learn more about why you may want to consider talking to a financial consultant?  [Yes, No]"]}},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#RMD-Withdrawal-Setup","description":null,"dialog_node":"node_18_1477580470706","previous_sibling":"node_17_1477580266054"},{"go_to":null,"output":{"text":{"values":["You should plan to start withdrawing money annually from your employer-sponsored retirement plans by April 1st of the year you retire. Would you like to learn about RMD calculations?"]}},"parent":"node_7_1477577531402","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"$ageBOY.toDouble() >  70.99 && $Employed.contains('Yes')","description":null,"dialog_node":"node_32_1477590532023","previous_sibling":"node_12_1477579094665"},{"go_to":null,"output":{"text":{"values":["You should plan to start withdrawing money annually from your employer-sponsored retirement plans by April 1st of the year you retire.  Would you like to learn about RMD calculations? [Yes, No]"]}},"parent":"node_7_1477577531402","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"$ageBOY.toDouble() < 70.49 && $ageEOY.toDouble() > 70.51 && $Employed.contains('Yes')","description":null,"dialog_node":"node_9_1477578102735","previous_sibling":"node_8_1477577571023"},{"go_to":null,"output":{"text":{"values":["You will hit your 70 1/2 birthday this year, as such you need to begin to withdraw money annually from your IRA by April 1st.  Would you like to learn about RMD calculations? [Yes, No]"]}},"parent":"node_7_1477577531402","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-03T04:38:55.076Z","metadata":null,"conditions":"$ageBOY.toDouble()  < 70.49 && $ageEOY.toDouble() > 70.51 && $Employed.contains('No')","description":null,"dialog_node":"node_8_1477577571023","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["You will hit your 70 1/2 birthday this year, as such you need to begin to withdraw money annually from your IRA by April 1st. Would you like to learn about RMD calculations? [Yes, No]"]}},"parent":"node_1_1477541736391","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-03T04:40:24.687Z","metadata":null,"conditions":"$ageBOY.toDouble() < 70.49 && $ageEOY.toDouble() > 70.51","description":null,"dialog_node":"node_6_1477545823070","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["You're welcome $fname, just trying to bring a little comfort to you life.","You're welcome $fname, I'm here for you, anytime!","Anytime $fname, great working with you."],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#Thanks","description":null,"dialog_node":"node_6_1473113546995","previous_sibling":"node_1_1473206683037"},{"go_to":{"return":null,"selector":"body","dialog_node":"node_1_1477504667532"},"output":{},"parent":null,"context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#RMD-Question","description":null,"dialog_node":"node_7_1477509928439","previous_sibling":"node_1_1472825289051"},{"go_to":{"return":null,"selector":"body","dialog_node":"node_29_1472829296380"},"output":{},"parent":"node_44_1473139574963","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_45_1473139591804","previous_sibling":null},{"go_to":{"return":null,"selector":"body","dialog_node":"node_31_1472829604091"},"output":{},"parent":"node_46_1473139609770","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_47_1473139624579","previous_sibling":null},{"go_to":{"return":null,"selector":"body","dialog_node":"node_3_1477542671937"},"output":{"text":{"values":["$fname, a Required Minimum Distribution (RMD) is the amount you must withdraw from certain retirement accounts once you reach a specific age."]}},"parent":"node_1_1472825289051","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"#RMD-Question","description":null,"dialog_node":"node_1_1477504667532","previous_sibling":null},{"go_to":{"return":null,"selector":"condition","dialog_node":"node_13_1477579484840"},"output":{},"parent":"node_10_1477578546849","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_26_1477585568350","previous_sibling":null},{"go_to":{"return":null,"selector":"condition","dialog_node":"node_13_1477579484840"},"output":{},"parent":"node_11_1477578972343","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_29_1477585854799","previous_sibling":null},{"go_to":{"return":null,"selector":"condition","dialog_node":"node_13_1477579484840"},"output":{},"parent":"node_21_1477585259503","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_27_1477585601883","previous_sibling":null},{"go_to":{"return":null,"selector":"condition","dialog_node":"node_13_1477579484840"},"output":{},"parent":"node_34_1477591395433","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_35_1477591448061","previous_sibling":null},{"go_to":{"return":null,"selector":"condition","dialog_node":"node_14_1477579618805"},"output":{},"parent":"node_12_1477579094665","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_24_1477585488385","previous_sibling":null},{"go_to":{"return":null,"selector":"condition","dialog_node":"node_14_1477579618805"},"output":{},"parent":"node_20_1477585103622","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_25_1477585514282","previous_sibling":null},{"go_to":{"return":null,"selector":"condition","dialog_node":"node_14_1477579618805"},"output":{},"parent":"node_32_1477590532023","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_33_1477590582942","previous_sibling":null},{"go_to":{"return":null,"selector":"condition","dialog_node":"node_14_1477579618805"},"output":{},"parent":"node_9_1477578102735","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_23_1477585455243","previous_sibling":null},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_13_1477579484840"},"output":{},"parent":"node_22_1477585285738","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_31_1477586140022","previous_sibling":null},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_13_1477579484840"},"output":{},"parent":"node_5_1477545017083","context":null,"created":"2017-02-02T20:34:37.249Z","updated":"2017-02-02T20:34:37.249Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_30_1477586119919","previous_sibling":null}],"workspace_id":"8a43bb91-62b9-4f45-93c9-dee8075a49fa","counterexamples":[]}
+{
+   "name":"Wealth Customer Assist - V1",
+   "created":"2017-02-02T20:34:37.249Z",
+   "intents":[
+      {
+         "intent":"RMD-Withdrawal-Setup",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"When should I set up withdrawals",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"When should I set up RMDs",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"When should I activate withdrawals",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"How much time do I have to set up RMDs",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"How much time do I have to establish withdrawls",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Visit-a-Branch",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"Where is the nearest branch",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What is the closest branch bank",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Visit the nearest branch",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Visit the branch",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Please find the nearest bank",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I need directions to the nearest bank",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Go to the branch",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Can I get directions to the nearest bank",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Who-created-me",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"Who programmed you?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Who is your master?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Who invented you?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Who created you?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Are you human?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"test",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"test please",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"test me",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Foreign-Fees-DebtCard",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"Will my debt card be charged a foreign fee?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Will I pay a fee when I take cash out?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Will I have to pay a fee when I take cash out",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Will a cash withdrawal cause a foreign fee?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Does my debt card charge foreign fees?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Use-Debt-Card",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"Will my debt card work in the united states?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Does my debt card work in the US?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Does my cash card work?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Can I use my atm card?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Can I still  use my debt card?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Fee-for-cash",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"Will I have to pay a fee when I take out cash?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"will I have to pay a fee to withdraw money",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Will I get charged for getting money?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"When I withdraw cash from an ATM, will I be charged a fee?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Tell me about ATM Fees",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"How can I avoid the fee for withdrawing money?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Does it cost to withdraw money?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Exchange-rates",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"When I use my debt card in a foreign country, what are the currency conversion rates?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What happens when I use my debt in a foreign country?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What can you tell me about exchange rates using my debt card?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What are the exchange rates for the US?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What are the exchange rates?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What are the exchange fees",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"If I use my debit card, what are the exchange rates?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"How does money get converted in a foreign country?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Foreign-Fees-CreditCard",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"When does a foreign fee apply to my credit card?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What is the foreign fee for my credit card",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What are Foreign-Fees",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Tell me about Foreign Fees on my credit card",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"foreign fees",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Does my credit card charge foreign fees",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Mail-Home",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"Send to the house",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Send to my home",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Please send to my house",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Please send to my home",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Please mail to my house",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Mail to the house",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Mail to the home",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Bye",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"See you later",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Have to run",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Got to go",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Good Bye",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"goodbye",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"RMD-dont-take-out",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"With if I don't take a required minimum distribution?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What if I forget about taking an RMD",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What if I don't take out the required amount?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What if I do not take an RMD?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What happens if I fail to withdraw the required amount?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Thanks",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"Thank you",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Thanks",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Many Thanks",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Held-Responsible-Fraud",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"Will I need to pay for unauthorized transactions?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Will I be stuck with these bogus transactions?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Will I be responsible for fraudulent charges?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Hey, will I be liable for the fraudulent charges?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Am I responsible for fraudulent charges?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Bank-Account-Balance",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"What's the balance of my accounts",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What are my current account balances?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I want to see the balance on my account",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I want to check the balance of my account",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I want to check the balance of all my accounts",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Acct Balance",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Lost-mobile-device",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"What should I do if I lost my mobile device",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I lost my phone?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I lost my mobile device?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I lost my cell phone?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Hello",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"What is up",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"How are you",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Hi",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Hello Wealth Assist",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Greetings",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Good Morning",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"RMD-Question",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"What are RMDs",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What are required minimum distributions",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Please explain RMD",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Please explain required minimum distribution",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I do not understand required minimum distribution",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Personal-information",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"Is my personal information safe with you?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Is my personal information safe with the bank?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"How do you secure personal information?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Do I have to worry about you getting hacked?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Can I trust the bank to secure my personal information?",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Received-Alert",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"Somebody is charing on my card",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Received Alert",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I was contacted about a fraudulent transaction",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I received a notification about a transaction",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I received an alert about a suspicious transaction",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I did not purchase the item on my card",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Forget-Password",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"What if I forget my password",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I need a new passwowrd",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I misplaced my password",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I forgot my password",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I do not remember my password",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I am locked out of my account",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Transfer-Money",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"I want to transfer money",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"I want to move money",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"how do I transfer money",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Can I transfer money between accounts",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Can I transfer money",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Can I move money between accounts",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"Accounts-Online",
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "examples":[
+            {
+               "text":"Which accounts can I see online",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What accounts can I see online",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What accounts can I access online",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"What accounts can I access from Mobile Banking",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            },
+            {
+               "text":"Can I see my accounts online",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z"
+            }
+         ],
+         "description":null
+      }
+   ],
+   "updated":"2017-02-03T04:53:41.343Z",
+   "entities":[
+      {
+         "entity":"Visit-Branch",
+         "values":[
+            {
+               "value":"Visit Branch",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"Visit my branch",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"Visit the branch",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Astor",
+         "values":[
+            {
+               "value":"Astor Place",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Carnegie",
+         "values":[
+            {
+               "value":"Carnegie",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Watson",
+         "values":[
+            {
+               "value":"Watson",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Password",
+         "values":[
+            {
+               "value":"Password",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Mail-Home",
+         "values":[
+            {
+               "value":"Mail Home",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"Mail to my home",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"Mail to my house",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"Send to my home",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Toringdon",
+         "values":[
+            {
+               "value":"Toringdon",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Work",
+         "values":[
+            {
+               "value":"Work",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Receiving-Alerts",
+         "values":[
+            {
+               "value":"Receiving Alerts",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"ATM-Fees",
+         "values":[
+            {
+               "value":"ATM Fees",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Foreign-Fees",
+         "values":[
+            {
+               "value":"Credit Card",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+                  "Charge Chard"
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Bill-Pays",
+         "values":[
+            {
+               "value":"cable",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"credit card",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"insurance",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"internet",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"mobile",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"mortgage",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"rent",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"utilities",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"water",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"month",
+         "values":[
+            {
+               "value":"April",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"August",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"December",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"February",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"January",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"July",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"June",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"March",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"May",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"November",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"September",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Lost-Phone",
+         "values":[
+            {
+               "value":"Lost Phone",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"US-Branch",
+         "values":[
+            {
+               "value":"branch",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"US Branch",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Mobile",
+         "values":[
+            {
+               "value":"Mobile",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Madison",
+         "values":[
+            {
+               "value":"Madison Ave",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"day",
+         "values":[
+            {
+               "value":"eighteenth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"eighth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"eleventh",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"fifth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"fifthteenth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"first",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"forth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"forthteenth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"nineteenth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"nineth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"second",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"seventeenth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"seventh",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"sixteenth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"sixth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"tenth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"third",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"thirteenth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"thirtieth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"thirty first",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"twelveth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"twentieth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"twenty eighth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"twenty fifth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"twenty first",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"twenty forth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"twenty nineteenth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"twenty second",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"twenty seventh",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"twenty sixth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"twenty third",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Agent",
+         "values":[
+            {
+               "value":"Agent",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"agent please",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"discuss with an agent",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"Talk to an agent",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            },
+            {
+               "value":"Work with an Agent",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Ack-Pos",
+         "values":[
+            {
+               "value":"Yes",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+                  "yup",
+                  "Yes please",
+                  "Yeah",
+                  "Yea",
+                  "ya",
+                  "totally",
+                  "Sure",
+                  "sounds good",
+                  "Okay",
+                  "Great",
+                  "fantastic",
+                  "Awesome",
+                  "Absolutely"
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"bank-accounts",
+         "values":[
+            {
+               "value":"brokerage account",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+                  "brokerage"
+               ]
+            },
+            {
+               "value":"checking account",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+                  "checking",
+                  "check acct",
+                  "check account"
+               ]
+            },
+            {
+               "value":"home equity line of credit",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+                  "home equity",
+                  "HELOC",
+                  "equity line"
+               ]
+            },
+            {
+               "value":"mortgage account",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+                  "mortgage"
+               ]
+            },
+            {
+               "value":"savings account",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+                  "savings acct",
+                  "savings"
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"IRA-Acounts",
+         "values":[
+            {
+               "value":"Employer",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+                  "Employer IRA"
+               ]
+            },
+            {
+               "value":"Roth",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+                  "Roth IRA"
+               ]
+            },
+            {
+               "value":"Traditional",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+                  "Traditional IRA"
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Ack-Neg",
+         "values":[
+            {
+               "value":"No",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+                  "That is ridiculous",
+                  "no way",
+                  "Not at this time",
+                  "Not at this moment",
+                  "Nope",
+                  "Never mind",
+                  "negative",
+                  "Forget it"
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Home-Bank",
+         "values":[
+            {
+               "value":"Home Bank",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Accts-Online",
+         "values":[
+            {
+               "value":"Accts Online",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Home",
+         "values":[
+            {
+               "value":"Home",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      },
+      {
+         "entity":"Exchange-Rates",
+         "values":[
+            {
+               "value":"Exchange Rates",
+               "created":"2017-02-02T20:34:37.249Z",
+               "updated":"2017-02-02T20:34:37.249Z",
+               "metadata":null,
+               "synonyms":[
+
+               ]
+            }
+         ],
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "description":null
+      }
+   ],
+   "language":"en",
+   "metadata":{
+      "runtime_version":"2016-09-20"
+   },
+   "description":null,
+   "dialog_nodes":[
+      {
+         "go_to":null,
+         "output":{
+
+         },
+         "parent":"node_31_1472829604091",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Pos",
+         "description":null,
+         "dialog_node":"node_32_1472829666145",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"$age years old today and growing financially stronger every day! Just so I know, are you currently employed? [Yes, No]"
+         },
+         "parent":"node_3_1477542671937",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_4_1477543108286",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Awesome $fname, John is available 4 PM today, 9:30 AM tomorrow, or 1 PM tomorrow. [4 PM today, 9:30 AM tomorrow, 1 PM tomorrow]"
+         },
+         "parent":"node_1_1477600579682",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Pos",
+         "description":null,
+         "dialog_node":"node_2_1477600686443",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Awesome, here’s the updated balance of your accounts. Checking Account  Ending in 2321 -  2,000 dollars, Savings Account Ending in 2355 - 50,700 dollars, and Brokerage Account  Ending in 2401 - 30,560 dollars"
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#Bank-Account-Balance",
+         "description":null,
+         "dialog_node":"node_6_1473032113223",
+         "previous_sibling":"node_33_1472829794779"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Can I schedule an appointment with John Longfellow, one of our top advisors in your area? [Yes, No]"
+         },
+         "parent":"node_19_1477580518518",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Pos",
+         "description":null,
+         "dialog_node":"node_1_1477600579682",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Choose “Forget Password?” from the Username and Password entry screen or 1-800-Watson. If you forget your password we will help you create a new one.  We will need your account number and other verification information depending on your account type."
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#Forget-Password || @Password",
+         "description":null,
+         "dialog_node":"node_30_1472829479608",
+         "previous_sibling":"node_29_1472829296380"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"First, follow all of the steps recommended by your service provider for a lost or stolen device.  Second, you will need to speak to a bank agent. Can I get an agent for you? [Yes, No]"
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#Lost-mobile-device || @Lost-Phone",
+         "description":null,
+         "dialog_node":"node_31_1472829604091",
+         "previous_sibling":"node_30_1472829479608"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"$fname, have a wonderful day! Remember, you can chat with me anytime and anywhere, social, app, or web. I'm here for you."
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#Bye",
+         "description":null,
+         "dialog_node":"node_6_1472877170940",
+         "previous_sibling":"node_8_1473114176986"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"$fname, I need to confirm that you would like to transfer $tAmount from $fromAcct to $toAcct? [Yes, No]"
+         },
+         "parent":"node_3_1473207243924",
+         "context":{
+            "tAmount":"<? input.text ?>"
+         },
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_4_1473207716736",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"$fname, I wasn't expecting that answer, let's try this question again.[OK]"
+         },
+         "parent":"node_29_1472829296380",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_44_1473139574963",
+         "previous_sibling":"node_4_1473031070613"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"$fname, that's not the  answer I was expecting, I must ask this question again.[OK]"
+         },
+         "parent":"node_31_1472829604091",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_46_1473139609770",
+         "previous_sibling":"node_2_1472861669736"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Good news $fname. You don't need to start your RMD yet.  Would you like to learn about RMD calculations? [Yes, No]"
+         },
+         "parent":"node_1_1477541736391",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"$ageEOY.toDouble() < 70.49",
+         "description":null,
+         "dialog_node":"node_34_1477591395433",
+         "previous_sibling":"node_6_1477545823070"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Good news $fname. You don't need to start your RMD yet.  Would you like to learn about RMD calculations? [Yes, No]"
+         },
+         "parent":"node_4_1477509167094",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"$ageEOY.toDouble() < 70.49",
+         "description":null,
+         "dialog_node":"node_5_1477545017083",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Good news. Minimum distribution rules do not apply to your Employer retirement account at your current age.  Would you like to learn about RMD calculations? [Yes, No]"
+         },
+         "parent":"node_4_1477509167094",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_22_1477585285738",
+         "previous_sibling":"node_5_1477545017083"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Good news. Minimum distribution rules do not apply to your Employer retirement account at your current age.  Would you like to learn about RMD calculations? [Yes, No]"
+         },
+         "parent":"node_7_1477577531402",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_20_1477585103622",
+         "previous_sibling":"node_32_1477590532023"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Good news. Minimum distribution rules do not apply to your Traditional retirement account at your current age.  Would you like to learn about RMD calculations? [Yes, No]"
+         },
+         "parent":"node_1_1477541736391",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_21_1477585259503",
+         "previous_sibling":"node_10_1477578546849"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Great $fname, you're doing your part to stay safe!"
+         },
+         "parent":"node_29_1472829296380",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Pos",
+         "description":null,
+         "dialog_node":"node_3_1473031015803",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Had a change of heart, no worries, we can transfer money anytime. Anything else on your mind?"
+         },
+         "parent":"node_4_1473207716736",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Neg",
+         "description":null,
+         "dialog_node":"node_10_1473218738454",
+         "previous_sibling":"node_1_1473214717376"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Hello! I'm your personal investment virtual assistant. You can ask me about anything?"
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#Hello",
+         "description":null,
+         "dialog_node":"node_1_1472825289051",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"I believe you said Employer sponsored retirement account, Is that correct?   [Yes, No]"
+         },
+         "parent":"node_6_1477509430921",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@IRA-Acounts:Employer",
+         "description":null,
+         "dialog_node":"node_7_1477577531402",
+         "previous_sibling":"node_2_1477541796017"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"I believe you said Roth and Employer  retirement accounts, Is that correct? [Yes, No]"
+         },
+         "parent":"node_6_1477509430921",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@IRA-Acounts:Roth && @IRA-Acounts:Employer",
+         "description":null,
+         "dialog_node":"node_5_1477509268693",
+         "previous_sibling":"node_4_1477509167094"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"I believe you said, Roth and Traditional retirement accounts, Is that correct? [Yes, No]"
+         },
+         "parent":"node_6_1477509430921",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@IRA-Acounts:Roth && @IRA-Acounts:Traditional",
+         "description":null,
+         "dialog_node":"node_2_1477504693957",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"I believe you said Roth retirement account, Is that correct? [Yes, No]"
+         },
+         "parent":"node_6_1477509430921",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@IRA-Acounts:Roth",
+         "description":null,
+         "dialog_node":"node_2_1477541796017",
+         "previous_sibling":"node_1_1477541736391"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"I believe you said, Roth, Traditional, and Employer  retirement accounts, Is that correct? [Yes, No]"
+         },
+         "parent":"node_6_1477509430921",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@IRA-Acounts:Roth && @IRA-Acounts:Traditional && @IRA-Acounts:Employer",
+         "description":null,
+         "dialog_node":"node_3_1477509074729",
+         "previous_sibling":"node_2_1477504693957"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"I believe you said Traditional and Employer  retirement accounts, Is that correct? [Yes, No]"
+         },
+         "parent":"node_6_1477509430921",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@IRA-Acounts:Traditional && @IRA-Acounts:Employer",
+         "description":null,
+         "dialog_node":"node_4_1477509167094",
+         "previous_sibling":"node_3_1477509074729"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"I believe you said Traditional retirement account, Is that correct?  [Yes, No]"
+         },
+         "parent":"node_6_1477509430921",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@IRA-Acounts:Traditional",
+         "description":null,
+         "dialog_node":"node_1_1477541736391",
+         "previous_sibling":"node_5_1477509268693"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"If you take out cash at one of our branches in the US,  you will not be charged an ATM Fee. However, anytime you use any ATM in a foreign country, including our ATMs, you may also incur international currency exchange and usage fees."
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#Foreign-Fees-DebtCard || @ATM-Fees",
+         "description":null,
+         "dialog_node":"node_7_1473184123543",
+         "previous_sibling":"node_18_1477580470706"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"I suggest you change your password soon, even before our 90 day policy to stay safe!"
+         },
+         "parent":"node_29_1472829296380",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Neg",
+         "description":null,
+         "dialog_node":"node_4_1473031070613",
+         "previous_sibling":"node_3_1473031015803"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"No worries, we can connect with an agent anytime. What else can I do?"
+         },
+         "parent":"node_31_1472829604091",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Neg",
+         "description":null,
+         "dialog_node":"node_2_1472861669736",
+         "previous_sibling":"node_32_1472829666145"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Ok, transfer to which account?[Checking, Savings, Brokerage]"
+         },
+         "parent":"node_1_1473206683037",
+         "context":{
+            "fromAcct":"<? input.text ?>"
+         },
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_2_1473207180561",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"So you want to know who brought me to life [Yes, No]?"
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#Who-created-me",
+         "description":null,
+         "dialog_node":"node_8_1473114176986",
+         "previous_sibling":"node_6_1473113546995"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Sure $fname, I can transfer money for you? What account? [Checking, Savings, Brokerage]"
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#Transfer-Money",
+         "description":null,
+         "dialog_node":"node_1_1473206683037",
+         "previous_sibling":"node_6_1473032113223"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"The man, the myth, the legend, he is the most masterful innovator of our time, not Steve Jobs, but Dennis Noto!"
+         },
+         "parent":"node_8_1473114176986",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Pos",
+         "description":null,
+         "dialog_node":"node_9_1473114196269",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Transfer complete, what else can I do for you $fname?"
+         },
+         "parent":"node_4_1473207716736",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Pos",
+         "description":null,
+         "dialog_node":"node_1_1473214717376",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Well, I will tell you anyway!  The man, the myth, the legend, he is the most masterful innovator of our time, not Steve Jobs, but Dennis Noto!"
+         },
+         "parent":"node_8_1473114176986",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Neg",
+         "description":null,
+         "dialog_node":"node_10_1473114215034",
+         "previous_sibling":"node_9_1473114196269"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"What amount would you like to transfer?"
+         },
+         "parent":"node_2_1473207180561",
+         "context":{
+            "toAcct":"<? input.text ?>"
+         },
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_3_1473207243924",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"What other RMD or investment questions can I answer?"
+         },
+         "parent":"node_6_1477545823070",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Neg",
+         "description":null,
+         "dialog_node":"node_28_1477585628087",
+         "previous_sibling":"node_13_1477579484840"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"You can see your checking, savings, credit cards, loans, and any lines of credit via our mobile banking website or mobile app."
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#Accounts-Online || @Accts-Online",
+         "description":null,
+         "dialog_node":"node_33_1472829794779",
+         "previous_sibling":"node_31_1472829604091"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Your personal information is safe with us.  We secure your accounts with unique Personal ID and password, never request personal information through email, and we use secure chat/phone encryption  technology. Have you changed your password recently? [Yes, No]"
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#Personal-information",
+         "description":null,
+         "dialog_node":"node_29_1472829296380",
+         "previous_sibling":"node_7_1473184123543"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "Good news. Minimum distribution rules do not apply to Roth IRA at anytime in your life. However, your beneficiaries will have required minimum distributions once they inherit your IRA. Would you like to learn about RMD calculations? [Yes, No]"
+               ]
+            }
+         },
+         "parent":"node_2_1477541796017",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_11_1477578972343",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "Great $fname, the other key variable pertains to your type of retirement account. Which ones do you own? [Traditional, Roth, Employer]"
+               ]
+            }
+         },
+         "parent":"node_4_1477543108286",
+         "context":{
+            "Employed":"<?input.text?>"
+         },
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_6_1477509430921",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "Great, I have created an appointment for you and John for $appt $fname.  Let's pick an office near you? [Okay]"
+               ]
+            }
+         },
+         "parent":"node_2_1477600686443",
+         "context":{
+            "appt":"<? input.text ?>"
+         },
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-03T04:49:35.648Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_3_1477600770481",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "Here's a map to the Astor Place office."
+               ]
+            }
+         },
+         "parent":"node_4_1477601164604",
+         "context":{
+            "map":{
+               "values":[
+                  "https://maps.googleapis.com/maps/api/staticmap?format=png&zoom=13&markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=cafe%257C996600%7C%51+Astor+Place+New+York+New+York&key=AIzaSyA22GwDjEAwd58byf7JRxcQ5X0IK6JlT9k"
+               ],
+               "display":"Yes"
+            }
+         },
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Astor:(Astor Place)",
+         "description":null,
+         "dialog_node":"node_5_1477601348408",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "Here's a map to the Madison Ave office."
+               ]
+            }
+         },
+         "parent":"node_4_1477601164604",
+         "context":{
+            "map":{
+               "values":[
+                  "https://maps.googleapis.com/maps/api/staticmap?format=png&zoom=13&markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=cafe%257C996600%7C%590+madison+avenue+New+York+New+York&key=AIzaSyA22GwDjEAwd58byf7JRxcQ5X0IK6JlT9k"
+               ],
+               "display":"Yes"
+            }
+         },
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Madison:(Madison Ave)",
+         "description":null,
+         "dialog_node":"node_6_1477601438038",
+         "previous_sibling":"node_5_1477601348408"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "Here's a satellite view of the Astor Place office for a visual reference. Can I help with anything else?"
+               ]
+            }
+         },
+         "parent":"node_5_1477601348408",
+         "context":{
+            "map":{
+               "values":[
+                  "https://maps.googleapis.com/maps/api/staticmap?maptype=satellite&format=png&zoom=18&markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=cafe%257C996600%7C%51+Astor+Place+New+York+New+York&key=AIzaSyA22GwDjEAwd58byf7JRxcQ5X0IK6JlT9k"
+               ],
+               "display":"Yes"
+            }
+         },
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_7_1477602247658",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "Here's a satellite view of the Madison Ave office for a visual reference. Can I help with anything else?"
+               ]
+            }
+         },
+         "parent":"node_6_1477601438038",
+         "context":{
+            "map":{
+               "values":[
+                  "https://maps.googleapis.com/maps/api/staticmap?maptype=satellite&format=png&zoom=18&markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=cafe%257C996600%7C%590+madison+avenue+New+York+New+York&key=AIzaSyA22GwDjEAwd58byf7JRxcQ5X0IK6JlT9k"
+               ],
+               "display":"Yes"
+            }
+         },
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_8_1477602295246",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "If you tell me your date of birth, I can customize my answer for you $fname?"
+               ]
+            }
+         },
+         "parent":"node_1_1477504667532",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-03T04:53:33.728Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_3_1477542671937",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "Our financial consultants can help you with understanding your overall financial picture and goals, identifying retirement saving strategies specific to you, and assessing your current investment portfolio strategies.  Are you interested in speaking with one of our consultants? [Yes, No]"
+               ]
+            }
+         },
+         "parent":"node_18_1477580470706",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Pos",
+         "description":null,
+         "dialog_node":"node_19_1477580518518",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "The amount is based on your year-end account balance and your life expectancy. Your RMD changes every year based on those two numbers. Since you're participating in a 4O3(b) retirement plan, any contributions and earnings credited before 1987 are not subject to RMD rules until you turn 75. Withdrawals taken before you are subject to the RMD rules, or withdrawals in excess of the required amounts, reduces your pre-1987 balance first. Can I help you with something else?"
+               ]
+            }
+         },
+         "parent":"node_8_1477577571023",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-03T04:43:07.156Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_16_1477579742962",
+         "previous_sibling":"node_14_1477579618805"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "The amount is based on your year-end account balance and your life expectancy. Your RMD will change every year based on those two numbers. Can I help you with something else?"
+               ]
+            }
+         },
+         "parent":"node_6_1477545823070",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Pos",
+         "description":null,
+         "dialog_node":"node_13_1477579484840",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "The amount is based on your year-end account balance and your life expectancy. Your RMD will change every year based on those two numbers. Can I help you with something else?"
+               ]
+            }
+         },
+         "parent":"node_8_1477577571023",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"@Ack-Pos && $ageEOY.toDouble() > 74.99",
+         "description":null,
+         "dialog_node":"node_14_1477579618805",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "The penalty is one of the largest US tax penalties at 50%. If you are concerned with prior RMDs, please contact a tax advisor. How else can I help you? "
+               ]
+            }
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#RMD-dont-take-out",
+         "description":null,
+         "dialog_node":"node_17_1477580266054",
+         "previous_sibling":"node_7_1477509928439"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "We have 2 offices in your city, 51 Astor Place (9.6 miles away) or 590 Madison Avenue (12.3 miles away).  Which do you prefer? [Astor Place, Madison Ave]"
+               ]
+            }
+         },
+         "parent":"node_3_1477600770481",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_4_1477601164604",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "While I haven't been trained on that subject, I will note it for the future. Do you have another question for me?"
+               ]
+            }
+         },
+         "parent":null,
+         "context":{
+            "a":"@month",
+            "b":"@day",
+            "c":"@sys-number",
+            "d":"@sys-number[1]"
+         },
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-03T04:53:41.343Z",
+         "metadata":null,
+         "conditions":"\"Anything else\"",
+         "description":null,
+         "dialog_node":"node_2_1473214762304",
+         "previous_sibling":"node_6_1472877170940"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "You should already be withdrawing money annually from your employer-sponsored retirement plans. If you are concerned about prior RMDs, contact your tax advisor; there could be sizable tax consequences. Would you like to learn about RMD calculations? [Yes, No]"
+               ]
+            }
+         },
+         "parent":"node_1_1477541736391",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"$ageBOY.toDouble() > 70.99",
+         "description":null,
+         "dialog_node":"node_10_1477578546849",
+         "previous_sibling":"node_34_1477591395433"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "You should be withdrawing money annually from your employer-sponsored retirement plans. If you haven't already started your RMD, you should take your distribution by December 31st. If you are concerned about prior RMDs, contact your tax advisor; there could be sizable tax consequences.  Would you like to learn about RMD calculations? [Yes, No]"
+               ]
+            }
+         },
+         "parent":"node_7_1477577531402",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"$ageBOY.toDouble() >  70.99 && $Employed.contains('No')",
+         "description":null,
+         "dialog_node":"node_12_1477579094665",
+         "previous_sibling":"node_9_1477578102735"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "You should contact us a few months before the distributions are required. Would you like to learn more about why you may want to consider talking to a financial consultant?  [Yes, No]"
+               ]
+            }
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#RMD-Withdrawal-Setup",
+         "description":null,
+         "dialog_node":"node_18_1477580470706",
+         "previous_sibling":"node_17_1477580266054"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "You should plan to start withdrawing money annually from your employer-sponsored retirement plans by April 1st of the year you retire. Would you like to learn about RMD calculations?"
+               ]
+            }
+         },
+         "parent":"node_7_1477577531402",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"$ageBOY.toDouble() >  70.99 && $Employed.contains('Yes')",
+         "description":null,
+         "dialog_node":"node_32_1477590532023",
+         "previous_sibling":"node_12_1477579094665"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "You should plan to start withdrawing money annually from your employer-sponsored retirement plans by April 1st of the year you retire.  Would you like to learn about RMD calculations? [Yes, No]"
+               ]
+            }
+         },
+         "parent":"node_7_1477577531402",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"$ageBOY.toDouble() < 70.49 && $ageEOY.toDouble() > 70.51 && $Employed.contains('Yes')",
+         "description":null,
+         "dialog_node":"node_9_1477578102735",
+         "previous_sibling":"node_8_1477577571023"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "You will hit your 70 1/2 birthday this year, as such you need to begin to withdraw money annually from your IRA by April 1st.  Would you like to learn about RMD calculations? [Yes, No]"
+               ]
+            }
+         },
+         "parent":"node_7_1477577531402",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-03T04:38:55.076Z",
+         "metadata":null,
+         "conditions":"$ageBOY.toDouble()  < 70.49 && $ageEOY.toDouble() > 70.51 && $Employed.contains('No')",
+         "description":null,
+         "dialog_node":"node_8_1477577571023",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "You will hit your 70 1/2 birthday this year, as such you need to begin to withdraw money annually from your IRA by April 1st. Would you like to learn about RMD calculations? [Yes, No]"
+               ]
+            }
+         },
+         "parent":"node_1_1477541736391",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-03T04:40:24.687Z",
+         "metadata":null,
+         "conditions":"$ageBOY.toDouble() < 70.49 && $ageEOY.toDouble() > 70.51",
+         "description":null,
+         "dialog_node":"node_6_1477545823070",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":{
+               "values":[
+                  "You're welcome $fname, just trying to bring a little comfort to you life.",
+                  "You're welcome $fname, I'm here for you, anytime!",
+                  "Anytime $fname, great working with you."
+               ],
+               "selection_policy":"random"
+            }
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#Thanks",
+         "description":null,
+         "dialog_node":"node_6_1473113546995",
+         "previous_sibling":"node_1_1473206683037"
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"body",
+            "dialog_node":"node_1_1477504667532"
+         },
+         "output":{
+
+         },
+         "parent":null,
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#RMD-Question",
+         "description":null,
+         "dialog_node":"node_7_1477509928439",
+         "previous_sibling":"node_1_1472825289051"
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"body",
+            "dialog_node":"node_29_1472829296380"
+         },
+         "output":{
+
+         },
+         "parent":"node_44_1473139574963",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_45_1473139591804",
+         "previous_sibling":null
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"body",
+            "dialog_node":"node_31_1472829604091"
+         },
+         "output":{
+
+         },
+         "parent":"node_46_1473139609770",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_47_1473139624579",
+         "previous_sibling":null
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"body",
+            "dialog_node":"node_3_1477542671937"
+         },
+         "output":{
+            "text":{
+               "values":[
+                  "$fname, a Required Minimum Distribution (RMD) is the amount you must withdraw from certain retirement accounts once you reach a specific age."
+               ]
+            }
+         },
+         "parent":"node_1_1472825289051",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"#RMD-Question",
+         "description":null,
+         "dialog_node":"node_1_1477504667532",
+         "previous_sibling":null
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"condition",
+            "dialog_node":"node_13_1477579484840"
+         },
+         "output":{
+
+         },
+         "parent":"node_10_1477578546849",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_26_1477585568350",
+         "previous_sibling":null
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"condition",
+            "dialog_node":"node_13_1477579484840"
+         },
+         "output":{
+
+         },
+         "parent":"node_11_1477578972343",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_29_1477585854799",
+         "previous_sibling":null
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"condition",
+            "dialog_node":"node_13_1477579484840"
+         },
+         "output":{
+
+         },
+         "parent":"node_21_1477585259503",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_27_1477585601883",
+         "previous_sibling":null
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"condition",
+            "dialog_node":"node_13_1477579484840"
+         },
+         "output":{
+
+         },
+         "parent":"node_34_1477591395433",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_35_1477591448061",
+         "previous_sibling":null
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"condition",
+            "dialog_node":"node_14_1477579618805"
+         },
+         "output":{
+
+         },
+         "parent":"node_12_1477579094665",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_24_1477585488385",
+         "previous_sibling":null
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"condition",
+            "dialog_node":"node_14_1477579618805"
+         },
+         "output":{
+
+         },
+         "parent":"node_20_1477585103622",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_25_1477585514282",
+         "previous_sibling":null
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"condition",
+            "dialog_node":"node_14_1477579618805"
+         },
+         "output":{
+
+         },
+         "parent":"node_32_1477590532023",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_33_1477590582942",
+         "previous_sibling":null
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"condition",
+            "dialog_node":"node_14_1477579618805"
+         },
+         "output":{
+
+         },
+         "parent":"node_9_1477578102735",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_23_1477585455243",
+         "previous_sibling":null
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"user_input",
+            "dialog_node":"node_13_1477579484840"
+         },
+         "output":{
+
+         },
+         "parent":"node_22_1477585285738",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_31_1477586140022",
+         "previous_sibling":null
+      },
+      {
+         "go_to":{
+            "return":null,
+            "selector":"user_input",
+            "dialog_node":"node_13_1477579484840"
+         },
+         "output":{
+
+         },
+         "parent":"node_5_1477545017083",
+         "context":null,
+         "created":"2017-02-02T20:34:37.249Z",
+         "updated":"2017-02-02T20:34:37.249Z",
+         "metadata":null,
+         "conditions":"true",
+         "description":null,
+         "dialog_node":"node_30_1477586119919",
+         "previous_sibling":null
+      }
+   ],
+   "workspace_id":"8a43bb91-62b9-4f45-93c9-dee8075a49fa",
+   "counterexamples":[
+
+   ]
+}

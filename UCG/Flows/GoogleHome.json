@@ -1,1 +1,277 @@
-[{"id":"7b7af43e.80ce64","type":"http in","z":"cdfcdff1.7d33c","name":"GoogleHome","url":"/GoogleHome","method":"post","swaggerDoc":"","x":90,"y":195,"wires":[["5c8e26d1.cbeb98","99db805c.90b8a"]]},{"id":"5c8e26d1.cbeb98","type":"debug","z":"cdfcdff1.7d33c","name":"","active":true,"console":"false","complete":"true","x":184,"y":87,"wires":[]},{"id":"300ce94.7bec896","type":"watson-conversation-v1","z":"cdfcdff1.7d33c","name":"Conversation","workspaceid":"080cccd4-9146-4f2d-ac20-d232f9af8789","multiuser":true,"context":true,"x":988,"y":235,"wires":[["8b0f647a.aa682","b93b8fdc.857f28"]]},{"id":"b93b8fdc.857f28","type":"function","z":"cdfcdff1.7d33c","name":"Response Msg","func":"/*\n{\n  \"speech\": \"...\",  // ASCII characters only\n  \"displayText\": \"...\",\n  \"data\": {\n    \"google\": {\n      \"expect_user_response\": true,\n      \"is_ssml\": true,\n      \"permissions_request\": {\n        \"opt_context\": \"...\",\n        \"permissions\": [\n          \"NAME\",\n          \"DEVICE_COARSE_LOCATION\",\n          \"DEVICE_PRECISE_LOCATION\"\n        ]\n      }\n    }\n  },\n  \"contextOut\": [...],\n}*/\n\nmsg.headers = {\"Content-type\" : \"application/json\"}\nvar input = msg.payload.input.text\nvar texts = msg.payload.output.text\n\nvar myEndSession = true;    \n\ntotalText = \"\"\nfor (i = 0; i < texts.length; i++) {\n    \n    if (texts[i].lastIndexOf(\"[\") >= 0 ) {\n       findindex = texts[i].lastIndexOf(\"[\");\n       texts[i] = texts[i].substring(0,findindex);\n    } \n  totalText = totalText + \" \" + texts[i]\n}\n\nif (msg.tellGoogleNoWorries) \n{totalText = \"Okay, you're information is safe with me.\" + totalText\n  msg.tellGoogleNoWorries = false  \n}\n\n\nif (input.toUpperCase().substring(0,5) == \"LATER\" ||\n    totalText.lastIndexOf(\"wonderful day\") >= 0 ||\n    totalText.lastIndexOf(\"great day\") >= 0\n)\n   {myEndSession = false}\n\n\n\nmyResponse = {\n    \"speech\": totalText,  // ASCII characters only\n    \"displayText\": \"\",\n    \"data\": {\n      \"google\": {\n        \"expect_user_response\": myEndSession,\n        \"is_ssml\": false\n        }\n     }\n}\n\nmsg.payload = myResponse \nnode.send(msg);\n    \n\nreturn null;\n","outputs":1,"noerr":0,"x":1188,"y":236,"wires":[["f014314b.55ead8","2a569795.4a8c8"]]},{"id":"f014314b.55ead8","type":"http response","z":"cdfcdff1.7d33c","name":"","x":1336,"y":111,"wires":[]},{"id":"1fb72b9e.09792c","type":"debug","z":"cdfcdff1.7d33c","name":"","active":true,"console":"false","complete":"true","x":351,"y":97,"wires":[]},{"id":"8b0f647a.aa682","type":"debug","z":"cdfcdff1.7d33c","name":"","active":true,"console":"false","complete":"true","x":1114,"y":329,"wires":[]},{"id":"99db805c.90b8a","type":"function","z":"cdfcdff1.7d33c","name":"Set Params","func":"var workspace_id = msg.req.query.workspace_id;\nvar fname = msg.req.query.fname;\nvar user = msg.payload.sessionId\n\nvar params = {\n    workspace_id : workspace_id\n};\n\nvar additional_context = {};\nvar googleIntent = \"\"\nvar googleIName = \"\"\nvar googleContext = \"\"\nif (typeof msg.payload.originalRequest.data.user.profile !== \"undefined\"){\n     additional_context.fname = msg.payload.originalRequest.data.user.profile.given_name   \n    }\n\nif (typeof msg.payload.originalRequest.data.inputs !== \"undefined\"){\n     googleIntent = msg.payload.originalRequest.data.inputs[0].intent\n    }\n\nif (typeof msg.payload.originalRequest.data.inputs[0].arguments[0] !== \"undefined\"){\n     \n     if (typeof msg.payload.originalRequest.data.inputs[0].arguments[0].name !== \"undefined\"){\n       googleIName =  msg.payload.originalRequest.data.inputs[0].arguments[0].name \n     }\n    }\n\nif (typeof msg.payload.result.contexts[0] !== \"undefined\") {\n    \n     if (msg.payload.result.contexts[0].name.lastIndexOf(\"actions\") >= 0) {\n        \n        if (typeof msg.payload.result.contexts[1] !== \"undefined\"){\n           googleContext = msg.payload.result.contexts[1].name \n        }\n     }\n     else {\n        googleContext = msg.payload.result.contexts[0].name \n     }\n}\n\nadditional_context.flowName = \"GoogleHome\"\n\nreturn {\n    payload: msg.payload.result.resolvedQuery,\n    params : params,\n    user : user,\n    googleIntent : googleIntent,\n    googleIName : googleIName,\n    googleContext : googleContext,\n    additional_context : additional_context,\n    req : msg.req,\n    res : msg.res\n    \n};","outputs":1,"noerr":0,"x":285,"y":196,"wires":[["1fb72b9e.09792c","2c5100fd.c9b208"]]},{"id":"2a569795.4a8c8","type":"debug","z":"cdfcdff1.7d33c","name":"","active":true,"console":"false","complete":"true","x":1347,"y":341,"wires":[]},{"id":"2c5100fd.c9b208","type":"switch","z":"cdfcdff1.7d33c","name":"Intents","property":"googleIntent","propertyType":"msg","rules":[{"t":"eq","v":"assistant.intent.action.PERMISSION","vt":"str"},{"t":"eq","v":"assistant.intent.action.MAIN","vt":"str"},{"t":"eq","v":"claim-status","vt":"str"},{"t":"eq","v":"claim-process","vt":"str"},{"t":"eq","v":"deductibles","vt":"str"},{"t":"else"}],"checkall":"true","outputs":6,"x":461.5,"y":198,"wires":[["40ead88.9d51d28","fae5fd5.de6a68"],["569a4c0a.201e94"],["8027bbd6.4c94d8"],["8027bbd6.4c94d8"],["8027bbd6.4c94d8"],["300ce94.7bec896"]]},{"id":"569a4c0a.201e94","type":"function","z":"cdfcdff1.7d33c","name":"Ask Permission","func":"\nmsg.headers = {\"Content-type\" : \"application/json\"}\n\nmyResponse = {\n    \"speech\": \"Send Permission Request\",  // ASCII characters only\n    \"displayText\": \"\",\n    \"data\": {\n      \"google\": {\n        \"expect_user_response\": false,\n        \"is_ssml\": false,\n        \"permissions_request\": {\n        \"opt_context\": \"Before we get started.\",\n        \"permissions\": [\"NAME\", \"DEVICE_COARSE_LOCATION\", \"DEVICE_PRECISE_LOCATION\"]\n         }\n        }\n     }\n}\n\nmsg.payload = myResponse \nnode.send(msg);\n\nreturn null;\n","outputs":1,"noerr":0,"x":772.5,"y":115,"wires":[["f014314b.55ead8","be0284c.f8b1978"]]},{"id":"40ead88.9d51d28","type":"function","z":"cdfcdff1.7d33c","name":"Handle Permission","func":"if (msg.payload.toUpperCase().lastIndexOf(\"NO\") >= 0 \n)\n   {msg.tellGoogleNoWorries = true}\nelse\n   {msg.tellGoogleNoWorries = false}\n   \nif (msg.googleContext.lastIndexOf(\"claim-status\") >= 0 ) {\n    msg.payload = \"get a status of my claim\"\n}\n\nelse if (msg.googleContext.lastIndexOf(\"claim-process\") >= 0 ) {\n    msg.payload = \"how do claims work\"\n}\nelse if (msg.googleContext.lastIndexOf(\"claim-deductible\") >= 0 ) {\n    msg.payload = \"what are my deductibles and limits\"\n}\n\n\nelse {\n    msg.payload =  \"Hello\"\n}    \n    \nreturn msg;","outputs":1,"noerr":0,"x":782.5,"y":52,"wires":[["300ce94.7bec896"]]},{"id":"be0284c.f8b1978","type":"debug","z":"cdfcdff1.7d33c","name":"","active":true,"console":"false","complete":"false","x":1021.5,"y":48,"wires":[]},{"id":"8027bbd6.4c94d8","type":"switch","z":"cdfcdff1.7d33c","name":"trigger?","property":"googleIName","propertyType":"msg","rules":[{"t":"eq","v":"trigger_query","vt":"str"},{"t":"else"}],"checkall":"true","outputs":2,"x":674.5,"y":203,"wires":[["569a4c0a.201e94"],["300ce94.7bec896"]]},{"id":"fae5fd5.de6a68","type":"debug","z":"cdfcdff1.7d33c","name":"","active":true,"console":"false","complete":"false","x":518.5,"y":42,"wires":[]}]
+[
+    {
+        "id": "7b7af43e.80ce64",
+        "type": "http in",
+        "z": "cdfcdff1.7d33c",
+        "name": "GoogleHome",
+        "url": "/GoogleHome",
+        "method": "post",
+        "swaggerDoc": "",
+        "x": 90,
+        "y": 195,
+        "wires": [
+            [
+                "5c8e26d1.cbeb98",
+                "99db805c.90b8a"
+            ]
+        ]
+    },
+    {
+        "id": "5c8e26d1.cbeb98",
+        "type": "debug",
+        "z": "cdfcdff1.7d33c",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 184,
+        "y": 87,
+        "wires": []
+    },
+    {
+        "id": "300ce94.7bec896",
+        "type": "watson-conversation-v1",
+        "z": "cdfcdff1.7d33c",
+        "name": "Conversation",
+        "workspaceid": "080cccd4-9146-4f2d-ac20-d232f9af8789",
+        "multiuser": true,
+        "context": true,
+        "x": 988,
+        "y": 235,
+        "wires": [
+            [
+                "8b0f647a.aa682",
+                "b93b8fdc.857f28"
+            ]
+        ]
+    },
+    {
+        "id": "b93b8fdc.857f28",
+        "type": "function",
+        "z": "cdfcdff1.7d33c",
+        "name": "Response Msg",
+        "func": "/*\n{\n  \"speech\": \"...\",  // ASCII characters only\n  \"displayText\": \"...\",\n  \"data\": {\n    \"google\": {\n      \"expect_user_response\": true,\n      \"is_ssml\": true,\n      \"permissions_request\": {\n        \"opt_context\": \"...\",\n        \"permissions\": [\n          \"NAME\",\n          \"DEVICE_COARSE_LOCATION\",\n          \"DEVICE_PRECISE_LOCATION\"\n        ]\n      }\n    }\n  },\n  \"contextOut\": [...],\n}*/\n\nmsg.headers = {\"Content-type\" : \"application/json\"}\nvar input = msg.payload.input.text\nvar texts = msg.payload.output.text\n\nvar myEndSession = true;    \n\ntotalText = \"\"\nfor (i = 0; i < texts.length; i++) {\n    \n    if (texts[i].lastIndexOf(\"[\") >= 0 ) {\n       findindex = texts[i].lastIndexOf(\"[\");\n       texts[i] = texts[i].substring(0,findindex);\n    } \n  totalText = totalText + \" \" + texts[i]\n}\n\nif (msg.tellGoogleNoWorries) \n{totalText = \"Okay, you're information is safe with me.\" + totalText\n  msg.tellGoogleNoWorries = false  \n}\n\n\nif (input.toUpperCase().substring(0,5) == \"LATER\" ||\n    totalText.lastIndexOf(\"wonderful day\") >= 0 ||\n    totalText.lastIndexOf(\"great day\") >= 0\n)\n   {myEndSession = false}\n\n\n\nmyResponse = {\n    \"speech\": totalText,  // ASCII characters only\n    \"displayText\": \"\",\n    \"data\": {\n      \"google\": {\n        \"expect_user_response\": myEndSession,\n        \"is_ssml\": false\n        }\n     }\n}\n\nmsg.payload = myResponse \nnode.send(msg);\n    \n\nreturn null;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1188,
+        "y": 236,
+        "wires": [
+            [
+                "f014314b.55ead8",
+                "2a569795.4a8c8"
+            ]
+        ]
+    },
+    {
+        "id": "f014314b.55ead8",
+        "type": "http response",
+        "z": "cdfcdff1.7d33c",
+        "name": "",
+        "x": 1336,
+        "y": 111,
+        "wires": []
+    },
+    {
+        "id": "1fb72b9e.09792c",
+        "type": "debug",
+        "z": "cdfcdff1.7d33c",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 351,
+        "y": 97,
+        "wires": []
+    },
+    {
+        "id": "8b0f647a.aa682",
+        "type": "debug",
+        "z": "cdfcdff1.7d33c",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 1114,
+        "y": 329,
+        "wires": []
+    },
+    {
+        "id": "99db805c.90b8a",
+        "type": "function",
+        "z": "cdfcdff1.7d33c",
+        "name": "Set Params",
+        "func": "var workspace_id = msg.req.query.workspace_id;\nvar fname = msg.req.query.fname;\nvar user = msg.payload.sessionId\n\nvar params = {\n    workspace_id : workspace_id\n};\n\nvar additional_context = {};\nvar googleIntent = \"\"\nvar googleIName = \"\"\nvar googleContext = \"\"\nif (typeof msg.payload.originalRequest.data.user.profile !== \"undefined\"){\n     additional_context.fname = msg.payload.originalRequest.data.user.profile.given_name   \n    }\n\nif (typeof msg.payload.originalRequest.data.inputs !== \"undefined\"){\n     googleIntent = msg.payload.originalRequest.data.inputs[0].intent\n    }\n\nif (typeof msg.payload.originalRequest.data.inputs[0].arguments[0] !== \"undefined\"){\n     \n     if (typeof msg.payload.originalRequest.data.inputs[0].arguments[0].name !== \"undefined\"){\n       googleIName =  msg.payload.originalRequest.data.inputs[0].arguments[0].name \n     }\n    }\n\nif (typeof msg.payload.result.contexts[0] !== \"undefined\") {\n    \n     if (msg.payload.result.contexts[0].name.lastIndexOf(\"actions\") >= 0) {\n        \n        if (typeof msg.payload.result.contexts[1] !== \"undefined\"){\n           googleContext = msg.payload.result.contexts[1].name \n        }\n     }\n     else {\n        googleContext = msg.payload.result.contexts[0].name \n     }\n}\n\nadditional_context.flowName = \"GoogleHome\"\n\nreturn {\n    payload: msg.payload.result.resolvedQuery,\n    params : params,\n    user : user,\n    googleIntent : googleIntent,\n    googleIName : googleIName,\n    googleContext : googleContext,\n    additional_context : additional_context,\n    req : msg.req,\n    res : msg.res\n    \n};",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 285,
+        "y": 196,
+        "wires": [
+            [
+                "1fb72b9e.09792c",
+                "2c5100fd.c9b208"
+            ]
+        ]
+    },
+    {
+        "id": "2a569795.4a8c8",
+        "type": "debug",
+        "z": "cdfcdff1.7d33c",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 1347,
+        "y": 341,
+        "wires": []
+    },
+    {
+        "id": "2c5100fd.c9b208",
+        "type": "switch",
+        "z": "cdfcdff1.7d33c",
+        "name": "Intents",
+        "property": "googleIntent",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "assistant.intent.action.PERMISSION",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "assistant.intent.action.MAIN",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "claim-status",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "claim-process",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "deductibles",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 6,
+        "x": 461.5,
+        "y": 198,
+        "wires": [
+            [
+                "40ead88.9d51d28",
+                "fae5fd5.de6a68"
+            ],
+            [
+                "569a4c0a.201e94"
+            ],
+            [
+                "8027bbd6.4c94d8"
+            ],
+            [
+                "8027bbd6.4c94d8"
+            ],
+            [
+                "8027bbd6.4c94d8"
+            ],
+            [
+                "300ce94.7bec896"
+            ]
+        ]
+    },
+    {
+        "id": "569a4c0a.201e94",
+        "type": "function",
+        "z": "cdfcdff1.7d33c",
+        "name": "Ask Permission",
+        "func": "\nmsg.headers = {\"Content-type\" : \"application/json\"}\n\nmyResponse = {\n    \"speech\": \"Send Permission Request\",  // ASCII characters only\n    \"displayText\": \"\",\n    \"data\": {\n      \"google\": {\n        \"expect_user_response\": false,\n        \"is_ssml\": false,\n        \"permissions_request\": {\n        \"opt_context\": \"Before we get started.\",\n        \"permissions\": [\"NAME\", \"DEVICE_COARSE_LOCATION\", \"DEVICE_PRECISE_LOCATION\"]\n         }\n        }\n     }\n}\n\nmsg.payload = myResponse \nnode.send(msg);\n\nreturn null;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 772.5,
+        "y": 115,
+        "wires": [
+            [
+                "f014314b.55ead8",
+                "be0284c.f8b1978"
+            ]
+        ]
+    },
+    {
+        "id": "40ead88.9d51d28",
+        "type": "function",
+        "z": "cdfcdff1.7d33c",
+        "name": "Handle Permission",
+        "func": "if (msg.payload.toUpperCase().lastIndexOf(\"NO\") >= 0 \n)\n   {msg.tellGoogleNoWorries = true}\nelse\n   {msg.tellGoogleNoWorries = false}\n   \nif (msg.googleContext.lastIndexOf(\"claim-status\") >= 0 ) {\n    msg.payload = \"get a status of my claim\"\n}\n\nelse if (msg.googleContext.lastIndexOf(\"claim-process\") >= 0 ) {\n    msg.payload = \"how do claims work\"\n}\nelse if (msg.googleContext.lastIndexOf(\"claim-deductible\") >= 0 ) {\n    msg.payload = \"what are my deductibles and limits\"\n}\n\n\nelse {\n    msg.payload =  \"Hello\"\n}    \n    \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 782.5,
+        "y": 52,
+        "wires": [
+            [
+                "300ce94.7bec896"
+            ]
+        ]
+    },
+    {
+        "id": "be0284c.f8b1978",
+        "type": "debug",
+        "z": "cdfcdff1.7d33c",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 1021.5,
+        "y": 48,
+        "wires": []
+    },
+    {
+        "id": "8027bbd6.4c94d8",
+        "type": "switch",
+        "z": "cdfcdff1.7d33c",
+        "name": "trigger?",
+        "property": "googleIName",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "trigger_query",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 674.5,
+        "y": 203,
+        "wires": [
+            [
+                "569a4c0a.201e94"
+            ],
+            [
+                "300ce94.7bec896"
+            ]
+        ]
+    },
+    {
+        "id": "fae5fd5.de6a68",
+        "type": "debug",
+        "z": "cdfcdff1.7d33c",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 518.5,
+        "y": 42,
+        "wires": []
+    }
+]
