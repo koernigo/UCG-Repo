@@ -1,9 +1,10 @@
 This Directory is for WCS workspaces
 
-When finished developing the Watson Conversation Service, Please flow the following standards
+When finished developing in the Watson Conversation Service tooling, Please flow the following standards
   1) Please make sure every new version has an enhancement issue with a targeted milestone
   2) Export the workspace and put through a json formatter so it contains multiple lines.
         - Any workspaces that have only one line will be deleted.
-  2) Please test the workspace via all front-ends via Alexa/Google Home/SIP for Voice only, Mobile for Voice & text, and Web Chat
+  2) Please test the workspace via all front-ends via Alexa/Google Home/SIP for Voice-only, Mobile for Voice & text, and Web Chat - Text-only
   3) Please notate any changes/dependances needed in the flow
         - document in the comment of the issue.
+        - please indicate the flow commit reqiured or tie the flow and workspace via a milestone release tag
