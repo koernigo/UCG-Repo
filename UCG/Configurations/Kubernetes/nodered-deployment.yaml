@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nodered
 spec:
-  replicas: 40
+  replicas: 78
   template:
     metadata:
       labels:
@@ -18,11 +18,11 @@ spec:
         imagePullPolicy: Always
         resources:
           limits:
-            cpu: 0.50
-            memory: 1G
-          requests:  
             cpu: 0.25
-            memory: 512Mi
+            memory: 256Mi
+          requests:  
+            cpu: 0.1
+            memory: 256Mi
         env:
         - name: httpAdminRoot
           value: "false"
