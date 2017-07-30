@@ -1,0 +1,571 @@
+2017-07-29T19:50:02.668Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-29T19:50:02.674Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-29T19:50:02.672Z Level 40 Node-RED version: v0.16.2
+2017-07-29T19:50:02.673Z Level 40 Node.js  version: v6.9.4
+2017-07-29T19:50:02.851Z Level 40 Loading palette nodes
+2017-07-29T19:50:03.423Z Level 30 ------------------------------------------------------
+2017-07-29T19:50:03.425Z Level 40 User directory : /data
+2017-07-29T19:50:03.426Z Level 40 Flows file     : /data/flows.json
+2017-07-29T19:50:03.424Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-29T19:50:03.425Z Level 30 ------------------------------------------------------
+2017-07-29T19:50:03.425Z Level 40 Settings file  : /data/settings.js
+2017-07-29T19:50:03.434Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-29T19:50:03.437Z Level 50 loaded flow revision: dacc9cac30602805c6198b0468c8465a
+2017-07-29T19:50:03.437Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-29T19:50:03.437Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-29T19:57:27.207Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-29T19:57:27.212Z Level 40 Node-RED version: v0.16.2
+2017-07-29T19:57:27.212Z Level 40 Node.js  version: v6.9.4
+2017-07-29T19:57:27.213Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-29T19:57:27.386Z Level 40 Loading palette nodes
+2017-07-29T19:57:27.942Z Level 30 ------------------------------------------------------
+2017-07-29T19:57:27.943Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-29T19:57:27.945Z Level 40 Flows file     : /data/flows.json
+2017-07-29T19:57:27.944Z Level 30 ------------------------------------------------------
+2017-07-29T19:57:27.944Z Level 40 Settings file  : /data/settings.js
+2017-07-29T19:57:27.945Z Level 40 User directory : /data
+2017-07-29T19:57:27.953Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-29T19:57:27.956Z Level 50 loaded flow revision: a32922404c5a4e28030177558d84eb30
+2017-07-29T19:57:27.956Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-29T19:57:27.956Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-29T19:59:06.449Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-29T19:59:06.453Z Level 40 Node-RED version: v0.16.2
+2017-07-29T19:59:06.454Z Level 40 Node.js  version: v6.9.4
+2017-07-29T19:59:06.454Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-29T19:59:06.627Z Level 40 Loading palette nodes
+2017-07-29T19:59:07.175Z Level 30 ------------------------------------------------------
+2017-07-29T19:59:07.177Z Level 40 User directory : /data
+2017-07-29T19:59:07.177Z Level 40 Flows file     : /data/flows.json
+2017-07-29T19:59:07.176Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-29T19:59:07.176Z Level 30 ------------------------------------------------------
+2017-07-29T19:59:07.176Z Level 40 Settings file  : /data/settings.js
+2017-07-29T19:59:07.185Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-29T19:59:07.187Z Level 50 loaded flow revision: 44e9b41351a68d3675ac8f49f7f40b89
+2017-07-29T19:59:07.194Z Level 40  - watson-tone-analyzer-v3
+2017-07-29T19:59:07.193Z Level 40 Waiting for missing types to be registered:
+2017-07-29T19:59:07.188Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-29T19:59:07.188Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-29T19:59:07.194Z Level 40  - watson-conversation-v1
+2017-07-29T20:05:35.352Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-29T20:05:35.357Z Level 40 Node-RED version: v0.16.2
+2017-07-29T20:05:35.357Z Level 40 Node.js  version: v6.9.4
+2017-07-29T20:05:35.357Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-29T20:05:35.529Z Level 40 Loading palette nodes
+2017-07-29T20:05:36.095Z Level 30 ------------------------------------------------------
+2017-07-29T20:05:36.097Z Level 40 User directory : /data
+2017-07-29T20:05:36.098Z Level 40 Flows file     : /data/flows.json
+2017-07-29T20:05:36.096Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-29T20:05:36.096Z Level 30 ------------------------------------------------------
+2017-07-29T20:05:36.097Z Level 40 Settings file  : /data/settings.js
+2017-07-29T20:05:36.106Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-29T20:05:36.108Z Level 50 loaded flow revision: a9ce3e3d623224130f5fc28058256d79
+2017-07-29T20:05:36.109Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-29T20:05:36.114Z Level 40  - watson-tone-analyzer-v3
+2017-07-29T20:05:36.109Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-29T20:05:36.114Z Level 40 Waiting for missing types to be registered:
+2017-07-29T20:05:36.114Z Level 40  - watson-conversation-v1
+2017-07-29T20:09:18.072Z Level 40 Installing module: node-red-node-watson
+2017-07-29T20:09:39.451Z Level 50 saved flow revision: 55587623f548c4ff94bbb8fcaff8edb4
+2017-07-29T20:09:39.451Z Level 40 Stopping flows
+2017-07-29T20:09:39.460Z Level 40 Started flows
+2017-07-29T20:09:39.452Z Level 40 Stopped flows
+2017-07-29T20:09:39.453Z Level 40 Starting flows
+2017-07-29T20:09:48.756Z Level 40 Installed module: node-red-node-watson
+2017-07-29T20:09:53.003Z Level 40 Added node types:
+2017-07-29T20:09:53.004Z Level 40  - node-red-node-watson:convert
+2017-07-29T20:09:53.004Z Level 40  - node-red-node-watson:watson-discovery-v1-query-builder
+2017-07-29T20:09:53.005Z Level 40  - node-red-node-watson:watson-concept-insights-corpus
+2017-07-29T20:09:53.005Z Level 40  - node-red-node-watson:watson-concept-insights-upload-document
+2017-07-29T20:09:53.005Z Level 40  - node-red-node-watson:watson-concept-insights-search
+2017-07-29T20:09:53.005Z Level 40  - node-red-node-watson:watson-concept-insights-search-concepts
+2017-07-29T20:09:53.006Z Level 40  - node-red-node-watson:watson-concept-insights-related-concepts
+2017-07-29T20:09:53.006Z Level 40  - node-red-node-watson:alchemy-date-extraction
+2017-07-29T20:09:53.006Z Level 40  - node-red-node-watson:service-dialog
+2017-07-29T20:09:53.007Z Level 40  - node-red-node-watson:watson-translator
+2017-07-29T20:09:53.006Z Level 40  - node-red-node-watson:alchemy-feature-extract
+2017-07-29T20:09:53.007Z Level 40  - node-red-node-watson:watson-language-translator-identify
+2017-07-29T20:09:53.007Z Level 40  - node-red-node-watson:watson-translator-util
+2017-07-29T20:09:53.007Z Level 40  - node-red-node-watson:watson-natural-language-classifier
+2017-07-29T20:09:53.008Z Level 40  - node-red-node-watson:natural-language-understanding
+2017-07-29T20:09:53.008Z Level 40  - node-red-node-watson:news
+2017-07-29T20:09:53.008Z Level 40  - node-red-node-watson:watson-personality-insights-v3
+2017-07-29T20:09:53.008Z Level 40  - node-red-node-watson:watson-retrieve-rank-credentials
+2017-07-29T20:09:53.009Z Level 40  - node-red-node-watson:watson-retrieve-rank-create-cluster
+2017-07-29T20:09:53.009Z Level 40  - node-red-node-watson:watson-retrieve-rank-cluster-settings
+2017-07-29T20:09:53.009Z Level 40  - node-red-node-watson:watson-retrieve-rank-upload-solr-configuration
+2017-07-29T20:09:53.009Z Level 40  - node-red-node-watson:watson-retrieve-rank-solr-configuration-settings
+2017-07-29T20:09:53.010Z Level 40  - node-red-node-watson:watson-retrieve-rank-solr-collection
+2017-07-29T20:09:53.010Z Level 40  - node-red-node-watson:watson-retrieve-rank-create-ranker
+2017-07-29T20:09:53.010Z Level 40  - node-red-node-watson:watson-retrieve-rank-ranker-settings
+2017-07-29T20:09:53.011Z Level 40  - node-red-node-watson:watson-retrieve-rank-search-and-rank
+2017-07-29T20:09:53.011Z Level 40  - node-red-node-watson:watson-speech-to-text-v1-query-builder
+2017-07-29T20:09:53.011Z Level 40  - node-red-node-watson:watson-speech-to-text
+2017-07-29T20:09:53.012Z Level 40  - node-red-node-watson:watson-text-to-speech-v1-query-builder
+2017-07-29T20:09:53.011Z Level 40  - node-red-node-watson:watson-text-to-speech
+2017-07-29T20:09:53.012Z Level 40  - node-red-node-watson:watson-tone-analyzer-v3
+2017-07-29T20:09:53.012Z Level 40  - node-red-node-watson:watson-tradeoff-analytics
+2017-07-29T20:09:53.013Z Level 40  - node-red-node-watson:visual-recognition-v3
+2017-07-29T20:09:53.013Z Level 40  - node-red-node-watson:visual-recognition-util-v3
+2017-07-29T20:09:53.013Z Level 40  - node-red-node-watson:similarity-search-v3
+2017-07-29T20:09:53.013Z Level 40  - node-red-node-watson:similarity-search-util-v3
+2017-07-29T20:09:53.014Z Level 40  - node-red-node-watson:alchemy-image-analysis
+2017-07-29T20:09:53.004Z Level 40  - node-red-node-watson:watson-conversation-v1
+2017-07-29T20:09:53.004Z Level 40  - node-red-node-watson:watson-conversation-v1-workspace-manager
+2017-07-29T20:09:53.004Z Level 40  - node-red-node-watson:watson-discovery-v1
+2017-07-29T20:14:23.878Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-29T20:14:23.882Z Level 40 Node-RED version: v0.16.2
+2017-07-29T20:14:23.883Z Level 40 Node.js  version: v6.9.4
+2017-07-29T20:14:23.883Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-29T20:14:24.060Z Level 40 Loading palette nodes
+2017-07-29T20:14:26.927Z Level 30 ------------------------------------------------------
+2017-07-29T20:14:26.928Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-29T20:14:26.928Z Level 30 ------------------------------------------------------
+2017-07-29T20:14:26.928Z Level 40 Settings file  : /data/settings.js
+2017-07-29T20:14:26.929Z Level 40 User directory : /data
+2017-07-29T20:14:26.929Z Level 40 Flows file     : /data/flows.json
+2017-07-29T20:14:26.937Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-29T20:14:26.940Z Level 50 loaded flow revision: dacc9cac30602805c6198b0468c8465a
+2017-07-29T20:14:26.940Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-29T20:14:26.940Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-29T20:16:10.699Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-29T20:16:10.704Z Level 40 Node.js  version: v6.9.4
+2017-07-29T20:16:10.703Z Level 40 Node-RED version: v0.16.2
+2017-07-29T20:16:10.704Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-29T20:16:10.880Z Level 40 Loading palette nodes
+2017-07-29T20:16:14.140Z Level 30 ------------------------------------------------------
+2017-07-29T20:16:14.142Z Level 40 User directory : /data
+2017-07-29T20:16:14.141Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-29T20:16:14.141Z Level 30 ------------------------------------------------------
+2017-07-29T20:16:14.141Z Level 40 Settings file  : /data/settings.js
+2017-07-29T20:16:14.142Z Level 40 Flows file     : /data/flows.json
+2017-07-29T20:16:14.151Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-29T20:16:14.153Z Level 50 loaded flow revision: 44e9b41351a68d3675ac8f49f7f40b89
+2017-07-29T20:16:14.153Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-29T20:16:14.159Z Level 40 Starting flows
+2017-07-29T20:16:14.153Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-29T20:16:14.188Z Level 40 Started flows
+2017-07-30T03:25:44.578Z Level 50 red/runtime/nodes/credentials.export : encrypting
+2017-07-30T03:25:44.590Z Level 50 saved flow revision: 49b1a416637faa2e8bec8d9e247a6b63
+2017-07-30T03:25:44.603Z Level 40 Starting flows
+2017-07-30T03:25:44.590Z Level 40 Stopping flows
+2017-07-30T03:25:44.602Z Level 40 Stopped flows
+2017-07-30T03:25:44.624Z Level 40 Started flows
+2017-07-30T03:27:46.373Z Level 50 saved flow revision: aa0e0e53a1a259cff6e1e27cff3e6b47
+2017-07-30T03:27:46.389Z Level 40 Started flows
+2017-07-30T03:27:46.373Z Level 40 Stopping flows
+2017-07-30T03:27:46.376Z Level 40 Stopped flows
+2017-07-30T03:27:46.376Z Level 40 Starting flows
+2017-07-30T03:33:42.634Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T03:33:42.638Z Level 40 Node-RED version: v0.16.2
+2017-07-30T03:33:42.639Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T03:33:42.638Z Level 40 Node.js  version: v6.9.4
+2017-07-30T03:33:42.809Z Level 40 Loading palette nodes
+2017-07-30T03:33:46.233Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T03:33:46.233Z Level 30 ------------------------------------------------------
+2017-07-30T03:33:46.234Z Level 40 Flows file     : /data/flows.json
+2017-07-30T03:33:46.233Z Level 30 ------------------------------------------------------
+2017-07-30T03:33:46.234Z Level 40 Settings file  : /data/settings.js
+2017-07-30T03:33:46.234Z Level 40 User directory : /data
+2017-07-30T03:33:46.242Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T03:33:46.245Z Level 50 loaded flow revision: fd4349dee96f26fa009239450d13c4ae
+2017-07-30T03:33:46.252Z Level 40 Starting flows
+2017-07-30T03:33:46.246Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T03:33:46.272Z Level 40 Started flows
+2017-07-30T03:33:46.246Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T03:34:15.803Z Level 50 saved flow revision: 602ea26a2e2d8352000b5dcb33bd475d
+2017-07-30T03:34:15.829Z Level 40 Started flows
+2017-07-30T03:34:15.803Z Level 40 Stopping flows
+2017-07-30T03:34:15.812Z Level 40 Stopped flows
+2017-07-30T03:34:15.813Z Level 40 Starting flows
+2017-07-30T03:40:01.647Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T03:40:01.652Z Level 40 Node-RED version: v0.16.2
+2017-07-30T03:40:01.653Z Level 40 Node.js  version: v6.9.4
+2017-07-30T03:40:01.653Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T03:40:01.834Z Level 40 Loading palette nodes
+2017-07-30T03:40:04.805Z Level 30 ------------------------------------------------------
+2017-07-30T03:40:04.806Z Level 40 User directory : /data
+2017-07-30T03:40:04.806Z Level 40 Flows file     : /data/flows.json
+2017-07-30T03:40:04.804Z Level 30 ------------------------------------------------------
+2017-07-30T03:40:04.805Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T03:40:04.805Z Level 40 Settings file  : /data/settings.js
+2017-07-30T03:40:04.814Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T03:40:04.815Z Level 30 Existing flow file is not valid json
+2017-07-30T03:40:04.817Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T03:40:04.818Z Level 30 Error loading credentials: SyntaxError: Unexpected token � in JSON at position 0
+2017-07-30T03:40:04.819Z Level 40 Starting flows
+2017-07-30T03:40:04.817Z Level 50 loaded flow revision: b76aa71d67fe88fb5c3d61ad93492cbc
+2017-07-30T03:40:04.817Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T03:40:04.820Z Level 40 Started flows
+2017-07-30T03:40:45.572Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T03:40:45.576Z Level 40 Node-RED version: v0.16.2
+2017-07-30T03:40:45.576Z Level 40 Node.js  version: v6.9.4
+2017-07-30T03:40:45.576Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T03:40:45.757Z Level 40 Loading palette nodes
+2017-07-30T03:40:48.766Z Level 30 ------------------------------------------------------
+2017-07-30T03:40:48.768Z Level 40 User directory : /data
+2017-07-30T03:40:48.769Z Level 40 Flows file     : /data/flows.json
+2017-07-30T03:40:48.767Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T03:40:48.767Z Level 30 ------------------------------------------------------
+2017-07-30T03:40:48.768Z Level 40 Settings file  : /data/settings.js
+2017-07-30T03:40:48.777Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T03:40:48.777Z Level 30 Existing flow file is not valid json
+2017-07-30T03:40:48.779Z Level 50 loaded flow revision: b76aa71d67fe88fb5c3d61ad93492cbc
+2017-07-30T03:40:48.781Z Level 30 Error loading credentials: SyntaxError: Unexpected token � in JSON at position 0
+2017-07-30T03:40:48.782Z Level 40 Starting flows
+2017-07-30T03:40:48.780Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T03:40:48.780Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T03:40:48.783Z Level 40 Started flows
+2017-07-30T03:42:08.085Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T03:42:08.089Z Level 40 Node-RED version: v0.16.2
+2017-07-30T03:42:08.089Z Level 40 Node.js  version: v6.9.4
+2017-07-30T03:42:08.089Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T03:42:08.265Z Level 40 Loading palette nodes
+2017-07-30T03:42:11.325Z Level 30 ------------------------------------------------------
+2017-07-30T03:42:11.327Z Level 40 User directory : /data
+2017-07-30T03:42:11.327Z Level 40 Flows file     : /data/flows.json
+2017-07-30T03:42:11.325Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T03:42:11.326Z Level 30 ------------------------------------------------------
+2017-07-30T03:42:11.326Z Level 40 Settings file  : /data/settings.js
+2017-07-30T03:42:11.335Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T03:42:11.336Z Level 30 Existing flow file is not valid json
+2017-07-30T03:42:11.338Z Level 50 loaded flow revision: b76aa71d67fe88fb5c3d61ad93492cbc
+2017-07-30T03:42:11.339Z Level 30 Error loading credentials: SyntaxError: Unexpected token � in JSON at position 0
+2017-07-30T03:42:11.340Z Level 40 Starting flows
+2017-07-30T03:42:11.338Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T03:42:11.338Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T03:42:11.340Z Level 40 Started flows
+2017-07-30T03:43:58.949Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T03:43:58.953Z Level 40 Node-RED version: v0.16.2
+2017-07-30T03:43:58.953Z Level 40 Node.js  version: v6.9.4
+2017-07-30T03:43:58.953Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T03:43:59.129Z Level 40 Loading palette nodes
+2017-07-30T03:44:01.884Z Level 30 ------------------------------------------------------
+2017-07-30T03:44:01.886Z Level 40 User directory : /data
+2017-07-30T03:44:01.886Z Level 40 Flows file     : /data/flows.json
+2017-07-30T03:44:01.885Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T03:44:01.885Z Level 30 ------------------------------------------------------
+2017-07-30T03:44:01.885Z Level 40 Settings file  : /data/settings.js
+2017-07-30T03:44:01.894Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T03:44:01.895Z Level 30 Existing flow file is not valid json
+2017-07-30T03:44:01.897Z Level 50 loaded flow revision: b76aa71d67fe88fb5c3d61ad93492cbc
+2017-07-30T03:44:01.898Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T03:44:01.900Z Level 40 Starting flows
+2017-07-30T03:44:01.898Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T03:44:01.898Z Level 30 Error loading credentials: SyntaxError: Unexpected token � in JSON at position 0
+2017-07-30T03:44:01.901Z Level 40 Started flows
+2017-07-30T03:49:43.720Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T03:49:43.723Z Level 40 Node-RED version: v0.16.2
+2017-07-30T03:49:43.724Z Level 40 Node.js  version: v6.9.4
+2017-07-30T03:49:43.724Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T03:49:43.905Z Level 40 Loading palette nodes
+2017-07-30T03:49:46.679Z Level 30 ------------------------------------------------------
+2017-07-30T03:49:46.681Z Level 40 User directory : /data
+2017-07-30T03:49:46.681Z Level 40 Flows file     : /data/flows.json
+2017-07-30T03:49:46.680Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T03:49:46.680Z Level 30 ------------------------------------------------------
+2017-07-30T03:49:46.680Z Level 40 Settings file  : /data/settings.js
+2017-07-30T03:49:46.689Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T03:49:46.693Z Level 50 loaded flow revision: be2ab68631ee7f108b4af2d9aad2ede2
+2017-07-30T03:49:46.695Z Level 30 Error loading credentials: SyntaxError: Unexpected token � in JSON at position 0
+2017-07-30T03:49:46.717Z Level 40  - twilio-api
+2017-07-30T03:49:46.717Z Level 40  - MSSQL-CN
+2017-07-30T03:49:46.717Z Level 40  - twilio out
+2017-07-30T03:49:46.694Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T03:49:46.717Z Level 40  - MSSQL
+2017-07-30T03:49:46.694Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T03:49:46.716Z Level 40 Waiting for missing types to be registered:
+2017-07-30T04:18:24.719Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T04:18:24.725Z Level 40 Node.js  version: v6.9.4
+2017-07-30T04:18:24.724Z Level 40 Node-RED version: v0.16.2
+2017-07-30T04:18:24.725Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T04:18:24.899Z Level 40 Loading palette nodes
+2017-07-30T04:18:27.744Z Level 30 ------------------------------------------------------
+2017-07-30T04:18:27.745Z Level 30 ------------------------------------------------------
+2017-07-30T04:18:27.746Z Level 40 Flows file     : /data/flows.json
+2017-07-30T04:18:27.745Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T04:18:27.745Z Level 40 Settings file  : /data/settings.js
+2017-07-30T04:18:27.746Z Level 40 User directory : /data
+2017-07-30T04:18:27.755Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T04:18:27.759Z Level 50 loaded flow revision: 9ca21d359709ada23bf333d11dccc588
+2017-07-30T04:18:27.775Z Level 40 Waiting for missing types to be registered:
+2017-07-30T04:18:27.776Z Level 40  - MSSQL-CN
+2017-07-30T04:18:27.776Z Level 40  - twilio out
+2017-07-30T04:18:27.776Z Level 40  - MSSQL
+2017-07-30T04:18:27.759Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T04:18:27.759Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T04:18:27.775Z Level 40  - twilio-api
+2017-07-30T04:20:50.704Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T04:20:50.708Z Level 40 Node-RED version: v0.16.2
+2017-07-30T04:20:50.709Z Level 40 Node.js  version: v6.9.4
+2017-07-30T04:20:50.709Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T04:20:50.888Z Level 40 Loading palette nodes
+2017-07-30T04:20:53.706Z Level 30 ------------------------------------------------------
+2017-07-30T04:20:53.709Z Level 40 User directory : /data
+2017-07-30T04:20:53.709Z Level 40 Flows file     : /data/flows.json
+2017-07-30T04:20:53.707Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T04:20:53.708Z Level 30 ------------------------------------------------------
+2017-07-30T04:20:53.708Z Level 40 Settings file  : /data/settings.js
+2017-07-30T04:20:53.717Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T04:20:53.721Z Level 50 loaded flow revision: be2ab68631ee7f108b4af2d9aad2ede2
+2017-07-30T04:20:53.742Z Level 40  - twilio-api
+2017-07-30T04:20:53.742Z Level 40 Waiting for missing types to be registered:
+2017-07-30T04:20:53.742Z Level 40  - MSSQL-CN
+2017-07-30T04:20:53.722Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T04:20:53.743Z Level 40  - MSSQL
+2017-07-30T04:20:53.722Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T04:20:53.723Z Level 30 Error loading credentials: SyntaxError: Unexpected token � in JSON at position 0
+2017-07-30T04:20:53.742Z Level 40  - twilio out
+2017-07-30T04:21:49.252Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T04:21:49.257Z Level 40 Node-RED version: v0.16.2
+2017-07-30T04:21:49.257Z Level 40 Node.js  version: v6.9.4
+2017-07-30T04:21:49.258Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T04:21:49.438Z Level 40 Loading palette nodes
+2017-07-30T04:21:52.343Z Level 30 ------------------------------------------------------
+2017-07-30T04:21:52.345Z Level 40 User directory : /data
+2017-07-30T04:21:52.346Z Level 40 Flows file     : /data/flows.json
+2017-07-30T04:21:52.344Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T04:21:52.344Z Level 30 ------------------------------------------------------
+2017-07-30T04:21:52.345Z Level 40 Settings file  : /data/settings.js
+2017-07-30T04:21:52.355Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T04:21:52.358Z Level 30 Existing credentials file is empty
+2017-07-30T04:21:52.359Z Level 50 loaded flow revision: 325ec479d19d79d126eb541daa2b2b2b
+2017-07-30T04:21:52.360Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T04:21:52.360Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T04:21:52.374Z Level 40  - twilio-api
+2017-07-30T04:21:52.374Z Level 40  - twilio out
+2017-07-30T04:21:52.373Z Level 40 Waiting for missing types to be registered:
+2017-07-30T04:21:52.374Z Level 40  - MSSQL
+2017-07-30T04:21:52.374Z Level 40  - MSSQL-CN
+2017-07-30T04:22:51.395Z Level 40 Installing module: node-red-contrib-mssql
+2017-07-30T04:22:59.702Z Level 40 Installed module: node-red-contrib-mssql
+2017-07-30T04:22:59.747Z Level 40 Missing type registered: MSSQL-CN
+2017-07-30T04:22:59.747Z Level 40 Missing type registered: MSSQL
+2017-07-30T04:22:59.761Z Level 40 Added node types:
+2017-07-30T04:22:59.762Z Level 40  - node-red-contrib-mssql:MSSQL-CN
+2017-07-30T04:22:59.762Z Level 40  - node-red-contrib-mssql:MSSQL
+2017-07-30T04:23:39.233Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T04:23:39.236Z Level 40 Node-RED version: v0.16.2
+2017-07-30T04:23:39.237Z Level 40 Node.js  version: v6.9.4
+2017-07-30T04:23:39.237Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T04:23:39.411Z Level 40 Loading palette nodes
+2017-07-30T04:23:42.754Z Level 30 ------------------------------------------------------
+2017-07-30T04:23:42.757Z Level 40 User directory : /data
+2017-07-30T04:23:42.757Z Level 40 Flows file     : /data/flows.json
+2017-07-30T04:23:42.755Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T04:23:42.756Z Level 30 ------------------------------------------------------
+2017-07-30T04:23:42.756Z Level 40 Settings file  : /data/settings.js
+2017-07-30T04:23:42.771Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T04:23:42.775Z Level 30 Existing credentials file is empty
+2017-07-30T04:23:42.777Z Level 50 loaded flow revision: 325ec479d19d79d126eb541daa2b2b2b
+2017-07-30T04:23:42.796Z Level 40  - twilio out
+2017-07-30T04:23:42.795Z Level 40  - twilio-api
+2017-07-30T04:23:42.795Z Level 40 Waiting for missing types to be registered:
+2017-07-30T04:23:42.777Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T04:23:42.777Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T04:25:31.511Z Level 40 Installing module: node-red-bluemix-nodes
+2017-07-30T04:25:42.363Z Level 40 Installed module: node-red-bluemix-nodes
+2017-07-30T04:25:44.437Z Level 40 Missing type registered: twilio out
+2017-07-30T04:25:44.436Z Level 40 Missing type registered: twilio-api
+2017-07-30T04:25:44.440Z Level 40 Starting flows
+2017-07-30T04:25:44.584Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-07-30T04:25:44.608Z Level 40 Started flows
+2017-07-30T04:25:45.552Z Level 40 Added node types:
+2017-07-30T04:25:45.553Z Level 40  - node-red-bluemix-nodes:tcp in : tcp in already registered
+2017-07-30T04:25:45.560Z Level 40  - node-red-bluemix-nodes:mongodb
+2017-07-30T04:25:45.559Z Level 40  - node-red-bluemix-nodes:mqlight out
+2017-07-30T04:25:45.559Z Level 40  - node-red-bluemix-nodes:mqlight in
+2017-07-30T04:25:45.561Z Level 40  - node-red-bluemix-nodes:mongodb out
+2017-07-30T04:25:45.562Z Level 40  - node-red-bluemix-nodes:mongodb in
+2017-07-30T04:25:45.563Z Level 40  - node-red-bluemix-nodes:twilio out
+2017-07-30T04:25:45.564Z Level 40  - node-red-bluemix-nodes:twilio-api
+2017-07-30T04:25:45.565Z Level 40  - node-red-bluemix-nodes:weather_insights
+2017-07-30T04:25:45.555Z Level 40  - node-red-bluemix-nodes:tcp out : tcp in already registered
+2017-07-30T04:25:45.556Z Level 40  - node-red-bluemix-nodes:tcp request : tcp in already registered
+2017-07-30T04:25:45.558Z Level 40  - node-red-bluemix-nodes:udp out : udp out already registered
+2017-07-30T04:25:45.566Z Level 40  - node-red-bluemix-nodes:business-rules
+2017-07-30T04:25:45.567Z Level 40  - node-red-bluemix-nodes:predictive_analytics
+2017-07-30T04:26:56.774Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T04:26:56.778Z Level 40 Node-RED version: v0.16.2
+2017-07-30T04:26:56.778Z Level 40 Node.js  version: v6.9.4
+2017-07-30T04:26:56.779Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T04:26:56.959Z Level 40 Loading palette nodes
+2017-07-30T04:27:02.117Z Level 30 ------------------------------------------------------
+2017-07-30T04:27:02.119Z Level 30 ------------------------------------------------------
+2017-07-30T04:27:02.120Z Level 40 Settings file  : /data/settings.js
+2017-07-30T04:27:02.121Z Level 40 User directory : /data
+2017-07-30T04:27:02.121Z Level 40 Flows file     : /data/flows.json
+2017-07-30T04:27:02.119Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T04:27:02.119Z Level 30 [tcp] Error: tcp in already registered
+2017-07-30T04:27:02.119Z Level 30 [udp] Error: udp out already registered
+2017-07-30T04:27:02.133Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T04:27:02.137Z Level 30 Existing credentials file is empty
+2017-07-30T04:27:02.138Z Level 50 loaded flow revision: 325ec479d19d79d126eb541daa2b2b2b
+2017-07-30T04:27:02.139Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T04:27:02.242Z Level 40 Started flows
+2017-07-30T04:27:02.139Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T04:27:02.153Z Level 40 Starting flows
+2017-07-30T04:27:02.230Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-07-30T04:28:31.922Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T04:28:31.926Z Level 40 Node-RED version: v0.16.2
+2017-07-30T04:28:31.927Z Level 40 Node.js  version: v6.9.4
+2017-07-30T04:28:31.927Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T04:28:32.101Z Level 40 Loading palette nodes
+2017-07-30T04:28:36.812Z Level 30 ------------------------------------------------------
+2017-07-30T04:28:36.813Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T04:28:36.813Z Level 40 Settings file  : /data/settings.js
+2017-07-30T04:28:36.814Z Level 40 Flows file     : /data/flows.json
+2017-07-30T04:28:36.814Z Level 40 User directory : /data
+2017-07-30T04:28:36.813Z Level 30 [tcp] Error: tcp in already registered
+2017-07-30T04:28:36.813Z Level 30 ------------------------------------------------------
+2017-07-30T04:28:36.813Z Level 30 [udp] Error: udp out already registered
+2017-07-30T04:28:36.824Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T04:28:36.828Z Level 50 loaded flow revision: be2ab68631ee7f108b4af2d9aad2ede2
+2017-07-30T04:28:36.828Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T04:28:36.845Z Level 40 Starting flows
+2017-07-30T04:28:36.828Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T04:28:36.829Z Level 30 Error loading credentials: SyntaxError: Unexpected token � in JSON at position 0
+2017-07-30T04:28:36.923Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-07-30T04:28:36.933Z Level 40 Started flows
+2017-07-30T05:57:42.228Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T05:57:42.233Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T05:57:42.232Z Level 40 Node-RED version: v0.16.2
+2017-07-30T05:57:42.233Z Level 40 Node.js  version: v6.9.4
+2017-07-30T05:57:42.403Z Level 40 Loading palette nodes
+2017-07-30T05:57:46.167Z Level 30 ------------------------------------------------------
+2017-07-30T05:57:46.168Z Level 30 ------------------------------------------------------
+2017-07-30T05:57:46.169Z Level 40 Settings file  : /data/settings.js
+2017-07-30T05:57:46.170Z Level 40 User directory : /data
+2017-07-30T05:57:46.170Z Level 40 Flows file     : /data/flows.json
+2017-07-30T05:57:46.168Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T05:57:46.168Z Level 30 [tcp] Error: tcp in already registered
+2017-07-30T05:57:46.168Z Level 30 [udp] Error: udp out already registered
+2017-07-30T05:57:46.178Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T05:57:46.183Z Level 50 loaded flow revision: 9ca21d359709ada23bf333d11dccc588
+2017-07-30T05:57:46.184Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T05:57:46.184Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T05:57:46.197Z Level 40 Starting flows
+2017-07-30T05:57:46.270Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-07-30T05:57:46.281Z Level 40 Started flows
+2017-07-30T06:05:33.967Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T06:05:33.972Z Level 40 Node-RED version: v0.16.2
+2017-07-30T06:05:33.973Z Level 40 Node.js  version: v6.9.4
+2017-07-30T06:05:33.973Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T06:05:34.147Z Level 40 Loading palette nodes
+2017-07-30T06:05:40.276Z Level 30 ------------------------------------------------------
+2017-07-30T06:05:40.277Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T06:05:40.277Z Level 30 [tcp] Error: tcp in already registered
+2017-07-30T06:05:40.279Z Level 40 User directory : /data
+2017-07-30T06:05:40.279Z Level 40 Flows file     : /data/flows.json
+2017-07-30T06:05:40.278Z Level 30 [udp] Error: udp out already registered
+2017-07-30T06:05:40.278Z Level 30 ------------------------------------------------------
+2017-07-30T06:05:40.278Z Level 40 Settings file  : /data/settings.js
+2017-07-30T06:05:40.288Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T06:05:40.289Z Level 30 Existing flow file is not valid json
+2017-07-30T06:05:40.292Z Level 50 loaded flow revision: 0bac4710b11bf39a5768c5f2948e21bb
+2017-07-30T06:05:40.293Z Level 40 Starting flows
+2017-07-30T06:05:40.294Z Level 40 Started flows
+2017-07-30T06:05:40.292Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T06:05:40.292Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T06:06:53.941Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-07-30T06:06:53.945Z Level 40 Node-RED version: v0.16.2
+2017-07-30T06:06:53.946Z Level 40 Node.js  version: v6.9.4
+2017-07-30T06:06:53.946Z Level 40 Linux 4.9.36-moby x64 LE
+2017-07-30T06:06:54.134Z Level 40 Loading palette nodes
+2017-07-30T06:06:59.808Z Level 30 ------------------------------------------------------
+2017-07-30T06:06:59.810Z Level 30 ------------------------------------------------------
+2017-07-30T06:06:59.811Z Level 40 Settings file  : /data/settings.js
+2017-07-30T06:06:59.811Z Level 40 User directory : /data
+2017-07-30T06:06:59.811Z Level 40 Flows file     : /data/flows.json
+2017-07-30T06:06:59.810Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-07-30T06:06:59.810Z Level 30 [tcp] Error: tcp in already registered
+2017-07-30T06:06:59.810Z Level 30 [udp] Error: udp out already registered
+2017-07-30T06:06:59.820Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-07-30T06:06:59.823Z Level 50 loaded flow revision: 602ea26a2e2d8352000b5dcb33bd475d
+2017-07-30T06:06:59.829Z Level 40 Starting flows
+2017-07-30T06:06:59.824Z Level 50 red/runtime/nodes/credentials.load : no user key present
+2017-07-30T06:06:59.824Z Level 50 red/runtime/nodes/credentials.load : using default key
+2017-07-30T06:06:59.849Z Level 40 Started flows
