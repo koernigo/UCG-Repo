@@ -1,1 +1,1 @@
-docker run -d  -v /Users/dennisnoto/Documents/NotoData-Dev/UCG-Repo/UCG/Docker/data:/data  -p 1880:1880 dennisnotojr/nodered-loadtest:version9
+docker run -d  -v /Users/dennisnoto/Documents/NotoData-Dev/UCG-Repo/UCG/Docker/data:/data  -p 1880:1880 nodered/node-red-docker

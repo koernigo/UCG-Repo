@@ -3,9 +3,10 @@ This Directory is for Docker Configurations and the creation and maintenence of 
 Steps to build /data
   1) Create a /data directory on the host
   
-  2) Update the UCGRun-mapped-data-volume with the new path to the host /data
-        - do not put any files in /data. Initial set will be created
-  3) Run the UCGRun docker command the host to start the container for the first time
+  2) Update the UCGRun-mapped-data-volume with the new path to the host /data 
+        - do not put any files in /data. Initial run will be created dir/files under /data
+  3) Run the UCGRun docker command on the host to start the container for the first time
+        - you should see files like settings.json, lib directory, etc.
   
   4) For Flows 
   Either Create a flows.json file - copy in the json array from flows-UCGx.json file or move the flows-UCGx.jsonfile in place.
@@ -22,6 +23,14 @@ Steps to build /data
   	  - secretkey
   	  - custom logging for a status.log to host
 
-  
+  7) Added nodes to /data
+      - add node-red-node-watson via palette
+      - add node-red-bluemix via palette
+      - add node-red-contrib-redis via palette
+      - add node-red-mssql-redis via palette
+     You will see a new directory called node-modules
+
+  8
+
 
        
