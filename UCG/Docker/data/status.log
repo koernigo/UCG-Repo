@@ -797,3 +797,117 @@ Welcome to Node-RED
 2017-08-02T16:22:15.931Z Level 40 Starting flows
 2017-08-02T16:22:16.056Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
 2017-08-02T16:22:16.081Z Level 40 Started flows
+2017-08-03T16:15:27.192Z Level 50 saved flow revision: 3ce9d7b4c0432fabcecc0d66d982c8d7
+2017-08-03T16:15:27.493Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-03T16:15:27.545Z Level 40 Started flows
+2017-08-03T16:15:27.194Z Level 40 Stopping flows
+2017-08-03T16:15:27.240Z Level 40 Stopped flows
+2017-08-03T16:15:27.241Z Level 40 Starting flows
+2017-08-11T21:10:28.383Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-11T21:10:28.389Z Level 40 Node-RED version: v0.16.2
+2017-08-11T21:10:28.391Z Level 40 Node.js  version: v6.9.4
+2017-08-11T21:10:28.391Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-11T21:10:28.594Z Level 40 Loading palette nodes
+2017-08-11T21:10:35.465Z Level 30 ------------------------------------------------------
+2017-08-11T21:10:35.467Z Level 30 ------------------------------------------------------
+2017-08-11T21:10:35.467Z Level 30 Missing node modules:
+2017-08-11T21:10:35.468Z Level 30  - node-red-contrib-redis: redis-config, redis-in, redis-out, redis-command, redis-lua-script
+2017-08-11T21:10:35.468Z Level 40 Removing modules from config
+2017-08-11T21:10:35.467Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-11T21:10:35.479Z Level 40 Settings file  : /data/settings.js
+2017-08-11T21:10:35.480Z Level 40 Flows file     : /data/flows.json
+2017-08-11T21:10:35.467Z Level 30 [udp] Error: udp out already registered
+2017-08-11T21:10:35.467Z Level 30 [tcp] Error: tcp in already registered
+2017-08-11T21:10:35.480Z Level 40 User directory : /data
+2017-08-11T21:10:35.494Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-11T21:10:35.501Z Level 50 loaded flow revision: 3ce9d7b4c0432fabcecc0d66d982c8d7
+2017-08-11T21:10:35.521Z Level 40  - redis-command
+2017-08-11T21:10:35.501Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-11T21:10:35.520Z Level 40 Waiting for missing types to be registered:
+2017-08-11T21:10:35.520Z Level 40  - redis-config
+2017-08-11T21:18:22.718Z Level 40 Installing module: node-red-contrib-redis
+2017-08-11T21:18:29.451Z Level 40 Installed module: node-red-contrib-redis
+2017-08-11T21:18:29.827Z Level 40 Missing type registered: redis-config
+2017-08-11T21:18:30.148Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-11T21:18:30.202Z Level 40 Started flows
+2017-08-11T21:18:29.828Z Level 40 Missing type registered: redis-command
+2017-08-11T21:18:29.829Z Level 40 Starting flows
+2017-08-11T21:18:30.228Z Level 40 Added node types:
+2017-08-11T21:18:30.229Z Level 40  - node-red-contrib-redis:redis-config
+2017-08-11T21:18:30.231Z Level 40  - node-red-contrib-redis:redis-command
+2017-08-11T21:18:30.231Z Level 40  - node-red-contrib-redis:redis-lua-script
+2017-08-11T21:18:30.230Z Level 40  - node-red-contrib-redis:redis-out
+2017-08-11T21:18:30.230Z Level 40  - node-red-contrib-redis:redis-in
+2017-08-11T21:19:31.827Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-11T21:19:31.833Z Level 40 Node-RED version: v0.16.2
+2017-08-11T21:19:31.834Z Level 40 Node.js  version: v6.9.4
+2017-08-11T21:19:31.834Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-11T21:19:32.030Z Level 40 Loading palette nodes
+2017-08-11T21:19:38.994Z Level 30 ------------------------------------------------------
+2017-08-11T21:19:38.997Z Level 30 ------------------------------------------------------
+2017-08-11T21:19:38.997Z Level 40 Settings file  : /data/settings.js
+2017-08-11T21:19:38.998Z Level 40 User directory : /data
+2017-08-11T21:19:38.999Z Level 40 Flows file     : /data/flows.json
+2017-08-11T21:19:38.996Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-11T21:19:38.996Z Level 30 [tcp] Error: tcp in already registered
+2017-08-11T21:19:38.996Z Level 30 [udp] Error: udp out already registered
+2017-08-11T21:19:39.012Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-11T21:19:39.018Z Level 50 loaded flow revision: 3ce9d7b4c0432fabcecc0d66d982c8d7
+2017-08-11T21:19:39.210Z Level 40 Started flows
+2017-08-11T21:19:39.018Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-11T21:19:39.038Z Level 40 Starting flows
+2017-08-11T21:19:39.182Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-14T14:10:30.325Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-14T14:10:30.329Z Level 40 Node-RED version: v0.16.2
+2017-08-14T14:10:30.329Z Level 40 Node.js  version: v6.9.4
+2017-08-14T14:10:30.330Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-14T14:10:30.511Z Level 40 Loading palette nodes
+2017-08-14T14:10:36.691Z Level 30 ------------------------------------------------------
+2017-08-14T14:10:36.692Z Level 30 ------------------------------------------------------
+2017-08-14T14:10:36.693Z Level 40 Settings file  : /data/settings.js
+2017-08-14T14:10:36.693Z Level 40 Flows file     : /data/flows.json
+2017-08-14T14:10:36.693Z Level 40 User directory : /data
+2017-08-14T14:10:36.692Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-14T14:10:36.692Z Level 30 [tcp] Error: tcp in already registered
+2017-08-14T14:10:36.692Z Level 30 [udp] Error: udp out already registered
+2017-08-14T14:10:36.704Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-14T14:10:36.706Z Level 30 Existing flow file is not valid json
+2017-08-14T14:10:36.710Z Level 50 loaded flow revision: b355a2ca28d1b3065b1f5914ea9cdc2e
+2017-08-14T14:10:36.711Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-14T14:10:36.712Z Level 40 Starting flows
+2017-08-14T14:10:36.713Z Level 40 Started flows
+2017-08-14T14:14:11.803Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-14T14:14:11.809Z Level 40 Node-RED version: v0.16.2
+2017-08-14T14:14:11.810Z Level 40 Node.js  version: v6.9.4
+2017-08-14T14:14:11.810Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-14T14:14:12.001Z Level 40 Loading palette nodes
+2017-08-14T14:14:18.074Z Level 30 ------------------------------------------------------
+2017-08-14T14:14:18.076Z Level 30 ------------------------------------------------------
+2017-08-14T14:14:18.077Z Level 40 Settings file  : /data/settings.js
+2017-08-14T14:14:18.075Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-14T14:14:18.078Z Level 40 Flows file     : /data/flows.json
+2017-08-14T14:14:18.076Z Level 30 [tcp] Error: tcp in already registered
+2017-08-14T14:14:18.076Z Level 30 [udp] Error: udp out already registered
+2017-08-14T14:14:18.078Z Level 40 User directory : /data
+2017-08-14T14:14:18.088Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-14T14:14:18.094Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-14T14:14:18.236Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-14T14:14:18.260Z Level 40 Started flows
+2017-08-14T14:14:18.094Z Level 50 loaded flow revision: a6ea1de34319c936f37fc8c82842da44
+2017-08-14T14:14:18.110Z Level 40 Starting flows

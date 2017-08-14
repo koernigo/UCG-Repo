@@ -1,4 +1,4 @@
-[
+ [
     {
       "id": "3fad3621.99e442",
       "type": "tab",
@@ -250,7 +250,7 @@
           "y": 43.61785888671875,
           "wires": [
             {
-              "id": "abe832fb.671d4"
+              "id": "1b432e31.ea73ba"
             }
           ]
         }
@@ -261,7 +261,7 @@
           "y": 43.61785888671875,
           "wires": [
             {
-              "id": "abe832fb.671d4",
+              "id": "1b432e31.ea73ba",
               "port": 0
             }
           ]
@@ -320,6 +320,45 @@
           "wires": [
             {
               "id": "17a347ff.7749e",
+              "port": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "87530aab.adb068",
+      "type": "subflow",
+      "name": "Dynamic WCS Router",
+      "info": "",
+      "in": [
+        {
+          "x": 37.499996185302734,
+          "y": 93.45455169677734,
+          "wires": [
+            {
+              "id": "1fcc52c6.73e405"
+            }
+          ]
+        }
+      ],
+      "out": [
+        {
+          "x": 1053.3889122009277,
+          "y": 65.9823226928711,
+          "wires": [
+            {
+              "id": "4a556739.234d28",
+              "port": 0
+            }
+          ]
+        },
+        {
+          "x": 1089.9999961853027,
+          "y": 121.1212387084961,
+          "wires": [
+            {
+              "id": "994f0308.e1b1f",
               "port": 0
             }
           ]
@@ -410,7 +449,7 @@
       "wires": [
         [],
         [
-          "f531072e.6b49a"
+          "c5dfed90.5ad1c8"
         ]
       ]
     },
@@ -764,8 +803,8 @@
       "url": "/load",
       "method": "post",
       "swaggerDoc": "",
-      "x": 84,
-      "y": 63.88887023925781,
+      "x": 75.5,
+      "y": 54.138872146606445,
       "wires": [
         [
           "125118f3.9c6aff"
@@ -777,33 +816,31 @@
       "type": "function",
       "z": "3fad3621.99e442",
       "name": "Set Params",
-      "func": "msg.source = \"Load\"\nvar user_name = msg.req.query.user_name\n//var user_id = msg.payload.user_id;\nvar workspace_id = msg.req.query.workspace_id\nvar fname = msg.req.query.fname\n\n//create a null context and test for session existance\nvar context = {}\n\nif (typeof msg.session !== \"undefined\") \n   {context = msg.session.convoPayload.context\n     \n   }\n   \nvar newmsg = msg.req.query.text\nmsg.payload = newmsg\n\ncontext.fname = fname\n\nvar params = {\n    context: context,\n    workspace_id : workspace_id\n   \n};\n\n node.log(\"User *** \" + msg.user + \" Said *** \" + newmsg)\n\nmsg.payload = newmsg\nmsg.params = params\n\nreturn msg\n",
+      "func": "msg.source = \"Load\"\nvar user_name = msg.req.query.user_name\n//var user_id = msg.payload.user_id;\nvar workspace_id = msg.req.query.workspace_id\nvar fname = msg.req.query.fname\n\n//create a null context and test for session existance\nvar context = {}\n\nif (typeof msg.session !== \"undefined\") \n   {context = msg.session.convoPayload.context\n     \n   }\n   \nvar newmsg = msg.req.query.text\nmsg.payload = newmsg\n\ncontext.fname = fname\n\nvar params = {\n    context: context,\n//    workspace_id : workspace_id\n   \n};\n\n node.log(\"User *** \" + msg.user + \" Said *** \" + newmsg)\n\nmsg.payload = newmsg\nmsg.params = params\n\nreturn msg\n",
       "outputs": 1,
       "noerr": 0,
-      "x": 590.9444580078125,
-      "y": 62.11112976074219,
+      "x": 582.4444580078125,
+      "y": 52.36113166809082,
       "wires": [
         [
-          "4a556739.234d28"
+          "6b5d678b.113c4"
         ]
       ]
     },
     {
       "id": "4a556739.234d28",
       "type": "watson-conversation-v1",
-      "z": "3fad3621.99e442",
-      "name": "",
+      "z": "87530aab.adb068",
+      "name": "ConvoUS",
       "workspaceid": "56cfca8a-b459-447f-ab35-e94511f6f7bc",
       "multiuser": true,
       "context": false,
-      "default-endpoint": false,
+      "default-endpoint": true,
       "service-endpoint": "",
-      "x": 763.388916015625,
-      "y": 63.52776336669922,
+      "x": 913.3889122009277,
+      "y": 65.9823226928711,
       "wires": [
-        [
-          "45ecefd5.b04ee8"
-        ]
+        []
       ]
     },
     {
@@ -814,8 +851,8 @@
       "func": "var Watson_msg = msg.payload;\nvar Watson_response = JSON.stringify(msg.payload.output.text);\n\nMyresponse = Watson_response.substring(2,Watson_response.length-2);\n\n//var texts = Myresponse.split(\"\\\",\\\"\");\nvar texts = msg.payload.output.text\nfor (i = 0; i < texts.length; i++) {\n   Myresponse = texts[i];\n  \n\n// causing issues for multiple output responses\n//if (Myresponse.match(\"\\\",\\\"\")) {\n  if (Myresponse.substring(0,Myresponse,2) == \"\\\",\\\"\") {\n     Myresponse = Myresponse.substring(3,Myresponse.length)\n\n}\n\n \nif (Myresponse.lastIndexOf(\"[\") >= 0 ) {\n     findindex = Myresponse.lastIndexOf(\"[\")\n     Myresponse = Myresponse.substring(0,findindex)\n\n} \nif (Myresponse.lastIndexOf(\"InsMap\") >= 0 ) {\n     findindex = Myresponse.lastIndexOf(\"InsMap\")\n     Myresponse = Myresponse.substring(0,findindex)\n    \n     \n} \n\n// Dennis added because SSML tag was escaping the \" with \\\" and the replace command fixes it!!!!\nMyresponse = Myresponse.replace(/\\\\/g, \"\");\n//Dennis - Remove XML SSML tags from chat systems\nMyresponse = Myresponse.replace(/<[^>]+>/g, \"\");\n\n node.log(\"User *** \" + msg.user +\" Response *** \" + Myresponse)\n\nmsg.payload = Myresponse;\n\nnode.send(msg);\n}\nreturn null;\n",
       "outputs": "1",
       "noerr": 0,
-      "x": 1110.0556640625,
-      "y": 61.222198486328125,
+      "x": 1208.283016204834,
+      "y": 48.472206115722656,
       "wires": [
         [
           "f9ebd654.0abf38"
@@ -830,8 +867,8 @@
       "func": "\nmsg.user =  msg.req.query.user_id;\nreturn msg;",
       "outputs": 1,
       "noerr": 0,
-      "x": 252.94442749023438,
-      "y": 63.11112976074219,
+      "x": 244.72414779663086,
+      "y": 53.43104553222656,
       "wires": [
         [
           "2f4a8e9a.d0de9a"
@@ -843,8 +880,8 @@
       "type": "http response",
       "z": "3fad3621.99e442",
       "name": "Http Response",
-      "x": 1299.5,
-      "y": 61.11113739013672,
+      "x": 1404.727352142334,
+      "y": 48.36114501953125,
       "wires": []
     },
     {
@@ -2197,8 +2234,8 @@
       "context": false,
       "default-endpoint": false,
       "service-endpoint": "",
-      "x": 728.6992874145508,
-      "y": 339.77122497558594,
+      "x": 729.9542007446289,
+      "y": 338.9084725379944,
       "wires": [
         [
           "23a8e29.7be259e",
@@ -2211,8 +2248,8 @@
       "type": "http response",
       "z": "17eb59dd.9ff326",
       "name": "Http Response",
-      "x": 1109.5000038146973,
-      "y": 205.3333330154419,
+      "x": 1120.5,
+      "y": 289.3333282470703,
       "wires": []
     },
     {
@@ -2240,8 +2277,8 @@
       "func": "var Watson_msg = JSON.stringify(msg.payload.output.text);\nvar Mymsg = Watson_msg.substring(2,Watson_msg.length-2);\n\n//Going forward, if you want to add buttons for convo for sip, use JSON only. NO []!!!!\n\nnode.log(\"start with \" + Mymsg);\n\nif (Mymsg.lastIndexOf(\"[\") >= 0 ) {\n     findindex = Mymsg.lastIndexOf(\"[\")\n     msg.payload.output.text = [Mymsg.substring(0,findindex-1)]\n     node.log(\"Found a buttons at index: \" + findindex)\n     node.log(msg.payload.output.text)\n} \nif (Mymsg.lastIndexOf(\"InsMap\") >= 0 ) {\n     findindex = Mymsg.lastIndexOf(\"InsMap\")\n     msg.payload.output.text = '[\"' + Mymsg.substring(0,findindex-1) + '\"]'\n     node.log(\"Found a maps at index: \"+ findindex)\n     node.log(msg.payload.output.text)\n} \n\n\nreturn msg;",
       "outputs": 1,
       "noerr": 0,
-      "x": 921.944450378418,
-      "y": 289.7777671813965,
+      "x": 928.6111450195312,
+      "y": 274.4444274902344,
       "wires": [
         [
           "bb72b47.dae0048",
@@ -2258,8 +2295,8 @@
       "active": true,
       "console": "false",
       "complete": "payload.output.text",
-      "x": 1136.0554733276367,
-      "y": 365.2222089767456,
+      "x": 1032.055419921875,
+      "y": 427.2221984863281,
       "wires": []
     },
     {
@@ -2282,8 +2319,8 @@
       "tones": "all",
       "sentences": "true",
       "contentType": "false",
-      "x": 416.2679862976074,
-      "y": 132.90850830078125,
+      "x": 431.93464279174805,
+      "y": 125.5751724243164,
       "wires": [
         [
           "1d2de5e5.6a584a"
@@ -2298,8 +2335,8 @@
       "func": "\nnode.log(\"*********Found Tone ********\" + msg.response.document_tone.tone_categories[0].tones[0].tone_id);\nnode.log(\"*********Found Tone **Score*****\" + msg.response.document_tone.tone_categories[0].tones[0].score.toFixed(3));\n\nmsg.params.context.angerName = msg.response.document_tone.tone_categories[0].tones[0].tone_name;\nmsg.params.context.angerScore = msg.response.document_tone.tone_categories[0].tones[0].score.toFixed(3);\nmsg.params.context.disgustName = msg.response.document_tone.tone_categories[0].tones[1].tone_name;\nmsg.params.context.disgustScore = msg.response.document_tone.tone_categories[0].tones[1].score.toFixed(3);\nmsg.params.context.fearName = msg.response.document_tone.tone_categories[0].tones[2].tone_name;\nmsg.params.context.fearScore = msg.response.document_tone.tone_categories[0].tones[2].score.toFixed(3);\nmsg.params.context.joyName = msg.response.document_tone.tone_categories[0].tones[3].tone_name;\nmsg.params.context.joyScore = msg.response.document_tone.tone_categories[0].tones[3].score.toFixed(3);\nmsg.params.context.sadnessName = msg.response.document_tone.tone_categories[0].tones[4].tone_name;\nmsg.params.context.sadnessScore = msg.response.document_tone.tone_categories[0].tones[4].score.toFixed(3);\n\nmsg.params.context.analyticalName = msg.response.document_tone.tone_categories[1].tones[0].tone_name;\nmsg.params.context.analyticalScore = msg.response.document_tone.tone_categories[1].tones[0].score.toFixed(3);\nmsg.params.context.confidentName = msg.response.document_tone.tone_categories[1].tones[1].tone_name;\nmsg.params.context.confidentScore = msg.response.document_tone.tone_categories[1].tones[1].score.toFixed(3);\nmsg.params.context.tentativeName = msg.response.document_tone.tone_categories[1].tones[2].tone_name;\nmsg.params.context.tentativeScore = msg.response.document_tone.tone_categories[1].tones[2].score.toFixed(3);\n\nmsg.params.context.OpenName = msg.response.document_tone.tone_categories[2].tones[0].tone_name;\nmsg.params.context.OpenScore = msg.response.document_tone.tone_categories[2].tones[0].score.toFixed(3);\nmsg.params.context.conTitle = msg.response.document_tone.tone_categories[2].tones[1].tone_name;\nmsg.params.context.conScore = msg.response.document_tone.tone_categories[2].tones[1].score.toFixed(3);\nmsg.params.context.extName = msg.response.document_tone.tone_categories[2].tones[2].tone_name;\nmsg.params.context.extScore = msg.response.document_tone.tone_categories[2].tones[2].score.toFixed(3);\nmsg.params.context.agreeName = msg.response.document_tone.tone_categories[2].tones[3].tone_name;\nmsg.params.context.agreeScore = msg.response.document_tone.tone_categories[2].tones[3].score.toFixed(3);\nmsg.params.context.emoName = msg.response.document_tone.tone_categories[2].tones[4].tone_name;\nmsg.params.context.emoScore = msg.response.document_tone.tone_categories[2].tones[4].score.toFixed(3);\n\nreturn msg;",
       "outputs": 1,
       "noerr": 0,
-      "x": 555.2221832275391,
-      "y": 122.77779293060303,
+      "x": 554.8888130187988,
+      "y": 124.77779388427734,
       "wires": [
         [
           "af21f7b4.51b37"
@@ -2325,8 +2362,8 @@
       ],
       "checkall": "true",
       "outputs": 2,
-      "x": 533.5,
-      "y": 295,
+      "x": 533.5000228881836,
+      "y": 292.3333225250244,
       "wires": [
         [
           "3ec4b4bb.628bd4"
@@ -2346,8 +2383,8 @@
       "context": false,
       "default-endpoint": false,
       "service-endpoint": "",
-      "x": 730.2646751403809,
-      "y": 270.2352867126465,
+      "x": 730.2646484375,
+      "y": 276.9019470214844,
       "wires": [
         [
           "23a8e29.7be259e"
@@ -2362,8 +2399,8 @@
       "active": true,
       "console": "false",
       "complete": "true",
-      "x": 1101.5,
-      "y": 442,
+      "x": 1104.5,
+      "y": 367,
       "wires": []
     },
     {
@@ -2538,8 +2575,8 @@
       "type": "subflow:f48845d6.67899",
       "z": "3fad3621.99e442",
       "name": "",
-      "x": 410.5,
-      "y": 64,
+      "x": 406.00000762939453,
+      "y": 53.58333778381348,
       "wires": [
         [
           "a7a4b8cb.3748f8",
@@ -2552,12 +2589,12 @@
       "type": "subflow:52457267.ef5464",
       "z": "3fad3621.99e442",
       "name": "",
-      "x": 930.5,
-      "y": 63,
+      "x": 1026.5991592407227,
+      "y": 47.814109802246094,
       "wires": [
         [
           "a2bae10d.ddec8",
-          "115d4b1c.ae33ad"
+          "102e4695.5936f1"
         ]
       ]
     },
@@ -2832,7 +2869,7 @@
       "z": "cb400db2.feb1d8",
       "name": "User",
       "topic": "",
-      "payload": "dfn1",
+      "payload": "dfn2",
       "payloadType": "str",
       "repeat": "",
       "crontab": "",
@@ -3196,20 +3233,181 @@
       "active": true,
       "console": "false",
       "complete": "true",
-      "x": 536.5,
-      "y": 265,
+      "x": 552.0000305175781,
+      "y": 123.43181705474854,
       "wires": []
     },
     {
-      "id": "115d4b1c.ae33ad",
+      "id": "708e9c33.4590a4",
+      "type": "inject",
+      "z": "3fad3621.99e442",
+      "name": "Start",
+      "topic": "",
+      "payload": "",
+      "payloadType": "date",
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "x": 91.48529815673828,
+      "y": 326.6764736175537,
+      "wires": [
+        [
+          "df78684f.c6351"
+        ]
+      ]
+    },
+    {
+      "id": "df78684f.c6351",
+      "type": "http request",
+      "z": "3fad3621.99e442",
+      "name": "Get Dialog Node",
+      "method": "GET",
+      "ret": "obj",
+      "url": "https://gateway.watsonplatform.net/conversation/api/v1/workspaces/56cfca8a-b459-447f-ab35-e94511f6f7bc/dialog_nodes/Claim-Status-OR-Info?version=2017-05-26",
+      "tls": "",
+      "x": 273.25,
+      "y": 327.50000953674316,
+      "wires": [
+        [
+          "f3415186.409d88"
+        ]
+      ]
+    },
+    {
+      "id": "f3415186.409d88",
       "type": "debug",
       "z": "3fad3621.99e442",
       "name": "",
       "active": true,
       "console": "false",
       "complete": "true",
-      "x": 1017.5,
-      "y": 187,
+      "x": 453.25,
+      "y": 329.50000953674316,
       "wires": []
+    },
+    {
+      "id": "994f0308.e1b1f",
+      "type": "watson-conversation-v1",
+      "z": "87530aab.adb068",
+      "name": "ConvoGermany",
+      "workspaceid": "a003413f-2973-4dba-b1ba-550b3fa09a71",
+      "multiuser": false,
+      "context": false,
+      "default-endpoint": false,
+      "service-endpoint": "https://gateway-fra.watsonplatform.net/conversation/api",
+      "x": 929.9999961853027,
+      "y": 121.1212387084961,
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "831eec36.2a31d",
+      "type": "function",
+      "z": "87530aab.adb068",
+      "name": "Test",
+      "func": "if (typeof msg.payload.workspaces === \"undefined\") \n   {msg.switchService = \"Germany\"}\n else  \n   {msg.switchService = \"US\"} \n\nmsg.payload = msg.savePayload\n\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 565.9999961853027,
+      "y": 94.45455169677734,
+      "wires": [
+        [
+          "f9cd5b4e.9a106"
+        ]
+      ]
+    },
+    {
+      "id": "f9cd5b4e.9a106",
+      "type": "switch",
+      "z": "87530aab.adb068",
+      "name": "Service Switch",
+      "property": "switchService",
+      "propertyType": "msg",
+      "rules": [
+        {
+          "t": "eq",
+          "v": "US",
+          "vt": "str"
+        },
+        {
+          "t": "eq",
+          "v": "Germany",
+          "vt": "str"
+        }
+      ],
+      "checkall": "true",
+      "outputs": 2,
+      "x": 730.9999961853027,
+      "y": 93.45455169677734,
+      "wires": [
+        [
+          "4a556739.234d28"
+        ],
+        [
+          "994f0308.e1b1f"
+        ]
+      ]
+    },
+    {
+      "id": "4c33862c.36ab68",
+      "type": "http request",
+      "z": "87530aab.adb068",
+      "name": "Workspaces Ping",
+      "method": "GET",
+      "ret": "obj",
+      "url": "https://gateway.watsonplatform.net/conversation/api/v1/workspaces?version=2017-05-26",
+      "tls": "",
+      "x": 396.99999618530273,
+      "y": 93.45455169677734,
+      "wires": [
+        [
+          "831eec36.2a31d"
+        ]
+      ]
+    },
+    {
+      "id": "1fcc52c6.73e405",
+      "type": "function",
+      "z": "87530aab.adb068",
+      "name": "Save Payload",
+      "func": "msg.savePayload = msg.payload\n\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 197.49999618530273,
+      "y": 93.45455169677734,
+      "wires": [
+        [
+          "4c33862c.36ab68"
+        ]
+      ]
+    },
+    {
+      "id": "102e4695.5936f1",
+      "type": "debug",
+      "z": "3fad3621.99e442",
+      "name": "",
+      "active": true,
+      "console": "false",
+      "complete": "true",
+      "x": 1185.090934753418,
+      "y": 112.97726821899414,
+      "wires": []
+    },
+    {
+      "id": "6b5d678b.113c4",
+      "type": "subflow:87530aab.adb068",
+      "z": "3fad3621.99e442",
+      "name": "Dynamic WCS Router",
+      "x": 784.4585037231445,
+      "y": 51.940829277038574,
+      "wires": [
+        [
+          "45ecefd5.b04ee8"
+        ],
+        [
+          "45ecefd5.b04ee8"
+        ]
+      ]
     }
-]
+  ]

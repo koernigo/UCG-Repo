@@ -352,27 +352,6 @@
     }
    }
   },
-  "node-red-contrib-redis": {
-   "name": "node-red-contrib-redis",
-   "version": "1.1.4",
-   "local": false,
-   "nodes": {
-    "redis": {
-     "name": "redis",
-     "types": [
-      "redis-config",
-      "redis-in",
-      "redis-out",
-      "redis-command",
-      "redis-lua-script"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "node-red-contrib-redis",
-     "file": "/usr/src/node-red/node_modules/node-red-contrib-redis/redis.js"
-    }
-   }
-  },
   "node-red-node-base64": {
    "name": "node-red-node-base64",
    "version": "0.0.4",
@@ -901,6 +880,27 @@
      "local": true,
      "module": "node-red-bluemix-nodes",
      "file": "/data/node_modules/node-red-bluemix-nodes/spss/spssscoring.js"
+    }
+   }
+  },
+  "node-red-contrib-redis": {
+   "name": "node-red-contrib-redis",
+   "version": "1.1.5",
+   "local": true,
+   "nodes": {
+    "redis": {
+     "name": "redis",
+     "types": [
+      "redis-config",
+      "redis-in",
+      "redis-out",
+      "redis-command",
+      "redis-lua-script"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-redis",
+     "file": "/data/node_modules/node-red-contrib-redis/redis.js"
     }
    }
   }
