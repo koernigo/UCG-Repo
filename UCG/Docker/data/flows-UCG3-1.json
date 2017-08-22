@@ -1,4 +1,4 @@
- [
+[
     {
       "id": "3fad3621.99e442",
       "type": "tab",
@@ -344,21 +344,11 @@
       ],
       "out": [
         {
-          "x": 1053.3889122009277,
-          "y": 65.9823226928711,
+          "x": 1237.388916015625,
+          "y": 93.9823226928711,
           "wires": [
             {
-              "id": "4a556739.234d28",
-              "port": 0
-            }
-          ]
-        },
-        {
-          "x": 1089.9999961853027,
-          "y": 121.1212387084961,
-          "wires": [
-            {
-              "id": "994f0308.e1b1f",
+              "id": "fed00cc8.7a434",
               "port": 0
             }
           ]
@@ -371,7 +361,7 @@
       "z": "",
       "host": "bluemix-sandbox-dal-9-portal.7.dblayer.com",
       "port": "27247",
-      "dbase": "0",
+      "dbase": "bmix-dal-yp-fbea7a11-a02e-4c4b-b70f-ccef2238e301",
       "pass": "IVKPWZBPOAJYQCRR"
     },
     {
@@ -837,10 +827,12 @@
       "context": false,
       "default-endpoint": true,
       "service-endpoint": "",
-      "x": 913.3889122009277,
-      "y": 65.9823226928711,
+      "x": 924.5653610229492,
+      "y": 62.099971771240234,
       "wires": [
-        []
+        [
+          "fed00cc8.7a434"
+        ]
       ]
     },
     {
@@ -851,8 +843,8 @@
       "func": "var Watson_msg = msg.payload;\nvar Watson_response = JSON.stringify(msg.payload.output.text);\n\nMyresponse = Watson_response.substring(2,Watson_response.length-2);\n\n//var texts = Myresponse.split(\"\\\",\\\"\");\nvar texts = msg.payload.output.text\nfor (i = 0; i < texts.length; i++) {\n   Myresponse = texts[i];\n  \n\n// causing issues for multiple output responses\n//if (Myresponse.match(\"\\\",\\\"\")) {\n  if (Myresponse.substring(0,Myresponse,2) == \"\\\",\\\"\") {\n     Myresponse = Myresponse.substring(3,Myresponse.length)\n\n}\n\n \nif (Myresponse.lastIndexOf(\"[\") >= 0 ) {\n     findindex = Myresponse.lastIndexOf(\"[\")\n     Myresponse = Myresponse.substring(0,findindex)\n\n} \nif (Myresponse.lastIndexOf(\"InsMap\") >= 0 ) {\n     findindex = Myresponse.lastIndexOf(\"InsMap\")\n     Myresponse = Myresponse.substring(0,findindex)\n    \n     \n} \n\n// Dennis added because SSML tag was escaping the \" with \\\" and the replace command fixes it!!!!\nMyresponse = Myresponse.replace(/\\\\/g, \"\");\n//Dennis - Remove XML SSML tags from chat systems\nMyresponse = Myresponse.replace(/<[^>]+>/g, \"\");\n\n node.log(\"User *** \" + msg.user +\" Response *** \" + Myresponse)\n\nmsg.payload = Myresponse;\n\nnode.send(msg);\n}\nreturn null;\n",
       "outputs": "1",
       "noerr": 0,
-      "x": 1208.283016204834,
-      "y": 48.472206115722656,
+      "x": 1169.2830390930176,
+      "y": 52.472206115722656,
       "wires": [
         [
           "f9ebd654.0abf38"
@@ -880,8 +872,8 @@
       "type": "http response",
       "z": "3fad3621.99e442",
       "name": "Http Response",
-      "x": 1404.727352142334,
-      "y": 48.36114501953125,
+      "x": 1365.7273750305176,
+      "y": 52.36114501953125,
       "wires": []
     },
     {
@@ -2589,8 +2581,8 @@
       "type": "subflow:52457267.ef5464",
       "z": "3fad3621.99e442",
       "name": "",
-      "x": 1026.5991592407227,
-      "y": 47.814109802246094,
+      "x": 987.5991821289062,
+      "y": 51.814109802246094,
       "wires": [
         [
           "a2bae10d.ddec8",
@@ -3295,10 +3287,12 @@
       "context": false,
       "default-endpoint": false,
       "service-endpoint": "https://gateway-fra.watsonplatform.net/conversation/api",
-      "x": 929.9999961853027,
-      "y": 121.1212387084961,
+      "x": 930.0000305175781,
+      "y": 121.70947551727295,
       "wires": [
-        []
+        [
+          "fed00cc8.7a434"
+        ]
       ]
     },
     {
@@ -3390,8 +3384,8 @@
       "active": true,
       "console": "false",
       "complete": "true",
-      "x": 1185.090934753418,
-      "y": 112.97726821899414,
+      "x": 1146.0909576416016,
+      "y": 116.97726821899414,
       "wires": []
     },
     {
@@ -3404,10 +3398,21 @@
       "wires": [
         [
           "45ecefd5.b04ee8"
-        ],
-        [
-          "45ecefd5.b04ee8"
         ]
+      ]
+    },
+    {
+      "id": "fed00cc8.7a434",
+      "type": "function",
+      "z": "87530aab.adb068",
+      "name": "return",
+      "func": "\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 1119.5,
+      "y": 93,
+      "wires": [
+        []
       ]
     }
   ]

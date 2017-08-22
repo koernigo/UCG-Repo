@@ -9,7 +9,7 @@
               : {"http-plugin" : {"servers" : [{"host" : "52.201.218.197","port" : 10000, "ssl" : false},
                                                {"host" : "54.89.211.62","port" : 10000, "ssl" : false},
                                                {"host" : "54.146.189.195","port" : 10000, "ssl" : false}
-                                              ]
+                                              ],  "stats_per_url" : true
                                  }
                 }
              }

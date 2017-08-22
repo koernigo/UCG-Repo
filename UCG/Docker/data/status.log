@@ -911,3 +911,2084 @@ Welcome to Node-RED
 2017-08-14T14:14:18.260Z Level 40 Started flows
 2017-08-14T14:14:18.094Z Level 50 loaded flow revision: a6ea1de34319c936f37fc8c82842da44
 2017-08-14T14:14:18.110Z Level 40 Starting flows
+2017-08-15T19:28:44.037Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-15T19:28:44.042Z Level 40 Node-RED version: v0.16.2
+2017-08-15T19:28:44.042Z Level 40 Node.js  version: v6.9.4
+2017-08-15T19:28:44.043Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-15T19:28:44.236Z Level 40 Loading palette nodes
+2017-08-15T19:28:50.943Z Level 30 ------------------------------------------------------
+2017-08-15T19:28:50.944Z Level 30 ------------------------------------------------------
+2017-08-15T19:28:50.945Z Level 40 Settings file  : /data/settings.js
+2017-08-15T19:28:50.944Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-15T19:28:50.946Z Level 40 Flows file     : /data/flows.json
+2017-08-15T19:28:50.944Z Level 30 [tcp] Error: tcp in already registered
+2017-08-15T19:28:50.944Z Level 30 [udp] Error: udp out already registered
+2017-08-15T19:28:50.946Z Level 40 User directory : /data
+2017-08-15T19:28:50.956Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-15T19:28:50.960Z Level 50 loaded flow revision: a6ea1de34319c936f37fc8c82842da44
+2017-08-15T19:28:50.961Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-15T19:28:50.977Z Level 40 Starting flows
+2017-08-15T19:28:51.110Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-15T19:28:51.131Z Level 40 Started flows
+2017-08-15T20:49:46.427Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-15T20:49:46.434Z Level 40 Node-RED version: v0.16.2
+2017-08-15T20:49:46.435Z Level 40 Node.js  version: v6.9.4
+2017-08-15T20:49:46.436Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-15T20:49:46.632Z Level 40 Loading palette nodes
+2017-08-15T20:49:55.535Z Level 30 ------------------------------------------------------
+2017-08-15T20:49:55.539Z Level 30 ------------------------------------------------------
+2017-08-15T20:49:55.541Z Level 40 Settings file  : /data/settings.js
+2017-08-15T20:49:55.542Z Level 40 User directory : /data
+2017-08-15T20:49:55.543Z Level 40 Flows file     : /data/flows.json
+2017-08-15T20:49:55.538Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-15T20:49:55.538Z Level 30 [tcp] Error: tcp in already registered
+2017-08-15T20:49:55.539Z Level 30 [udp] Error: udp out already registered
+2017-08-15T20:49:55.567Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-15T20:49:55.578Z Level 50 loaded flow revision: a6ea1de34319c936f37fc8c82842da44
+2017-08-15T20:49:55.858Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-15T20:49:55.898Z Level 40 Started flows
+2017-08-15T20:49:55.580Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-15T20:49:55.627Z Level 40 Starting flows
+2017-08-16T04:13:39.114Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-16T04:13:39.120Z Level 40 Node-RED version: v0.16.2
+2017-08-16T04:13:39.121Z Level 40 Node.js  version: v6.9.4
+2017-08-16T04:13:39.121Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-16T04:13:39.311Z Level 40 Loading palette nodes
+2017-08-16T04:13:44.199Z Level 30 ------------------------------------------------------
+2017-08-16T04:13:44.202Z Level 30 ------------------------------------------------------
+2017-08-16T04:13:44.203Z Level 40 Settings file  : /data/settings.js
+2017-08-16T04:13:44.205Z Level 40 User directory : /data
+2017-08-16T04:13:44.205Z Level 40 Flows file     : /data/flows.json
+2017-08-16T04:13:44.201Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-16T04:13:44.202Z Level 30 [tcp] Error: tcp in already registered
+2017-08-16T04:13:44.202Z Level 30 [udp] Error: udp out already registered
+2017-08-16T04:13:44.217Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-16T04:13:44.222Z Level 50 loaded flow revision: 01ffe27479a6350c98913b93f2c6af1c
+2017-08-16T04:13:44.348Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T04:13:44.366Z Level 40 Started flows
+2017-08-16T04:13:44.222Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-16T04:13:44.238Z Level 40 Starting flows
+2017-08-16T04:15:33.003Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T04:20:43.243Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T04:23:58.028Z Level 50 saved flow revision: a89a9759aa3a01e41bf8d426c051e10b
+2017-08-16T04:23:58.068Z Level 40 Stopped flows
+2017-08-16T04:23:58.260Z Level 40 Started flows
+2017-08-16T04:23:58.029Z Level 40 Stopping flows
+2017-08-16T04:23:58.069Z Level 40 Starting flows
+2017-08-16T04:23:58.229Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T04:24:08.500Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T04:24:31.855Z Level 40 Stopping flows
+2017-08-16T04:24:31.901Z Level 40 Starting flows
+2017-08-16T04:24:32.066Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T04:24:32.105Z Level 40 Started flows
+2017-08-16T04:24:31.854Z Level 50 saved flow revision: a89a9759aa3a01e41bf8d426c051e10b
+2017-08-16T04:24:31.900Z Level 40 Stopped flows
+2017-08-16T04:24:40.074Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T04:41:26.837Z Level 50 saved flow revision: e50d493486e94e51843e133d201568af
+2017-08-16T04:41:27.012Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T04:41:27.046Z Level 40 Started flows
+2017-08-16T04:41:26.837Z Level 40 Stopping flows
+2017-08-16T04:41:26.867Z Level 40 Stopped flows
+2017-08-16T04:41:26.867Z Level 40 Starting flows
+2017-08-16T04:41:33.470Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T04:43:22.498Z Level 50 saved flow revision: 6c1987a687d678826558a36fdf71d24a
+2017-08-16T04:43:22.546Z Level 40 Starting flows
+2017-08-16T04:43:22.711Z Level 40 Started flows
+2017-08-16T04:43:22.498Z Level 40 Stopping flows
+2017-08-16T04:43:22.546Z Level 40 Stopped flows
+2017-08-16T04:43:22.681Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T04:43:46.931Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T04:44:52.433Z Level 50 saved flow revision: a89a9759aa3a01e41bf8d426c051e10b
+2017-08-16T04:44:52.620Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T04:44:52.646Z Level 40 Started flows
+2017-08-16T04:44:52.434Z Level 40 Stopping flows
+2017-08-16T04:44:52.474Z Level 40 Stopped flows
+2017-08-16T04:44:52.475Z Level 40 Starting flows
+2017-08-16T04:46:34.518Z Level 40 Stopping flows
+2017-08-16T04:46:34.552Z Level 40 Stopped flows
+2017-08-16T04:46:34.718Z Level 40 Started flows
+2017-08-16T04:46:34.518Z Level 50 saved flow revision: 7ac8794196d3c484bfdd3c8f9416e77f
+2017-08-16T04:46:34.552Z Level 40 Starting flows
+2017-08-16T04:46:34.690Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T04:46:45.678Z Level 50 saved flow revision: 62f8ba9c5668c872d7f050084fc7a3be
+2017-08-16T04:46:45.716Z Level 40 Starting flows
+2017-08-16T04:46:45.679Z Level 40 Stopping flows
+2017-08-16T04:46:45.867Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T04:46:45.898Z Level 40 Started flows
+2017-08-16T04:46:45.716Z Level 40 Stopped flows
+2017-08-16T04:46:51.028Z Level 20 Error: Payload is not Array
+2017-08-16T04:49:27.160Z Level 50 saved flow revision: c624d1ad5fecf2d83ee266c60e5e76ab
+2017-08-16T04:49:27.175Z Level 40 Starting flows
+2017-08-16T04:49:27.351Z Level 40 Started flows
+2017-08-16T04:49:27.160Z Level 40 Stopping flows
+2017-08-16T04:49:27.175Z Level 40 Stopped flows
+2017-08-16T04:49:27.327Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T04:49:30.240Z Level 20 Error: Payload is not Array
+2017-08-16T04:49:40.450Z Level 50 saved flow revision: 84ffc2966e27b9294702d3b591c1840f
+2017-08-16T04:49:40.450Z Level 40 Stopping flows
+2017-08-16T04:49:40.674Z Level 40 Started flows
+2017-08-16T04:49:40.484Z Level 40 Starting flows
+2017-08-16T04:49:40.484Z Level 40 Stopped flows
+2017-08-16T04:49:40.640Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T04:49:44.411Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T04:52:26.958Z Level 50 saved flow revision: cfb9bb93dda23755fa8277374038dfe4
+2017-08-16T04:52:26.958Z Level 40 Stopping flows
+2017-08-16T04:52:26.995Z Level 40 Starting flows
+2017-08-16T04:52:26.994Z Level 40 Stopped flows
+2017-08-16T04:52:27.140Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T04:52:27.167Z Level 40 Started flows
+2017-08-16T04:52:36.325Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T05:59:27.045Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T05:59:53.111Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T06:40:54.862Z Level 50 saved flow revision: fd51e0578426304c64e6e7a5f652610f
+2017-08-16T06:40:54.866Z Level 40 Stopping flows
+2017-08-16T06:40:55.103Z Level 40 Started flows
+2017-08-16T06:40:54.913Z Level 40 Stopped flows
+2017-08-16T06:40:54.914Z Level 40 Starting flows
+2017-08-16T06:40:55.073Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T06:41:03.740Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T06:41:05.852Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T06:56:46.096Z Level 40 Stopping flows
+2017-08-16T06:56:46.146Z Level 40 Stopped flows
+2017-08-16T06:56:46.096Z Level 50 saved flow revision: 38dd86c3f56e9985219d930152343c82
+2017-08-16T06:56:46.301Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T06:56:46.331Z Level 40 Started flows
+2017-08-16T06:56:46.147Z Level 40 Starting flows
+2017-08-16T06:56:57.815Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:05:57.039Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:06:03.514Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:06:30.611Z Level 50 saved flow revision: 38dd86c3f56e9985219d930152343c82
+2017-08-16T07:06:30.643Z Level 40 Starting flows
+2017-08-16T07:06:30.796Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:06:30.611Z Level 40 Stopping flows
+2017-08-16T07:06:30.642Z Level 40 Stopped flows
+2017-08-16T07:06:30.822Z Level 40 Started flows
+2017-08-16T07:06:33.663Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:06:35.233Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:12:42.032Z Level 50 saved flow revision: 70a1d4ec60244d35ca05078fa19f4de8
+2017-08-16T07:12:42.058Z Level 40 Stopped flows
+2017-08-16T07:12:42.059Z Level 40 Starting flows
+2017-08-16T07:12:42.202Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:12:42.032Z Level 40 Stopping flows
+2017-08-16T07:12:42.228Z Level 40 Started flows
+2017-08-16T07:12:46.919Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:12:48.760Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:13:29.988Z Level 50 saved flow revision: 9f69e335c8aecf7596630ec4a0cd9069
+2017-08-16T07:13:29.989Z Level 40 Stopping flows
+2017-08-16T07:13:30.016Z Level 40 Starting flows
+2017-08-16T07:13:30.016Z Level 40 Stopped flows
+2017-08-16T07:13:30.158Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:13:30.186Z Level 40 Started flows
+2017-08-16T07:13:33.721Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:13:36.078Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:15:11.997Z Level 50 saved flow revision: 0049e696a9aae85fe9b50f75be523a45
+2017-08-16T07:15:12.043Z Level 40 Stopped flows
+2017-08-16T07:15:11.998Z Level 40 Stopping flows
+2017-08-16T07:15:12.043Z Level 40 Starting flows
+2017-08-16T07:15:12.185Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:15:12.212Z Level 40 Started flows
+2017-08-16T07:15:17.516Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:15:33.081Z Level 50 saved flow revision: b43bb4ffc964e89121c81468041787ed
+2017-08-16T07:15:33.131Z Level 40 Stopped flows
+2017-08-16T07:15:33.132Z Level 40 Starting flows
+2017-08-16T07:15:33.082Z Level 40 Stopping flows
+2017-08-16T07:15:33.345Z Level 40 Started flows
+2017-08-16T07:15:33.311Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:15:36.124Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:19:49.565Z Level 50 saved flow revision: e4683568ec55ccedaaaaea7c269f235e
+2017-08-16T07:19:49.566Z Level 40 Stopping flows
+2017-08-16T07:19:49.609Z Level 40 Stopped flows
+2017-08-16T07:19:49.748Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:19:49.609Z Level 40 Starting flows
+2017-08-16T07:19:49.777Z Level 40 Started flows
+2017-08-16T07:19:53.361Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:20:28.707Z Level 50 saved flow revision: eab9c650ce7ba35cf775a93231b0498e
+2017-08-16T07:20:28.753Z Level 40 Stopped flows
+2017-08-16T07:20:28.754Z Level 40 Starting flows
+2017-08-16T07:20:28.922Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:20:28.952Z Level 40 Started flows
+2017-08-16T07:20:28.708Z Level 40 Stopping flows
+2017-08-16T07:20:38.935Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:20:50.476Z Level 50 saved flow revision: a7d92ba21f3084ca65758f489b53a2d5
+2017-08-16T07:20:50.477Z Level 40 Stopping flows
+2017-08-16T07:20:50.528Z Level 40 Starting flows
+2017-08-16T07:20:50.527Z Level 40 Stopped flows
+2017-08-16T07:20:50.718Z Level 40 Started flows
+2017-08-16T07:20:50.686Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:20:53.591Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:36:19.492Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-16T07:36:19.497Z Level 40 Node-RED version: v0.16.2
+2017-08-16T07:36:19.497Z Level 40 Node.js  version: v6.9.4
+2017-08-16T07:36:19.498Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-16T07:36:19.673Z Level 40 Loading palette nodes
+2017-08-16T07:36:25.217Z Level 30 ------------------------------------------------------
+2017-08-16T07:36:25.220Z Level 30 ------------------------------------------------------
+2017-08-16T07:36:25.220Z Level 40 Settings file  : /data/settings.js
+2017-08-16T07:36:25.221Z Level 40 User directory : /data
+2017-08-16T07:36:25.221Z Level 40 Flows file     : /data/flows.json
+2017-08-16T07:36:25.219Z Level 30 [tcp] Error: tcp in already registered
+2017-08-16T07:36:25.219Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-16T07:36:25.219Z Level 30 [udp] Error: udp out already registered
+2017-08-16T07:36:25.232Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-16T07:36:25.236Z Level 50 loaded flow revision: a7d92ba21f3084ca65758f489b53a2d5
+2017-08-16T07:36:25.357Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:36:25.376Z Level 40 Started flows
+2017-08-16T07:36:25.237Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-16T07:36:25.252Z Level 40 Starting flows
+2017-08-16T07:38:56.480Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-16T07:38:56.484Z Level 40 Node-RED version: v0.16.2
+2017-08-16T07:38:56.484Z Level 40 Node.js  version: v6.9.4
+2017-08-16T07:38:56.485Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-16T07:38:56.665Z Level 40 Loading palette nodes
+2017-08-16T07:39:01.997Z Level 30 ------------------------------------------------------
+2017-08-16T07:39:01.998Z Level 30 ------------------------------------------------------
+2017-08-16T07:39:01.999Z Level 40 Settings file  : /data/settings.js
+2017-08-16T07:39:02.000Z Level 40 User directory : /data
+2017-08-16T07:39:02.000Z Level 40 Flows file     : /data/flows.json
+2017-08-16T07:39:01.998Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-16T07:39:01.998Z Level 30 [tcp] Error: tcp in already registered
+2017-08-16T07:39:01.998Z Level 30 [udp] Error: udp out already registered
+2017-08-16T07:39:02.010Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-16T07:39:02.015Z Level 50 loaded flow revision: a7d92ba21f3084ca65758f489b53a2d5
+2017-08-16T07:39:02.016Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-16T07:39:02.151Z Level 40 Started flows
+2017-08-16T07:39:02.032Z Level 40 Starting flows
+2017-08-16T07:39:02.134Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:56:24.451Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-16T07:56:24.456Z Level 40 Node-RED version: v0.16.2
+2017-08-16T07:56:24.456Z Level 40 Node.js  version: v6.9.4
+2017-08-16T07:56:24.457Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-16T07:56:24.637Z Level 40 Loading palette nodes
+2017-08-16T07:56:29.342Z Level 30 ------------------------------------------------------
+2017-08-16T07:56:29.344Z Level 30 ------------------------------------------------------
+2017-08-16T07:56:29.345Z Level 40 Settings file  : /data/settings.js
+2017-08-16T07:56:29.346Z Level 40 User directory : /data
+2017-08-16T07:56:29.346Z Level 40 Flows file     : /data/flows.json
+2017-08-16T07:56:29.343Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-16T07:56:29.344Z Level 30 [tcp] Error: tcp in already registered
+2017-08-16T07:56:29.344Z Level 30 [udp] Error: udp out already registered
+2017-08-16T07:56:29.357Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-16T07:56:29.364Z Level 50 loaded flow revision: a7d92ba21f3084ca65758f489b53a2d5
+2017-08-16T07:56:29.379Z Level 40 Starting flows
+2017-08-16T07:56:29.489Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:56:29.506Z Level 40 Started flows
+2017-08-16T07:56:29.364Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-16T07:56:59.076Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:57:08.402Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:57:28.122Z Level 50 saved flow revision: 9cee6e88baed76d874b2b4bf97562640
+2017-08-16T07:57:28.170Z Level 40 Stopped flows
+2017-08-16T07:57:28.346Z Level 40 Started flows
+2017-08-16T07:57:28.122Z Level 40 Stopping flows
+2017-08-16T07:57:28.170Z Level 40 Starting flows
+2017-08-16T07:57:28.319Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:57:34.908Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T07:58:35.971Z Level 50 saved flow revision: 29b5507724288efe96570dc8fa0cb143
+2017-08-16T07:58:35.971Z Level 40 Stopping flows
+2017-08-16T07:58:36.010Z Level 40 Starting flows
+2017-08-16T07:58:36.152Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T07:58:36.181Z Level 40 Started flows
+2017-08-16T07:58:36.010Z Level 40 Stopped flows
+2017-08-16T07:58:39.624Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T08:01:41.276Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-16T08:01:41.280Z Level 40 Node-RED version: v0.16.2
+2017-08-16T08:01:41.281Z Level 40 Node.js  version: v6.9.4
+2017-08-16T08:01:41.281Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-16T08:01:41.464Z Level 40 Loading palette nodes
+2017-08-16T08:01:47.325Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-16T08:01:47.326Z Level 30 ------------------------------------------------------
+2017-08-16T08:01:47.326Z Level 40 Settings file  : /data/settings.js
+2017-08-16T08:01:47.327Z Level 40 Flows file     : /data/flows.json
+2017-08-16T08:01:47.327Z Level 40 User directory : /data
+2017-08-16T08:01:47.324Z Level 30 ------------------------------------------------------
+2017-08-16T08:01:47.325Z Level 30 [tcp] Error: tcp in already registered
+2017-08-16T08:01:47.326Z Level 30 [udp] Error: udp out already registered
+2017-08-16T08:01:47.337Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-16T08:01:47.343Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-16T08:01:47.358Z Level 40 Starting flows
+2017-08-16T08:01:47.468Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T08:01:47.484Z Level 40 Started flows
+2017-08-16T08:01:47.342Z Level 50 loaded flow revision: 29b5507724288efe96570dc8fa0cb143
+2017-08-16T08:02:52.500Z Level 40 Stopping flows
+2017-08-16T08:02:52.549Z Level 40 Starting flows
+2017-08-16T08:02:52.727Z Level 40 Started flows
+2017-08-16T08:02:52.499Z Level 50 saved flow revision: 04aa81cbe40ae418cd91ec377ba9f9c7
+2017-08-16T08:02:52.549Z Level 40 Stopped flows
+2017-08-16T08:02:52.696Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T08:03:57.231Z Level 50 saved flow revision: 01355bd86c1f78f87a1e193c7db01f0e
+2017-08-16T08:03:57.441Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T08:03:57.482Z Level 40 Started flows
+2017-08-16T08:03:57.232Z Level 40 Stopping flows
+2017-08-16T08:03:57.274Z Level 40 Stopped flows
+2017-08-16T08:03:57.275Z Level 40 Starting flows
+2017-08-16T08:04:10.211Z Level 50 saved flow revision: 9f7e1a92803c137eb874d689dc04a6c1
+2017-08-16T08:04:10.238Z Level 40 Starting flows
+2017-08-16T08:04:10.380Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T08:04:10.211Z Level 40 Stopping flows
+2017-08-16T08:04:10.238Z Level 40 Stopped flows
+2017-08-16T08:04:10.412Z Level 40 Started flows
+2017-08-16T08:05:33.047Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T08:05:33.810Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:06:19.291Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T08:06:19.958Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:07:46.425Z Level 50 saved flow revision: 5e38ac6e82bbd3543952102b415d5dd5
+2017-08-16T08:07:46.427Z Level 40 Stopping flows
+2017-08-16T08:07:46.625Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T08:07:46.653Z Level 40 Started flows
+2017-08-16T08:07:46.464Z Level 40 Stopped flows
+2017-08-16T08:07:46.465Z Level 40 Starting flows
+2017-08-16T08:07:54.471Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T08:07:55.280Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:08:50.089Z Level 40 Stopping flows
+2017-08-16T08:08:50.282Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T08:08:50.310Z Level 40 Started flows
+2017-08-16T08:08:50.089Z Level 50 saved flow revision: fc52cda51f3f813ee2ae8a062673a824
+2017-08-16T08:08:50.128Z Level 40 Stopped flows
+2017-08-16T08:08:50.129Z Level 40 Starting flows
+2017-08-16T08:11:30.214Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T08:11:30.931Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:12:52.187Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T08:12:53.458Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:16:55.051Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-16T08:16:55.055Z Level 40 Node-RED version: v0.16.2
+2017-08-16T08:16:55.056Z Level 40 Node.js  version: v6.9.4
+2017-08-16T08:16:55.056Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-16T08:16:55.252Z Level 40 Loading palette nodes
+2017-08-16T08:17:01.040Z Level 30 ------------------------------------------------------
+2017-08-16T08:17:01.041Z Level 30 ------------------------------------------------------
+2017-08-16T08:17:01.042Z Level 40 Settings file  : /data/settings.js
+2017-08-16T08:17:01.043Z Level 40 User directory : /data
+2017-08-16T08:17:01.043Z Level 40 Flows file     : /data/flows.json
+2017-08-16T08:17:01.041Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-16T08:17:01.041Z Level 30 [tcp] Error: tcp in already registered
+2017-08-16T08:17:01.041Z Level 30 [udp] Error: udp out already registered
+2017-08-16T08:17:01.055Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-16T08:17:01.058Z Level 50 loaded flow revision: fc52cda51f3f813ee2ae8a062673a824
+2017-08-16T08:17:01.186Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T08:17:01.206Z Level 40 Started flows
+2017-08-16T08:17:01.058Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-16T08:17:01.074Z Level 40 Starting flows
+2017-08-16T08:17:25.070Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T08:17:26.475Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:23:12.554Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-16T08:23:12.558Z Level 40 Node-RED version: v0.16.2
+2017-08-16T08:23:12.559Z Level 40 Node.js  version: v6.9.4
+2017-08-16T08:23:12.559Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-16T08:23:12.747Z Level 40 Loading palette nodes
+2017-08-16T08:23:17.772Z Level 30 ------------------------------------------------------
+2017-08-16T08:23:17.773Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-16T08:23:17.774Z Level 40 Settings file  : /data/settings.js
+2017-08-16T08:23:17.775Z Level 40 User directory : /data
+2017-08-16T08:23:17.775Z Level 40 Flows file     : /data/flows.json
+2017-08-16T08:23:17.773Z Level 30 [tcp] Error: tcp in already registered
+2017-08-16T08:23:17.773Z Level 30 [udp] Error: udp out already registered
+2017-08-16T08:23:17.774Z Level 30 ------------------------------------------------------
+2017-08-16T08:23:17.785Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-16T08:23:17.789Z Level 50 loaded flow revision: fc52cda51f3f813ee2ae8a062673a824
+2017-08-16T08:23:17.932Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T08:23:17.953Z Level 40 Started flows
+2017-08-16T08:23:17.790Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-16T08:23:17.806Z Level 40 Starting flows
+2017-08-16T08:23:37.407Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T08:23:38.624Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:24:36.207Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T08:24:37.483Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:26:20.862Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T08:26:21.564Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:36:51.275Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-16T08:36:51.281Z Level 40 Node-RED version: v0.16.2
+2017-08-16T08:36:51.281Z Level 40 Node.js  version: v6.9.4
+2017-08-16T08:36:51.282Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-16T08:36:51.482Z Level 40 Loading palette nodes
+2017-08-16T08:36:57.632Z Level 30 ------------------------------------------------------
+2017-08-16T08:36:57.633Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-16T08:36:57.633Z Level 30 [udp] Error: udp out already registered
+2017-08-16T08:36:57.633Z Level 30 [tcp] Error: tcp in already registered
+2017-08-16T08:36:57.635Z Level 40 Flows file     : /data/flows.json
+2017-08-16T08:36:57.633Z Level 30 ------------------------------------------------------
+2017-08-16T08:36:57.634Z Level 40 Settings file  : /data/settings.js
+2017-08-16T08:36:57.635Z Level 40 User directory : /data
+2017-08-16T08:36:57.647Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-16T08:36:57.649Z Level 50 loaded flow revision: fc52cda51f3f813ee2ae8a062673a824
+2017-08-16T08:36:57.650Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-16T08:36:57.820Z Level 40 Started flows
+2017-08-16T08:36:57.666Z Level 40 Starting flows
+2017-08-16T08:36:57.798Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T08:37:45.219Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T08:37:45.973Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:37:54.810Z Level 40 User *** dfn10 Said *** 'yes'
+2017-08-16T08:37:55.516Z Level 40 User *** dfn10 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:38:32.699Z Level 50 saved flow revision: 2aa219b94dbed50898981d582efd08bb
+2017-08-16T08:38:32.700Z Level 40 Stopping flows
+2017-08-16T08:38:32.909Z Level 40 Started flows
+2017-08-16T08:38:32.734Z Level 40 Stopped flows
+2017-08-16T08:38:32.734Z Level 40 Starting flows
+2017-08-16T08:38:32.881Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T08:38:39.355Z Level 40 User *** dfn10 Said *** 'yes'
+2017-08-16T08:38:40.120Z Level 40 User *** dfn10 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:43:25.009Z Level 40 User *** dfn10 Said *** 'yes'
+2017-08-16T08:43:26.575Z Level 40 User *** dfn10 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:43:33.003Z Level 40 User *** dfn10 Said *** 'yes'
+2017-08-16T08:43:34.600Z Level 40 User *** dfn10 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:44:19.130Z Level 40 User *** dfn10 Said *** 'yes'
+2017-08-16T08:44:20.518Z Level 40 User *** dfn10 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:45:27.243Z Level 40 User *** dfn10 Said *** 'yes'
+2017-08-16T08:45:28.455Z Level 40 User *** dfn10 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:51:33.055Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T08:51:33.710Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T08:56:58.951Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T08:56:59.637Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T09:09:01.337Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T09:09:01.998Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T09:14:18.648Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-16T09:14:18.652Z Level 40 Node-RED version: v0.16.2
+2017-08-16T09:14:18.653Z Level 40 Node.js  version: v6.9.4
+2017-08-16T09:14:18.653Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-16T09:14:18.816Z Level 40 Loading palette nodes
+2017-08-16T09:14:23.139Z Level 30 ------------------------------------------------------
+2017-08-16T09:14:23.141Z Level 30 ------------------------------------------------------
+2017-08-16T09:14:23.142Z Level 40 Settings file  : /data/settings.js
+2017-08-16T09:14:23.142Z Level 40 User directory : /data
+2017-08-16T09:14:23.142Z Level 40 Flows file     : /data/flows.json
+2017-08-16T09:14:23.140Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-16T09:14:23.141Z Level 30 [tcp] Error: tcp in already registered
+2017-08-16T09:14:23.141Z Level 30 [udp] Error: udp out already registered
+2017-08-16T09:14:23.151Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-16T09:14:23.157Z Level 50 loaded flow revision: 01ffe27479a6350c98913b93f2c6af1c
+2017-08-16T09:14:23.257Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T09:14:23.280Z Level 40 Started flows
+2017-08-16T09:14:23.157Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-16T09:14:23.172Z Level 40 Starting flows
+2017-08-16T09:14:48.800Z Level 20 Error: Ready check failed: NOAUTH Authentication required.
+2017-08-16T09:15:26.323Z Level 50 saved flow revision: cf0d478868afdac405e577a62553e654
+2017-08-16T09:15:26.361Z Level 40 Starting flows
+2017-08-16T09:15:26.505Z Level 40 Started flows
+2017-08-16T09:15:26.324Z Level 40 Stopping flows
+2017-08-16T09:15:26.361Z Level 40 Stopped flows
+2017-08-16T09:15:26.482Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T09:15:33.258Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T09:15:34.165Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T09:17:56.152Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T09:17:57.407Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T09:20:48.124Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T09:21:08.388Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T09:21:20.643Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T09:21:21.866Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T09:24:30.357Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T09:24:31.516Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T09:24:43.232Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T09:24:44.327Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T09:37:54.817Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T09:37:55.528Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T09:49:17.758Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T09:49:18.397Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T09:51:35.856Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T09:51:36.488Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T09:52:24.724Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T09:52:25.357Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T14:11:47.973Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T14:11:48.724Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T14:12:24.726Z Level 50 saved flow revision: b25b2c12f5e73f4d505e0b770cb7d94c
+2017-08-16T14:12:24.728Z Level 40 Stopping flows
+2017-08-16T14:12:24.919Z Level 40 Started flows
+2017-08-16T14:12:24.754Z Level 40 Stopped flows
+2017-08-16T14:12:24.755Z Level 40 Starting flows
+2017-08-16T14:12:24.891Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-16T14:12:32.541Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T14:12:33.340Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T14:15:03.591Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T14:15:04.287Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T14:17:59.583Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T14:18:01.199Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T14:18:54.603Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T14:18:55.233Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T14:19:35.851Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T14:19:36.494Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-16T14:27:02.491Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-16T14:27:03.187Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T03:24:03.499Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T03:24:04.287Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T03:24:37.986Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-17T03:24:37.991Z Level 40 Node.js  version: v6.9.4
+2017-08-17T03:24:37.990Z Level 40 Node-RED version: v0.16.2
+2017-08-17T03:24:37.991Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-17T03:24:38.166Z Level 40 Loading palette nodes
+2017-08-17T03:24:43.438Z Level 30 ------------------------------------------------------
+2017-08-17T03:24:43.440Z Level 30 ------------------------------------------------------
+2017-08-17T03:24:43.440Z Level 40 Settings file  : /data/settings.js
+2017-08-17T03:24:43.441Z Level 40 User directory : /data
+2017-08-17T03:24:43.441Z Level 40 Flows file     : /data/flows.json
+2017-08-17T03:24:43.439Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-17T03:24:43.440Z Level 30 [udp] Error: udp out already registered
+2017-08-17T03:24:43.439Z Level 30 [tcp] Error: tcp in already registered
+2017-08-17T03:24:43.452Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-17T03:24:43.457Z Level 50 loaded flow revision: b25b2c12f5e73f4d505e0b770cb7d94c
+2017-08-17T03:24:43.573Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-17T03:24:43.591Z Level 40 Started flows
+2017-08-17T03:24:43.457Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-17T03:24:43.472Z Level 40 Starting flows
+2017-08-17T03:25:03.175Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T03:25:03.965Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T03:25:41.076Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T03:25:41.777Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T03:25:49.994Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T03:25:50.696Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T03:27:05.740Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T03:27:06.368Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T03:32:29.420Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-17T03:32:29.425Z Level 40 Node-RED version: v0.16.2
+2017-08-17T03:32:29.425Z Level 40 Node.js  version: v6.9.4
+2017-08-17T03:32:29.425Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-17T03:32:29.599Z Level 40 Loading palette nodes
+2017-08-17T03:32:34.553Z Level 30 ------------------------------------------------------
+2017-08-17T03:32:34.556Z Level 30 ------------------------------------------------------
+2017-08-17T03:32:34.556Z Level 40 Settings file  : /data/settings.js
+2017-08-17T03:32:34.557Z Level 40 User directory : /data
+2017-08-17T03:32:34.557Z Level 40 Flows file     : /data/flows.json
+2017-08-17T03:32:34.555Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-17T03:32:34.555Z Level 30 [tcp] Error: tcp in already registered
+2017-08-17T03:32:34.555Z Level 30 [udp] Error: udp out already registered
+2017-08-17T03:32:34.567Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-17T03:32:34.572Z Level 50 loaded flow revision: b25b2c12f5e73f4d505e0b770cb7d94c
+2017-08-17T03:32:34.696Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-17T03:32:34.573Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-17T03:32:34.588Z Level 40 Starting flows
+2017-08-17T03:32:34.713Z Level 40 Started flows
+2017-08-17T03:35:27.682Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-17T03:35:27.686Z Level 40 Node-RED version: v0.16.2
+2017-08-17T03:35:27.687Z Level 40 Node.js  version: v6.9.4
+2017-08-17T03:35:27.687Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-17T03:35:27.865Z Level 40 Loading palette nodes
+2017-08-17T03:35:32.232Z Level 30 ------------------------------------------------------
+2017-08-17T03:35:32.233Z Level 30 [udp] Error: udp out already registered
+2017-08-17T03:35:32.234Z Level 40 Settings file  : /data/settings.js
+2017-08-17T03:35:32.235Z Level 40 User directory : /data
+2017-08-17T03:35:32.235Z Level 40 Flows file     : /data/flows.json
+2017-08-17T03:35:32.233Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-17T03:35:32.233Z Level 30 [tcp] Error: tcp in already registered
+2017-08-17T03:35:32.234Z Level 30 ------------------------------------------------------
+2017-08-17T03:35:32.245Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-17T03:35:32.250Z Level 50 loaded flow revision: b25b2c12f5e73f4d505e0b770cb7d94c
+2017-08-17T03:35:32.250Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-17T03:35:32.384Z Level 40 Started flows
+2017-08-17T03:35:32.265Z Level 40 Starting flows
+2017-08-17T03:35:32.367Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-17T03:36:19.913Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T03:36:20.605Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T03:37:12.995Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-17T03:37:13.000Z Level 40 Node-RED version: v0.16.2
+2017-08-17T03:37:13.002Z Level 40 Node.js  version: v6.9.4
+2017-08-17T03:37:13.002Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-17T03:37:13.178Z Level 40 Loading palette nodes
+2017-08-17T03:37:17.850Z Level 30 ------------------------------------------------------
+2017-08-17T03:37:17.851Z Level 30 ------------------------------------------------------
+2017-08-17T03:37:17.852Z Level 40 Settings file  : /data/settings.js
+2017-08-17T03:37:17.853Z Level 40 User directory : /data
+2017-08-17T03:37:17.853Z Level 40 Flows file     : /data/flows.json
+2017-08-17T03:37:17.851Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-17T03:37:17.851Z Level 30 [tcp] Error: tcp in already registered
+2017-08-17T03:37:17.851Z Level 30 [udp] Error: udp out already registered
+2017-08-17T03:37:17.862Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-17T03:37:17.867Z Level 50 loaded flow revision: b25b2c12f5e73f4d505e0b770cb7d94c
+2017-08-17T03:37:17.984Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-17T03:37:17.867Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-17T03:37:17.882Z Level 40 Starting flows
+2017-08-17T03:37:18.001Z Level 40 Started flows
+2017-08-17T03:37:42.499Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T03:37:43.178Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T03:40:19.142Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T03:40:19.760Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T03:40:33.302Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T03:40:33.970Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T03:40:53.099Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T03:40:53.719Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T04:18:07.275Z Level 40 User *** undefined Said *** undefined
+2017-08-17T04:18:07.632Z Level 20 Missing property: msg.payload
+2017-08-17T04:18:31.510Z Level 40 User *** undefined Said *** undefined
+2017-08-17T04:18:31.891Z Level 20 Missing property: msg.payload
+2017-08-17T04:19:26.838Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T04:19:27.465Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T04:44:05.675Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T04:44:06.351Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T05:05:53.266Z Level 40 
+
+Welcome to Node-RED
+===================
+
+2017-08-17T05:05:53.270Z Level 40 Node-RED version: v0.16.2
+2017-08-17T05:05:53.270Z Level 40 Node.js  version: v6.9.4
+2017-08-17T05:05:53.271Z Level 40 Linux 4.9.36-moby x64 LE
+2017-08-17T05:05:53.456Z Level 40 Loading palette nodes
+2017-08-17T05:05:57.573Z Level 30 ------------------------------------------------------
+2017-08-17T05:05:57.574Z Level 30 ------------------------------------------------------
+2017-08-17T05:05:57.574Z Level 40 Settings file  : /data/settings.js
+2017-08-17T05:05:57.575Z Level 40 User directory : /data
+2017-08-17T05:05:57.575Z Level 40 Flows file     : /data/flows.json
+2017-08-17T05:05:57.574Z Level 30 [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+2017-08-17T05:05:57.574Z Level 30 [udp] Error: udp out already registered
+2017-08-17T05:05:57.574Z Level 30 [tcp] Error: tcp in already registered
+2017-08-17T05:05:57.585Z Level 40 Server now running at http://127.0.0.1:1880/
+2017-08-17T05:05:57.590Z Level 50 loaded flow revision: b25b2c12f5e73f4d505e0b770cb7d94c
+2017-08-17T05:05:57.715Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-17T05:05:57.590Z Level 50 red/runtime/nodes/credentials.load : user provided key
+2017-08-17T05:05:57.605Z Level 40 Starting flows
+2017-08-17T05:05:57.732Z Level 40 Started flows
+2017-08-17T05:06:54.195Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T05:06:54.947Z Level 40 User *** dfn8 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-17T05:07:13.318Z Level 40 User *** dfn8 Said *** 'status of my claim'
+2017-08-17T05:07:13.933Z Level 40 User *** dfn8 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-17T05:08:39.528Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T05:08:40.149Z Level 40 User *** dfn8 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-17T05:09:47.347Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T05:09:47.999Z Level 40 User *** dfn8 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-17T05:10:28.290Z Level 40 User *** dfn8 Said *** 'yes'
+2017-08-17T05:10:31.409Z Level 40 User *** dfn8 Response *** Great, based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-18T04:46:23.008Z Level 50 saved flow revision: 7b9a6ed5d67e4daba6b34bb242b98a4a
+2017-08-18T04:46:23.211Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T04:46:23.243Z Level 40 Started flows
+2017-08-18T04:46:23.011Z Level 40 Stopping flows
+2017-08-18T04:46:23.036Z Level 40 Stopped flows
+2017-08-18T04:46:23.037Z Level 40 Starting flows
+2017-08-18T04:52:26.752Z Level 50 saved flow revision: 66f425c1ccdd4337d202c3891d764100
+2017-08-18T04:52:26.920Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T04:52:26.943Z Level 40 Started flows
+2017-08-18T04:52:26.752Z Level 40 Stopping flows
+2017-08-18T04:52:26.778Z Level 40 Stopped flows
+2017-08-18T04:52:26.778Z Level 40 Starting flows
+2017-08-18T05:08:04.074Z Level 50 saved flow revision: f7ee0ac577eab00274a282af2ce54f48
+2017-08-18T05:08:04.110Z Level 40 Starting flows
+2017-08-18T05:08:04.272Z Level 40 Started flows
+2017-08-18T05:08:04.074Z Level 40 Stopping flows
+2017-08-18T05:08:04.109Z Level 40 Stopped flows
+2017-08-18T05:08:04.247Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:11:50.367Z Level 50 saved flow revision: 6a91b576d38eb8535fc5bfb86ddd245e
+2017-08-18T05:11:50.367Z Level 40 Stopping flows
+2017-08-18T05:11:50.407Z Level 40 Stopped flows
+2017-08-18T05:11:50.408Z Level 40 Starting flows
+2017-08-18T05:11:50.547Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:11:50.572Z Level 40 Started flows
+2017-08-18T05:12:39.131Z Level 40 Stopping flows
+2017-08-18T05:12:39.158Z Level 40 Stopped flows
+2017-08-18T05:12:39.323Z Level 40 Started flows
+2017-08-18T05:12:39.131Z Level 50 saved flow revision: 8aa1cb6bd3fd87b382a942f67906e026
+2017-08-18T05:12:39.158Z Level 40 Starting flows
+2017-08-18T05:12:39.293Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:20:18.465Z Level 40 User *** dfn9 Said *** 'status of my claim'
+2017-08-18T05:20:19.388Z Level 20 TypeError: Cannot read property 'convoIntent' of undefined
+2017-08-18T05:24:01.562Z Level 50 saved flow revision: fc7be23447f1281b9cc16b2b99207160
+2017-08-18T05:24:01.599Z Level 40 Starting flows
+2017-08-18T05:24:01.771Z Level 40 Started flows
+2017-08-18T05:24:01.563Z Level 40 Stopping flows
+2017-08-18T05:24:01.597Z Level 40 Stopped flows
+2017-08-18T05:24:01.742Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:24:08.280Z Level 40 User *** dfn9 Said *** 'status of my claim'
+2017-08-18T05:24:09.893Z Level 20 ReferenceError: convoDialogNode is not defined (line 47, col 23)
+2017-08-18T05:24:42.320Z Level 50 saved flow revision: 0061b21905ca96e06e011356a344c4bd
+2017-08-18T05:24:42.349Z Level 40 Starting flows
+2017-08-18T05:24:42.525Z Level 40 Started flows
+2017-08-18T05:24:42.320Z Level 40 Stopping flows
+2017-08-18T05:24:42.349Z Level 40 Stopped flows
+2017-08-18T05:24:42.498Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:25:03.832Z Level 40 User *** dfn9 Said *** 'status of my claim'
+2017-08-18T05:25:05.437Z Level 20 TypeError: msg.Date is not a function
+2017-08-18T05:25:41.575Z Level 50 saved flow revision: 05fe6c5bd582b3be56d09115e5746820
+2017-08-18T05:25:41.606Z Level 40 Stopped flows
+2017-08-18T05:25:41.746Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:25:41.576Z Level 40 Stopping flows
+2017-08-18T05:25:41.607Z Level 40 Starting flows
+2017-08-18T05:25:41.774Z Level 40 Started flows
+2017-08-18T05:25:51.000Z Level 40 User *** dfn9 Said *** 'status of my claim'
+2017-08-18T05:25:51.876Z Level 20 ReferenceError: dialogNode is not defined (line 50, col 19)
+2017-08-18T05:26:10.493Z Level 50 saved flow revision: 3428c8d1bd22e800dab38e8376059959
+2017-08-18T05:26:10.493Z Level 40 Stopping flows
+2017-08-18T05:26:10.684Z Level 40 Started flows
+2017-08-18T05:26:10.518Z Level 40 Stopped flows
+2017-08-18T05:26:10.519Z Level 40 Starting flows
+2017-08-18T05:26:10.654Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:26:17.778Z Level 40 User *** dfn9 Said *** 'status of my claim'
+2017-08-18T05:26:18.482Z Level 40 User *** dfn9 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-18T05:38:20.215Z Level 50 saved flow revision: 03b9ac09cdcf03b0ff6e10b62782d507
+2017-08-18T05:38:20.422Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:38:20.215Z Level 40 Stopping flows
+2017-08-18T05:38:20.255Z Level 40 Stopped flows
+2017-08-18T05:38:20.257Z Level 40 Starting flows
+2017-08-18T05:38:20.449Z Level 40 Started flows
+2017-08-18T05:38:30.255Z Level 40 User *** dfn9 Said *** 'status of my claim'
+2017-08-18T05:38:31.245Z Level 20 TypeError: msg.session.userTransID_Str.parseInt is not a function
+2017-08-18T05:39:55.083Z Level 50 saved flow revision: efb565946dff7b3afc4f3d1cebdcf1f5
+2017-08-18T05:39:55.084Z Level 40 Stopping flows
+2017-08-18T05:39:55.119Z Level 40 Stopped flows
+2017-08-18T05:39:55.120Z Level 40 Starting flows
+2017-08-18T05:39:55.258Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:39:55.287Z Level 40 Started flows
+2017-08-18T05:40:01.430Z Level 40 User *** dfn9 Said *** 'status of my claim'
+2017-08-18T05:40:03.136Z Level 40 User *** dfn9 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-18T05:41:29.716Z Level 40 User *** dfn9 Said *** 'ye'
+2017-08-18T05:41:30.486Z Level 40 User *** dfn9 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-18T05:41:35.176Z Level 40 User *** dfn9 Said *** 'ye'
+2017-08-18T05:41:35.815Z Level 40 User *** dfn9 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-18T05:41:41.673Z Level 40 User *** dfn9 Said *** 'yes'
+2017-08-18T05:41:42.281Z Level 40 User *** dfn9 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-18T05:41:44.091Z Level 40 User *** dfn9 Said *** 'yes'
+2017-08-18T05:41:44.800Z Level 40 User *** dfn9 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-18T05:41:47.798Z Level 40 User *** dfn9 Said *** 'yes'
+2017-08-18T05:41:49.061Z Level 40 User *** dfn9 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-18T05:41:51.378Z Level 40 User *** dfn9 Said *** 'yes'
+2017-08-18T05:41:52.003Z Level 40 User *** dfn9 Response *** Great, based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-18T05:42:09.386Z Level 40 User *** dfn9 Said *** 'status of my claim'
+2017-08-18T05:42:10.022Z Level 40 User *** dfn9 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-18T05:45:25.232Z Level 50 saved flow revision: 2530b2e53a7005924adc444616788273
+2017-08-18T05:45:25.260Z Level 40 Starting flows
+2017-08-18T05:45:25.421Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:45:25.457Z Level 40 Started flows
+2017-08-18T05:45:25.235Z Level 40 Stopping flows
+2017-08-18T05:45:25.259Z Level 40 Stopped flows
+2017-08-18T05:45:41.994Z Level 40 User *** dfn9 Said *** 'yes'
+2017-08-18T05:45:42.730Z Level 20 TypeError: d.getFullYear is not a function
+2017-08-18T05:47:03.424Z Level 50 saved flow revision: 5facf34cda988a9b20baa3e5c0e3dc92
+2017-08-18T05:47:03.610Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:47:03.638Z Level 40 Started flows
+2017-08-18T05:47:03.425Z Level 40 Stopping flows
+2017-08-18T05:47:03.465Z Level 40 Stopped flows
+2017-08-18T05:47:03.466Z Level 40 Starting flows
+2017-08-18T05:47:11.679Z Level 40 User *** dfn9 Said *** 'yes'
+2017-08-18T05:47:12.973Z Level 40 User *** dfn9 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-18T05:48:02.575Z Level 40 User *** dfn9 Said *** 'yes'
+2017-08-18T05:48:03.620Z Level 40 User *** dfn9 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-18T05:48:06.922Z Level 40 User *** dfn9 Said *** 'yes'
+2017-08-18T05:48:07.563Z Level 40 User *** dfn9 Response *** Great, based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-18T05:49:00.477Z Level 40 User *** dfn9 Said *** 'schedule a call'
+2017-08-18T05:49:01.324Z Level 40 User *** dfn9 Response *** Sure dennis, I can set up a time for your representative, George Jetson, to call you? He is available 4 PM today, 9:30 AM tomorrow, or 1 PM tomorrow. 
+2017-08-18T05:51:33.740Z Level 50 saved flow revision: 0c416d597ac7d562c76288de85abcad9
+2017-08-18T05:51:33.766Z Level 40 Starting flows
+2017-08-18T05:51:33.946Z Level 40 Started flows
+2017-08-18T05:51:33.741Z Level 40 Stopping flows
+2017-08-18T05:51:33.765Z Level 40 Stopped flows
+2017-08-18T05:51:33.916Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:52:56.960Z Level 50 saved flow revision: 0b56aa0dfd4d74724b09c3aa60fc764e
+2017-08-18T05:52:56.961Z Level 40 Stopping flows
+2017-08-18T05:52:57.153Z Level 40 Started flows
+2017-08-18T05:52:56.989Z Level 40 Stopped flows
+2017-08-18T05:52:56.989Z Level 40 Starting flows
+2017-08-18T05:52:57.126Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T05:53:21.623Z Level 50 saved flow revision: 90245f1e04983b1a778cef092466d656
+2017-08-18T05:53:21.647Z Level 40 Starting flows
+2017-08-18T05:53:21.848Z Level 40 Started flows
+2017-08-18T05:53:21.623Z Level 40 Stopping flows
+2017-08-18T05:53:21.647Z Level 40 Stopped flows
+2017-08-18T05:53:21.819Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T06:03:26.927Z Level 50 saved flow revision: 955099d331244a8bd026d24c98dc8fee
+2017-08-18T06:03:27.095Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-18T06:03:26.928Z Level 40 Stopping flows
+2017-08-18T06:03:26.955Z Level 40 Stopped flows
+2017-08-18T06:03:26.956Z Level 40 Starting flows
+2017-08-18T06:03:27.125Z Level 40 Started flows
+2017-08-18T06:04:02.858Z Level 40 User *** dfn9 Said *** '1 PM tomorrowl'
+2017-08-18T06:04:04.655Z Level 40 User *** dfn9 Response *** Great, I have created an appointment at '1 PM tomorrowl' for you and George.  Any more questions for me?
+2017-08-19T13:58:14.687Z Level 50 saved flow revision: dcef0c038ef06ccd3718675a4d61ccae
+2017-08-19T13:58:14.996Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T13:58:15.040Z Level 40 Started flows
+2017-08-19T13:58:14.693Z Level 40 Stopping flows
+2017-08-19T13:58:14.722Z Level 40 Stopped flows
+2017-08-19T13:58:14.723Z Level 40 Starting flows
+2017-08-19T13:59:11.281Z Level 40 User *** dfn10 Said *** 'status of my claim'
+2017-08-19T13:59:12.106Z Level 20 TypeError: Cannot read property 'convoIntent' of undefined
+2017-08-19T14:17:45.568Z Level 40 Stopping flows
+2017-08-19T14:17:45.568Z Level 50 saved flow revision: 71b0d6708ca20945cd5a583997a2ec36
+2017-08-19T14:17:45.767Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T14:17:45.608Z Level 40 Stopped flows
+2017-08-19T14:17:45.608Z Level 40 Starting flows
+2017-08-19T14:17:45.806Z Level 40 Started flows
+2017-08-19T14:18:02.553Z Level 40 User *** dfn11 Said *** 'status of my claim'
+2017-08-19T14:18:03.601Z Level 40 User *** dfn11 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T14:19:19.393Z Level 40 User *** dfn11 Said *** 'yes'
+2017-08-19T14:19:19.994Z Level 40 User *** dfn11 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-19T14:25:56.481Z Level 50 saved flow revision: df7b23882ddddba85df6fc7b68e3eebd
+2017-08-19T14:25:56.517Z Level 40 Starting flows
+2017-08-19T14:25:56.483Z Level 40 Stopping flows
+2017-08-19T14:25:56.516Z Level 40 Stopped flows
+2017-08-19T14:25:56.664Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T14:25:56.693Z Level 40 Started flows
+2017-08-19T14:26:20.177Z Level 40 User *** dfn12 Said *** 'status of my claim'
+2017-08-19T14:26:21.204Z Level 40 User *** dfn12 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T14:30:33.445Z Level 50 saved flow revision: f4f7dba6d036108f1bdbabc88251d65c
+2017-08-19T14:30:33.480Z Level 40 Starting flows
+2017-08-19T14:30:33.447Z Level 40 Stopping flows
+2017-08-19T14:30:33.479Z Level 40 Stopped flows
+2017-08-19T14:30:33.634Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T14:30:33.662Z Level 40 Started flows
+2017-08-19T14:31:39.491Z Level 40 User *** dfn13 Said *** 'status of my claim'
+2017-08-19T14:31:40.158Z Level 40 User *** dfn13 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T14:31:57.888Z Level 40 User *** dfn13 Said *** 'yes'
+2017-08-19T14:31:58.577Z Level 40 User *** dfn13 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-19T14:32:13.794Z Level 40 User *** dfn13 Said *** 'yes'
+2017-08-19T14:32:14.438Z Level 40 User *** dfn13 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-19T14:32:34.879Z Level 40 User *** dfn13 Said *** 'yes'
+2017-08-19T14:32:35.508Z Level 40 User *** dfn13 Response *** Great, based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-19T14:32:57.650Z Level 40 User *** dfn13 Said *** 'How do claims work'
+2017-08-19T14:32:58.366Z Level 40 User *** dfn13 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-19T14:33:52.247Z Level 50 saved flow revision: b9a1026b388424e5fd8b6352987a001c
+2017-08-19T14:33:52.282Z Level 40 Stopped flows
+2017-08-19T14:33:52.464Z Level 40 Started flows
+2017-08-19T14:33:52.248Z Level 40 Stopping flows
+2017-08-19T14:33:52.282Z Level 40 Starting flows
+2017-08-19T14:33:52.434Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T17:44:42.506Z Level 50 saved flow revision: 3e7ee40ab417ebc89c6bc8a11fe4d8b1
+2017-08-19T17:44:42.510Z Level 40 Stopping flows
+2017-08-19T17:44:42.750Z Level 40 Started flows
+2017-08-19T17:44:42.548Z Level 40 Stopped flows
+2017-08-19T17:44:42.549Z Level 40 Starting flows
+2017-08-19T17:44:42.711Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T17:44:59.489Z Level 40 User *** dfn14 Said *** 'status of my claim'
+2017-08-19T17:44:59.491Z Level 30 Warning: msg properties can no longer override set node properties. See bit.ly/nr-override-msg-props
+2017-08-19T17:44:59.845Z Level 30 JSON parse error
+2017-08-19T17:45:00.745Z Level 40 User *** dfn14 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T17:54:01.263Z Level 50 red/runtime/nodes/credentials.export : encrypting
+2017-08-19T17:54:01.286Z Level 50 saved flow revision: 9489c56516b2ad41bd7a546da0ecb5de
+2017-08-19T17:54:01.504Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T17:54:01.539Z Level 40 Started flows
+2017-08-19T17:54:01.287Z Level 40 Stopping flows
+2017-08-19T17:54:01.337Z Level 40 Stopped flows
+2017-08-19T17:54:01.338Z Level 40 Starting flows
+2017-08-19T17:54:20.065Z Level 40 Stopping flows
+2017-08-19T17:54:20.106Z Level 40 Starting flows
+2017-08-19T17:54:20.293Z Level 40 Started flows
+2017-08-19T17:54:20.064Z Level 50 saved flow revision: e4422acdefe03a081a3df12ff7d024fa
+2017-08-19T17:54:20.106Z Level 40 Stopped flows
+2017-08-19T17:54:20.259Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T17:54:50.755Z Level 50 red/runtime/nodes/credentials.export : encrypting
+2017-08-19T17:54:50.774Z Level 50 saved flow revision: 8cd23cc793660b708d712cbc85f96005
+2017-08-19T17:54:50.802Z Level 40 Stopped flows
+2017-08-19T17:54:50.775Z Level 40 Stopping flows
+2017-08-19T17:54:50.802Z Level 40 Starting flows
+2017-08-19T17:54:50.953Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T17:54:50.986Z Level 40 Started flows
+2017-08-19T17:56:39.622Z Level 50 red/runtime/nodes/credentials.export : encrypting
+2017-08-19T17:56:39.637Z Level 50 saved flow revision: f6f0e40437f2acf14260fcdfb21ecead
+2017-08-19T17:56:39.675Z Level 40 Starting flows
+2017-08-19T17:56:39.637Z Level 40 Stopping flows
+2017-08-19T17:56:39.675Z Level 40 Stopped flows
+2017-08-19T17:56:39.818Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T17:56:39.848Z Level 40 Started flows
+2017-08-19T17:56:57.552Z Level 40 Stopping flows
+2017-08-19T17:56:57.592Z Level 40 Starting flows
+2017-08-19T17:56:57.755Z Level 40 Started flows
+2017-08-19T17:56:57.552Z Level 50 saved flow revision: 9546f335584686f63a55a6f4a5d429c5
+2017-08-19T17:56:57.592Z Level 40 Stopped flows
+2017-08-19T17:56:57.728Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T17:57:17.661Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T17:57:17.662Z Level 30 Warning: msg properties can no longer override set node properties. See bit.ly/nr-override-msg-props
+2017-08-19T17:57:17.897Z Level 30 JSON parse error
+2017-08-19T17:57:18.659Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T17:59:11.893Z Level 50 saved flow revision: 9546f335584686f63a55a6f4a5d429c5
+2017-08-19T17:59:11.894Z Level 40 Stopping flows
+2017-08-19T17:59:12.100Z Level 40 Started flows
+2017-08-19T17:59:11.921Z Level 40 Stopped flows
+2017-08-19T17:59:11.922Z Level 40 Starting flows
+2017-08-19T17:59:12.069Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T17:59:25.232Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T17:59:25.233Z Level 30 Warning: msg properties can no longer override set node properties. See bit.ly/nr-override-msg-props
+2017-08-19T17:59:25.478Z Level 30 JSON parse error
+2017-08-19T17:59:26.235Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T17:59:33.047Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T17:59:33.049Z Level 30 Warning: msg properties can no longer override set node properties. See bit.ly/nr-override-msg-props
+2017-08-19T17:59:33.315Z Level 30 JSON parse error
+2017-08-19T17:59:33.908Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:17:46.883Z Level 50 saved flow revision: 4ef288db55f7263429f1e5ee4f02607d
+2017-08-19T19:17:46.887Z Level 40 Stopping flows
+2017-08-19T19:17:47.102Z Level 40 Started flows
+2017-08-19T19:17:46.925Z Level 40 Stopped flows
+2017-08-19T19:17:46.926Z Level 40 Starting flows
+2017-08-19T19:17:47.075Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:18:00.059Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:18:00.389Z Level 30 JSON parse error
+2017-08-19T19:18:01.235Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:19:06.823Z Level 50 saved flow revision: 4ef288db55f7263429f1e5ee4f02607d
+2017-08-19T19:19:06.843Z Level 40 Starting flows
+2017-08-19T19:19:07.013Z Level 40 Started flows
+2017-08-19T19:19:06.824Z Level 40 Stopping flows
+2017-08-19T19:19:06.843Z Level 40 Stopped flows
+2017-08-19T19:19:06.982Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:19:11.662Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:19:12.096Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:19:12.527Z Level 30 JSON parse error
+2017-08-19T19:19:12.564Z Level 30 JSON parse error
+2017-08-19T19:19:13.297Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:19:13.361Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:19:56.939Z Level 50 saved flow revision: 4ef288db55f7263429f1e5ee4f02607d
+2017-08-19T19:19:56.978Z Level 40 Stopped flows
+2017-08-19T19:19:57.148Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:19:56.939Z Level 40 Stopping flows
+2017-08-19T19:19:56.979Z Level 40 Starting flows
+2017-08-19T19:19:57.182Z Level 40 Started flows
+2017-08-19T19:20:07.429Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:20:07.744Z Level 30 JSON parse error
+2017-08-19T19:20:08.510Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:20:52.359Z Level 50 red/runtime/nodes/credentials.export : encrypting
+2017-08-19T19:20:52.376Z Level 50 saved flow revision: 2d9037147d26635438a2d55d1a24c6d9
+2017-08-19T19:20:52.376Z Level 40 Stopping flows
+2017-08-19T19:20:52.590Z Level 40 Started flows
+2017-08-19T19:20:52.412Z Level 40 Stopped flows
+2017-08-19T19:20:52.412Z Level 40 Starting flows
+2017-08-19T19:20:52.559Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:22:11.983Z Level 50 red/runtime/nodes/credentials.export : encrypting
+2017-08-19T19:22:11.996Z Level 50 saved flow revision: f43aae48bf5670126aec069646ae577d
+2017-08-19T19:22:12.030Z Level 40 Starting flows
+2017-08-19T19:22:12.204Z Level 40 Started flows
+2017-08-19T19:22:11.997Z Level 40 Stopping flows
+2017-08-19T19:22:12.029Z Level 40 Stopped flows
+2017-08-19T19:22:12.175Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:22:18.553Z Level 40 Stopping flows
+2017-08-19T19:22:18.575Z Level 40 Stopped flows
+2017-08-19T19:22:18.726Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:22:18.553Z Level 50 saved flow revision: cc247c4f6cc3de05ff1674daaa2816d5
+2017-08-19T19:22:18.575Z Level 40 Starting flows
+2017-08-19T19:22:18.757Z Level 40 Started flows
+2017-08-19T19:22:31.320Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:22:31.757Z Level 30 JSON parse error
+2017-08-19T19:22:32.525Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:22:43.510Z Level 40 Stopping flows
+2017-08-19T19:22:43.539Z Level 40 Stopped flows
+2017-08-19T19:22:43.706Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:22:43.509Z Level 50 saved flow revision: 688da0a9bd5e4c8f05752130696ed311
+2017-08-19T19:22:43.539Z Level 40 Starting flows
+2017-08-19T19:22:43.741Z Level 40 Started flows
+2017-08-19T19:22:48.459Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:22:48.764Z Level 30 JSON parse error
+2017-08-19T19:22:49.377Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:24:39.171Z Level 50 saved flow revision: 2193bd53b1679f50ff1d77785d599212
+2017-08-19T19:24:39.358Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:24:39.172Z Level 40 Stopping flows
+2017-08-19T19:24:39.215Z Level 40 Starting flows
+2017-08-19T19:24:39.215Z Level 40 Stopped flows
+2017-08-19T19:24:39.389Z Level 40 Started flows
+2017-08-19T19:24:47.910Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:24:48.305Z Level 30 JSON parse error
+2017-08-19T19:24:49.060Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:25:18.700Z Level 50 saved flow revision: 2193bd53b1679f50ff1d77785d599212
+2017-08-19T19:25:18.700Z Level 40 Stopping flows
+2017-08-19T19:25:18.917Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:25:18.727Z Level 40 Stopped flows
+2017-08-19T19:25:18.728Z Level 40 Starting flows
+2017-08-19T19:25:18.949Z Level 40 Started flows
+2017-08-19T19:25:25.999Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:25:26.284Z Level 30 JSON parse error
+2017-08-19T19:25:27.048Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:25:51.660Z Level 50 saved flow revision: 2193bd53b1679f50ff1d77785d599212
+2017-08-19T19:25:51.660Z Level 40 Stopping flows
+2017-08-19T19:25:51.900Z Level 40 Started flows
+2017-08-19T19:25:51.695Z Level 40 Stopped flows
+2017-08-19T19:25:51.695Z Level 40 Starting flows
+2017-08-19T19:25:51.869Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:26:55.080Z Level 50 saved flow revision: 2193bd53b1679f50ff1d77785d599212
+2017-08-19T19:26:55.114Z Level 40 Starting flows
+2017-08-19T19:26:55.081Z Level 40 Stopping flows
+2017-08-19T19:26:55.114Z Level 40 Stopped flows
+2017-08-19T19:26:55.268Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:26:55.301Z Level 40 Started flows
+2017-08-19T19:27:02.070Z Level 40 Stopping flows
+2017-08-19T19:27:02.223Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:27:02.249Z Level 40 Started flows
+2017-08-19T19:27:02.069Z Level 50 saved flow revision: 0583df9652547c81c4c48b7d591751e7
+2017-08-19T19:27:02.098Z Level 40 Stopped flows
+2017-08-19T19:27:02.098Z Level 40 Starting flows
+2017-08-19T19:27:06.166Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:27:06.465Z Level 30 JSON parse error
+2017-08-19T19:27:07.247Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:27:49.834Z Level 50 saved flow revision: 21bc981c9436666f00c3ef4429b9339b
+2017-08-19T19:27:49.869Z Level 40 Starting flows
+2017-08-19T19:27:49.835Z Level 40 Stopping flows
+2017-08-19T19:27:49.869Z Level 40 Stopped flows
+2017-08-19T19:27:50.012Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:27:50.041Z Level 40 Started flows
+2017-08-19T19:27:59.321Z Level 40 Stopping flows
+2017-08-19T19:27:59.349Z Level 40 Stopped flows
+2017-08-19T19:27:59.522Z Level 40 Started flows
+2017-08-19T19:27:59.320Z Level 50 saved flow revision: 7b0e4f31c02dc25bea2f4ce01b5509c1
+2017-08-19T19:27:59.349Z Level 40 Starting flows
+2017-08-19T19:27:59.493Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:28:07.272Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:28:08.116Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:28:59.527Z Level 50 saved flow revision: 5e92d71a4a2a3214deae08014fccc2c8
+2017-08-19T19:28:59.558Z Level 40 Starting flows
+2017-08-19T19:28:59.742Z Level 40 Started flows
+2017-08-19T19:28:59.528Z Level 40 Stopping flows
+2017-08-19T19:28:59.557Z Level 40 Stopped flows
+2017-08-19T19:28:59.714Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:29:28.865Z Level 50 saved flow revision: feea265afcf20ab63a232cbcd02363e0
+2017-08-19T19:29:28.891Z Level 40 Starting flows
+2017-08-19T19:29:29.085Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:29:28.865Z Level 40 Stopping flows
+2017-08-19T19:29:28.890Z Level 40 Stopped flows
+2017-08-19T19:29:29.118Z Level 40 Started flows
+2017-08-19T19:29:34.550Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:29:34.884Z Level 30 JSON parse error
+2017-08-19T19:29:35.659Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:30:03.356Z Level 50 saved flow revision: aa0dfb5bf5c30d67bf39cca03b15bd00
+2017-08-19T19:30:03.555Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:30:03.590Z Level 40 Started flows
+2017-08-19T19:30:03.357Z Level 40 Stopping flows
+2017-08-19T19:30:03.390Z Level 40 Stopped flows
+2017-08-19T19:30:03.391Z Level 40 Starting flows
+2017-08-19T19:30:06.165Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:30:06.481Z Level 30 JSON parse error
+2017-08-19T19:30:07.227Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:31:24.754Z Level 40 Stopping flows
+2017-08-19T19:31:24.785Z Level 40 Stopped flows
+2017-08-19T19:31:24.973Z Level 40 Started flows
+2017-08-19T19:31:24.754Z Level 50 saved flow revision: e45be1a4911f03fa92ecba894966645a
+2017-08-19T19:31:24.786Z Level 40 Starting flows
+2017-08-19T19:31:24.941Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:31:55.619Z Level 40 Stopping flows
+2017-08-19T19:31:55.794Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:31:55.827Z Level 40 Started flows
+2017-08-19T19:31:55.618Z Level 50 saved flow revision: 189a21f0d083b6e0e5c7f01d61bc134d
+2017-08-19T19:31:55.644Z Level 40 Starting flows
+2017-08-19T19:31:55.644Z Level 40 Stopped flows
+2017-08-19T19:32:01.650Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:32:02.025Z Level 30 JSON parse error
+2017-08-19T19:32:02.843Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:34:53.773Z Level 40 Stopping flows
+2017-08-19T19:34:53.798Z Level 40 Stopped flows
+2017-08-19T19:34:53.940Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:34:53.773Z Level 50 saved flow revision: df1e42ba61c0e37c68a4e3895699e189
+2017-08-19T19:34:53.799Z Level 40 Starting flows
+2017-08-19T19:34:53.968Z Level 40 Started flows
+2017-08-19T19:35:03.927Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:35:04.278Z Level 30 JSON parse error
+2017-08-19T19:35:05.214Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:35:43.322Z Level 50 saved flow revision: 189a21f0d083b6e0e5c7f01d61bc134d
+2017-08-19T19:35:43.356Z Level 40 Starting flows
+2017-08-19T19:35:43.322Z Level 40 Stopping flows
+2017-08-19T19:35:43.355Z Level 40 Stopped flows
+2017-08-19T19:35:43.494Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:35:43.521Z Level 40 Started flows
+2017-08-19T19:36:14.834Z Level 50 saved flow revision: 189a21f0d083b6e0e5c7f01d61bc134d
+2017-08-19T19:36:14.868Z Level 40 Stopped flows
+2017-08-19T19:36:15.032Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:36:14.834Z Level 40 Stopping flows
+2017-08-19T19:36:14.869Z Level 40 Starting flows
+2017-08-19T19:36:15.067Z Level 40 Started flows
+2017-08-19T19:37:07.439Z Level 40 Stopping flows
+2017-08-19T19:37:07.479Z Level 40 Starting flows
+2017-08-19T19:37:07.665Z Level 40 Started flows
+2017-08-19T19:37:07.439Z Level 50 saved flow revision: 189a21f0d083b6e0e5c7f01d61bc134d
+2017-08-19T19:37:07.479Z Level 40 Stopped flows
+2017-08-19T19:37:07.632Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:37:43.739Z Level 50 saved flow revision: 6f11e296367e37058c67a4d4691674c1
+2017-08-19T19:37:43.949Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:37:43.983Z Level 40 Started flows
+2017-08-19T19:37:43.740Z Level 40 Stopping flows
+2017-08-19T19:37:43.778Z Level 40 Stopped flows
+2017-08-19T19:37:43.779Z Level 40 Starting flows
+2017-08-19T19:40:47.220Z Level 50 saved flow revision: ca3ed0dddd1ffb1023defae809882470
+2017-08-19T19:40:47.400Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:40:47.432Z Level 40 Started flows
+2017-08-19T19:40:47.221Z Level 40 Stopping flows
+2017-08-19T19:40:47.250Z Level 40 Stopped flows
+2017-08-19T19:40:47.251Z Level 40 Starting flows
+2017-08-19T19:40:52.096Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:40:52.466Z Level 30 JSON parse error
+2017-08-19T19:40:53.284Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:42:59.258Z Level 50 saved flow revision: 73735591577a6c2ae21429bb358ad2c5
+2017-08-19T19:42:59.292Z Level 40 Starting flows
+2017-08-19T19:42:59.258Z Level 40 Stopping flows
+2017-08-19T19:42:59.291Z Level 40 Stopped flows
+2017-08-19T19:42:59.433Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:42:59.462Z Level 40 Started flows
+2017-08-19T19:43:05.097Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:43:05.465Z Level 30 JSON parse error
+2017-08-19T19:43:06.404Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:43:12.448Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:43:12.724Z Level 30 JSON parse error
+2017-08-19T19:43:13.373Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:43:39.785Z Level 50 saved flow revision: 8febe33db7a042984288fa68a55db2ab
+2017-08-19T19:43:39.785Z Level 40 Stopping flows
+2017-08-19T19:43:39.808Z Level 40 Stopped flows
+2017-08-19T19:43:39.809Z Level 40 Starting flows
+2017-08-19T19:43:39.972Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:43:40.003Z Level 40 Started flows
+2017-08-19T19:43:42.406Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:43:42.734Z Level 30 JSON parse error
+2017-08-19T19:43:43.600Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:44:15.486Z Level 50 saved flow revision: ca3ed0dddd1ffb1023defae809882470
+2017-08-19T19:44:15.523Z Level 40 Starting flows
+2017-08-19T19:44:15.487Z Level 40 Stopping flows
+2017-08-19T19:44:15.522Z Level 40 Stopped flows
+2017-08-19T19:44:15.670Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:44:15.698Z Level 40 Started flows
+2017-08-19T19:44:35.587Z Level 50 saved flow revision: 2e8fd5af9e63ddd03d625410e22ff328
+2017-08-19T19:44:35.794Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:44:35.830Z Level 40 Started flows
+2017-08-19T19:44:35.587Z Level 40 Stopping flows
+2017-08-19T19:44:35.628Z Level 40 Stopped flows
+2017-08-19T19:44:35.630Z Level 40 Starting flows
+2017-08-19T19:44:43.094Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:44:43.626Z Level 30 JSON parse error
+2017-08-19T19:44:44.415Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:45:41.300Z Level 40 Stopping flows
+2017-08-19T19:45:41.334Z Level 40 Starting flows
+2017-08-19T19:45:41.508Z Level 40 Started flows
+2017-08-19T19:45:41.299Z Level 50 saved flow revision: 6c98b6cb419704fd3f713ff21b3eb682
+2017-08-19T19:45:41.333Z Level 40 Stopped flows
+2017-08-19T19:45:41.478Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:45:48.111Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:45:48.941Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:48:15.088Z Level 50 saved flow revision: ec9b97dbd9b70ee957e4ef986a1f3f4b
+2017-08-19T19:48:15.111Z Level 40 Starting flows
+2017-08-19T19:48:15.263Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:48:15.089Z Level 40 Stopping flows
+2017-08-19T19:48:15.111Z Level 40 Stopped flows
+2017-08-19T19:48:15.293Z Level 40 Started flows
+2017-08-19T19:49:48.641Z Level 50 saved flow revision: 1e1e376383fd11b7c86c2821b57e70bd
+2017-08-19T19:49:48.677Z Level 40 Stopped flows
+2017-08-19T19:49:48.847Z Level 40 Started flows
+2017-08-19T19:49:48.641Z Level 40 Stopping flows
+2017-08-19T19:49:48.678Z Level 40 Starting flows
+2017-08-19T19:49:48.817Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:49:52.441Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:49:53.207Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:50:54.661Z Level 50 red/runtime/nodes/credentials.export : encrypting
+2017-08-19T19:50:54.677Z Level 40 Stopping flows
+2017-08-19T19:50:54.712Z Level 40 Starting flows
+2017-08-19T19:50:54.882Z Level 40 Started flows
+2017-08-19T19:50:54.677Z Level 50 saved flow revision: bf9dca807e2ae8f6443b4999648813b3
+2017-08-19T19:50:54.711Z Level 40 Stopped flows
+2017-08-19T19:50:54.850Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:51:01.548Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:51:02.310Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:52:26.441Z Level 50 red/runtime/nodes/credentials.export : encrypting
+2017-08-19T19:52:26.459Z Level 50 saved flow revision: 20ceea48236a7c4a5e1bf1558071f06a
+2017-08-19T19:52:26.493Z Level 40 Starting flows
+2017-08-19T19:52:26.646Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:52:26.459Z Level 40 Stopping flows
+2017-08-19T19:52:26.492Z Level 40 Stopped flows
+2017-08-19T19:52:26.679Z Level 40 Started flows
+2017-08-19T19:52:31.309Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:52:32.064Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T19:54:39.525Z Level 40 Stopping flows
+2017-08-19T19:54:39.524Z Level 50 saved flow revision: ec9b97dbd9b70ee957e4ef986a1f3f4b
+2017-08-19T19:54:39.740Z Level 40 Started flows
+2017-08-19T19:54:39.559Z Level 40 Stopped flows
+2017-08-19T19:54:39.560Z Level 40 Starting flows
+2017-08-19T19:54:39.709Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:58:01.785Z Level 40 Stopping flows
+2017-08-19T19:58:01.819Z Level 40 Stopped flows
+2017-08-19T19:58:01.991Z Level 40 Started flows
+2017-08-19T19:58:01.785Z Level 50 saved flow revision: 1ad1349b7953e8a805e12ddbc35ae14c
+2017-08-19T19:58:01.819Z Level 40 Starting flows
+2017-08-19T19:58:01.962Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:58:13.026Z Level 50 saved flow revision: 162d79a4defd68f10d98c92f8531a500
+2017-08-19T19:58:13.061Z Level 40 Starting flows
+2017-08-19T19:58:13.231Z Level 40 Started flows
+2017-08-19T19:58:13.027Z Level 40 Stopping flows
+2017-08-19T19:58:13.060Z Level 40 Stopped flows
+2017-08-19T19:58:13.204Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T19:58:20.855Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T19:58:21.555Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T20:02:59.088Z Level 50 saved flow revision: 9ec23a92bb121f801a515cf6f59f4d04
+2017-08-19T20:02:59.267Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T20:02:59.296Z Level 40 Started flows
+2017-08-19T20:02:59.089Z Level 40 Stopping flows
+2017-08-19T20:02:59.123Z Level 40 Stopped flows
+2017-08-19T20:02:59.124Z Level 40 Starting flows
+2017-08-19T20:03:22.710Z Level 40 User *** dfn15 Said *** 'status of my claim'
+2017-08-19T20:03:23.395Z Level 40 User *** dfn15 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T20:07:50.754Z Level 40 User *** dfn16 Said *** 'status of my claim'
+2017-08-19T20:07:51.338Z Level 40 User *** dfn16 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T20:08:06.330Z Level 40 User *** dfn16 Said *** 'yes I am'
+2017-08-19T20:08:07.020Z Level 40 User *** dfn16 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-19T20:08:47.048Z Level 40 User *** dfn16 Said *** 'yes I am'
+2017-08-19T20:08:47.730Z Level 40 User *** dfn16 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-19T20:09:01.375Z Level 40 User *** dfn16 Said *** 'status of my claim'
+2017-08-19T20:09:02.008Z Level 40 User *** dfn16 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T20:09:09.665Z Level 40 User *** dfn16 Said *** 'yes'
+2017-08-19T20:09:10.302Z Level 40 User *** dfn16 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-19T20:10:13.378Z Level 50 saved flow revision: 23c0f78c61af8208b62f848778ce0f53
+2017-08-19T20:10:13.380Z Level 40 Stopping flows
+2017-08-19T20:10:13.420Z Level 40 Stopped flows
+2017-08-19T20:10:13.421Z Level 40 Starting flows
+2017-08-19T20:10:13.579Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T20:10:13.611Z Level 40 Started flows
+2017-08-19T20:10:18.484Z Level 40 User *** dfn16 Said *** 'yes'
+2017-08-19T20:10:19.271Z Level 40 User *** dfn16 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-19T20:13:02.140Z Level 50 red/runtime/nodes/credentials.export : encrypting
+2017-08-19T20:13:02.161Z Level 50 saved flow revision: 1d2d77909a2eec30ea60535a7cfd2572
+2017-08-19T20:13:02.191Z Level 40 Starting flows
+2017-08-19T20:13:02.378Z Level 40 Started flows
+2017-08-19T20:13:02.162Z Level 40 Stopping flows
+2017-08-19T20:13:02.190Z Level 40 Stopped flows
+2017-08-19T20:13:02.347Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-19T20:13:18.979Z Level 40 User *** dfn16 Said *** 'status of my claim'
+2017-08-19T20:13:19.825Z Level 40 User *** dfn16 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-19T20:13:29.368Z Level 40 User *** dfn16 Said *** 'yes'
+2017-08-19T20:13:30.181Z Level 40 User *** dfn16 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-19T20:14:06.001Z Level 40 User *** dfn16 Said *** 'yeah what a mess'
+2017-08-19T20:14:06.701Z Level 40 User *** dfn16 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-20T00:07:02.866Z Level 50 saved flow revision: 100f0923278e080a656f3a7f904bdec5
+2017-08-20T00:07:03.052Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T00:07:03.086Z Level 40 Started flows
+2017-08-20T00:07:02.869Z Level 40 Stopping flows
+2017-08-20T00:07:02.901Z Level 40 Stopped flows
+2017-08-20T00:07:02.902Z Level 40 Starting flows
+2017-08-20T00:07:32.928Z Level 50 saved flow revision: 988d79457f2524a76812418218d3dbf1
+2017-08-20T00:07:33.160Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T00:07:33.193Z Level 40 Started flows
+2017-08-20T00:07:32.929Z Level 40 Stopping flows
+2017-08-20T00:07:32.969Z Level 40 Stopped flows
+2017-08-20T00:07:32.969Z Level 40 Starting flows
+2017-08-20T00:08:03.666Z Level 20 ConnectionError: Cannot open server 'ucg-mssql' requested by the login. Client with IP address '75.166.167.190' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+2017-08-20T00:09:43.909Z Level 20 ConnectionError: Cannot open server 'ucg-mssql' requested by the login. Client with IP address '75.166.167.190' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+2017-08-20T00:11:23.830Z Level 20 RequestError: Invalid column name 'convoTransID'.
+2017-08-20T00:14:25.161Z Level 50 saved flow revision: dd9afc971648b6c5aa0ef5654fce4785
+2017-08-20T00:14:25.349Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T00:14:25.379Z Level 40 Started flows
+2017-08-20T00:14:25.161Z Level 40 Stopping flows
+2017-08-20T00:14:25.193Z Level 40 Stopped flows
+2017-08-20T00:14:25.194Z Level 40 Starting flows
+2017-08-20T00:14:34.244Z Level 40 User *** dfn16 Said *** 'status of my claim'
+2017-08-20T00:14:34.985Z Level 40 User *** dfn16 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-20T00:16:27.241Z Level 40 User *** dfn16 Said *** 'yes I am'
+2017-08-20T00:16:27.876Z Level 40 User *** dfn16 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-20T00:16:28.556Z Level 20 RequestError: Error converting data type varchar to numeric.
+2017-08-20T00:16:46.553Z Level 40 User *** dfn16 Said *** 'yeah what a mess'
+2017-08-20T00:16:47.198Z Level 40 User *** dfn16 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-20T00:17:06.746Z Level 40 User *** dfn16 Said *** 'yeah what a mess'
+2017-08-20T00:17:07.351Z Level 40 User *** dfn16 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-20T00:17:21.541Z Level 40 User *** dfn16 Said *** 'nope'
+2017-08-20T00:17:22.141Z Level 40 User *** dfn16 Response *** Sorry you didn't receive your letter. Based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-20T00:17:22.865Z Level 20 RequestError: Error converting data type varchar to numeric.
+2017-08-20T00:17:41.074Z Level 40 User *** dfn16 Said *** 'how do claims work'
+2017-08-20T00:17:41.771Z Level 40 User *** dfn16 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-20T00:17:58.940Z Level 40 User *** dfn16 Said *** 'yes'
+2017-08-20T00:17:59.550Z Level 40 User *** dfn16 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-20T00:18:00.237Z Level 20 RequestError: Error converting data type varchar to numeric.
+2017-08-20T00:18:20.791Z Level 40 User *** dfn16 Said *** 'nope never got it'
+2017-08-20T00:18:21.429Z Level 40 User *** dfn16 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-20T00:32:28.957Z Level 50 saved flow revision: 8916a2afb2e578d7b6dca1871a0a3fc2
+2017-08-20T00:32:29.157Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T00:32:29.186Z Level 40 Started flows
+2017-08-20T00:32:28.960Z Level 40 Stopping flows
+2017-08-20T00:32:28.997Z Level 40 Stopped flows
+2017-08-20T00:32:28.998Z Level 40 Starting flows
+2017-08-20T00:33:08.828Z Level 40 User *** dfn17 Said *** 'status of my claim'
+2017-08-20T00:33:09.527Z Level 40 User *** dfn17 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-20T00:33:26.127Z Level 40 User *** dfn17 Said *** 'yes I am'
+2017-08-20T00:33:26.751Z Level 40 User *** dfn17 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-20T00:37:44.872Z Level 40 User *** dfn17 Said *** 'yeah what a mess'
+2017-08-20T00:37:45.512Z Level 40 User *** dfn17 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-20T00:38:10.861Z Level 40 User *** dfn17 Said *** 'nope never got it'
+2017-08-20T00:38:11.466Z Level 40 User *** dfn17 Response *** Sorry you didn't receive your letter. Based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-20T00:38:38.491Z Level 40 User *** dfn17 Said *** 'how do claims work'
+2017-08-20T00:38:39.116Z Level 40 User *** dfn17 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-20T00:38:51.743Z Level 40 User *** dfn17 Said *** 'yes'
+2017-08-20T00:38:52.498Z Level 40 User *** dfn17 Response *** dennis, the letter advises you on your coverage for the roof damage and any other related damage, clean up, and items required by city ordinance. May I continue? 
+2017-08-20T00:38:56.501Z Level 40 User *** dfn17 Said *** 'yes'
+2017-08-20T00:38:57.128Z Level 40 User *** dfn17 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-20T00:39:21.804Z Level 40 User *** dfn17 Said *** 'no'
+2017-08-20T00:39:22.445Z Level 40 User *** dfn17 Response *** We can schedule a call anytime. What else is on your mind?
+2017-08-20T00:39:38.345Z Level 40 User *** dfn17 Said *** 'how do I make a pizza'
+2017-08-20T00:39:39.013Z Level 40 User *** dfn17 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-20T00:39:48.861Z Level 40 User *** dfn17 Said *** 'how do I make a pizza'
+2017-08-20T00:39:49.487Z Level 40 User *** dfn17 Response *** dennis, the letter advises you on your coverage for the roof damage and any other related damage, clean up, and items required by city ordinance. May I continue? 
+2017-08-20T00:39:52.496Z Level 40 User *** dfn17 Said *** 'how do I make a pizza'
+2017-08-20T00:39:53.138Z Level 40 User *** dfn17 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-20T00:39:55.695Z Level 40 User *** dfn17 Said *** 'how do I make a pizza'
+2017-08-20T00:39:56.308Z Level 40 User *** dfn17 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-20T00:40:00.828Z Level 40 User *** dfn17 Said *** 'how do I make a pizza'
+2017-08-20T00:40:01.471Z Level 40 User *** dfn17 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-20T00:54:07.638Z Level 40 User *** dfn17 Said *** 'hi'
+2017-08-20T00:54:08.311Z Level 40 User *** dfn17 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-20T00:54:15.574Z Level 40 User *** dfn17 Said *** 'ye'
+2017-08-20T00:54:16.227Z Level 40 User *** dfn17 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-20T00:54:28.357Z Level 40 User *** dfn17 Said *** ''no'
+2017-08-20T00:54:29.002Z Level 40 User *** dfn17 Response *** We can schedule a call anytime. What else is on your mind?
+2017-08-20T00:54:47.826Z Level 40 User *** dfn17 Said *** ''Do I have enough insurance'
+2017-08-20T00:54:48.561Z Level 40 User *** dfn17 Response *** Sure dennis, which coverage are you concerned about, home, health, life, liability, or auto? 
+2017-08-20T00:54:59.633Z Level 40 User *** dfn17 Said *** ''life'
+2017-08-20T00:55:00.329Z Level 40 User *** dfn17 Response *** Besides Open Insurance, do you have life insurance coverage at other companies?
+2017-08-20T00:55:12.956Z Level 40 User *** dfn17 Said *** 'yes'
+2017-08-20T00:55:13.671Z Level 40 User *** dfn17 Response *** What company and type of policy?
+2017-08-20T00:55:35.401Z Level 40 User *** dfn17 Said *** 'firstdata and term'
+2017-08-20T00:55:36.010Z Level 40 User *** dfn17 Response *** dennis, what is the term in years on the policy, 10 to 30 years? 
+2017-08-20T00:55:45.417Z Level 40 User *** dfn17 Said *** '10'
+2017-08-20T00:55:46.090Z Level 40 User *** dfn17 Response *** What is the coverage amount and monthly cost?
+2017-08-20T00:55:50.931Z Level 40 User *** dfn17 Said *** '100'
+2017-08-20T00:55:51.548Z Level 40 User *** dfn17 Response *** I see that you have Sydney, your 14 year old daughter, on your policy with us. Are there any other family members that depend on you financially dennis? 
+2017-08-20T00:56:05.156Z Level 40 User *** dfn17 Said *** 'no'
+2017-08-20T00:56:05.769Z Level 40 User *** dfn17 Response *** In the event of your death, would your estate provide assets to meet her needs until she is 25? 
+2017-08-20T00:56:11.786Z Level 40 User *** dfn17 Said *** 'no'
+2017-08-20T00:56:12.400Z Level 40 User *** dfn17 Response *** Here is what I see dennis.  As of 2016 statistics,  at age 14, it costs on average 165,000 dollars to raise a teenager to 25, and that could be as high as 350,000 if she goes to college. Since you have your home, auto, and life with us, I would suggest  an umbrella policy with life coverage of 500,000 dollars.  Your cost for total coverage will decrease by 150 dollars a month and you can work with one carrier for all your needs.  Does that sound good to you? 
+2017-08-20T00:56:21.835Z Level 40 User *** dfn17 Said *** 'yes'
+2017-08-20T00:56:22.459Z Level 40 User *** dfn17 Response *** dennis, Everyone's needs for life insurance are different and it is essential that we focus on customizing your policy for your specific needs. Sally Smith, your financial advisor, can help finalize your policy, can I schedule a call?
+2017-08-20T01:22:42.724Z Level 40 User *** dfn20 Said *** 'status of my claim'
+2017-08-20T01:22:43.490Z Level 40 User *** dfn20 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-20T01:22:53.534Z Level 40 User *** dfn20 Said *** 'yes'
+2017-08-20T01:22:54.218Z Level 40 User *** dfn20 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-20T01:22:57.420Z Level 40 User *** dfn20 Said *** 'yes'
+2017-08-20T01:22:58.039Z Level 40 User *** dfn20 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-20T01:23:05.205Z Level 40 User *** dfn20 Said *** 'nope'
+2017-08-20T01:23:05.841Z Level 40 User *** dfn20 Response *** Sorry you didn't receive your letter. Based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-20T01:23:18.678Z Level 40 User *** dfn20 Said *** 'how do claims work'
+2017-08-20T01:23:19.300Z Level 40 User *** dfn20 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-20T01:23:28.903Z Level 40 User *** dfn20 Said *** 'yes'
+2017-08-20T01:23:29.539Z Level 40 User *** dfn20 Response *** dennis, the letter advises you on your coverage for the roof damage and any other related damage, clean up, and items required by city ordinance. May I continue? 
+2017-08-20T01:23:33.655Z Level 40 User *** dfn20 Said *** 'yes'
+2017-08-20T01:23:34.213Z Level 40 User *** dfn20 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-20T01:23:51.614Z Level 40 User *** dfn20 Said *** 'no'
+2017-08-20T01:23:52.203Z Level 40 User *** dfn20 Response *** We can schedule a call anytime. What else is on your mind?
+2017-08-20T01:24:19.900Z Level 40 User *** dfn20 Said *** 'do i have enough insurance'
+2017-08-20T01:24:20.464Z Level 40 User *** dfn20 Response *** Sure dennis, which coverage are you concerned about, home, health, life, liability, or auto? 
+2017-08-20T01:24:27.662Z Level 40 User *** dfn20 Said *** 'life
+2017-08-20T01:24:28.238Z Level 40 User *** dfn20 Response *** Besides Open Insurance, do you have life insurance coverage at other companies?
+2017-08-20T01:24:38.948Z Level 40 User *** dfn20 Said *** 'yes'
+2017-08-20T01:24:39.561Z Level 40 User *** dfn20 Response *** What company and type of policy?
+2017-08-20T01:24:51.510Z Level 40 User *** dfn20 Said *** 'term and abc company'
+2017-08-20T01:24:52.119Z Level 40 User *** dfn20 Response *** dennis, what is the term in years on the policy, 10 to 30 years? 
+2017-08-20T01:25:00.764Z Level 40 User *** dfn20 Said *** '30'
+2017-08-20T01:25:01.387Z Level 40 User *** dfn20 Response *** What is the coverage amount and monthly cost?
+2017-08-20T01:25:05.922Z Level 40 User *** dfn20 Said *** '130'
+2017-08-20T01:25:06.647Z Level 40 User *** dfn20 Response *** I see that you have Sydney, your 14 year old daughter, on your policy with us. Are there any other family members that depend on you financially dennis? 
+2017-08-20T01:25:20.140Z Level 40 User *** dfn20 Said *** 'no'
+2017-08-20T01:25:20.737Z Level 40 User *** dfn20 Response *** In the event of your death, would your estate provide assets to meet her needs until she is 25? 
+2017-08-20T01:25:23.910Z Level 40 User *** dfn20 Said *** 'no'
+2017-08-20T01:25:24.462Z Level 40 User *** dfn20 Response *** Here is what I see dennis.  As of 2016 statistics,  at age 14, it costs on average 165,000 dollars to raise a teenager to 25, and that could be as high as 350,000 if she goes to college. Since you have your home, auto, and life with us, I would suggest  an umbrella policy with life coverage of 500,000 dollars.  Your cost for total coverage will decrease by 150 dollars a month and you can work with one carrier for all your needs.  Does that sound good to you? 
+2017-08-20T01:25:33.307Z Level 40 User *** dfn20 Said *** 'yes'
+2017-08-20T01:25:33.899Z Level 40 User *** dfn20 Response *** dennis, Everyone's needs for life insurance are different and it is essential that we focus on customizing your policy for your specific needs. Sally Smith, your financial advisor, can help finalize your policy, can I schedule a call?
+2017-08-20T01:25:46.120Z Level 40 User *** dfn20 Said *** 'yes'
+2017-08-20T01:25:46.681Z Level 40 User *** dfn20 Response *** Great, Sally is available at these times, 2 PM today, 10:00 AM tomorrow, 2 PM Thursday. 
+2017-08-20T01:26:06.668Z Level 40 User *** dfn20 Said *** '2pm today'
+2017-08-20T01:26:07.239Z Level 40 User *** dfn20 Response *** Great, I have created an appointment for you and Sally for '2pm today'
+2017-08-20T01:26:26.750Z Level 40 User *** dfn20 Said *** 'pizza please'
+2017-08-20T01:26:27.330Z Level 40 User *** dfn20 Response *** Don't know about that one, will note it for my future training. What other insurance questions are on your mind?
+2017-08-20T01:26:47.884Z Level 40 User *** dfn20 Said *** 'what is my deductabile'
+2017-08-20T01:26:48.516Z Level 40 User *** dfn20 Response *** Your deductable is 5,000 per claim. There are limits on the dwelling of 1.2 million, liability of 1 million, medical payments of 10,000 and contents at replacement cost. Anything else on your mind?
+2017-08-20T01:27:25.863Z Level 40 User *** dfn20 Said *** 'bye'
+2017-08-20T01:27:26.429Z Level 40 User *** dfn20 Response *** dennis, have a wonderful day! Remember, you can chat with me anytime and anywhere! I'm here for you.
+2017-08-20T04:22:22.163Z Level 50 saved flow revision: 9a6dda54f3b89536deaea76f99f176ac
+2017-08-20T04:22:22.166Z Level 40 Stopping flows
+2017-08-20T04:22:22.400Z Level 40 Started flows
+2017-08-20T04:22:22.203Z Level 40 Stopped flows
+2017-08-20T04:22:22.204Z Level 40 Starting flows
+2017-08-20T04:22:22.365Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T04:23:27.085Z Level 40 User *** dfn21 Said *** 'Hi'
+2017-08-20T04:23:27.825Z Level 40 User *** dfn21 Response *** Hello! I'm your personal insurance virtual assistant. You can ask me about anything?
+2017-08-20T04:24:07.209Z Level 40 User *** dfn21 Said *** 'what is my deductable'
+2017-08-20T04:24:07.834Z Level 40 User *** dfn21 Response *** Your deductable is 5,000 per claim. There are limits on the dwelling of 1.2 million, liability of 1 million, medical payments of 10,000 and contents at replacement cost. Anything else on your mind?
+2017-08-20T04:25:29.859Z Level 40 User *** dfn21 Said *** 'do i have enough insurance'
+2017-08-20T04:25:30.704Z Level 40 User *** dfn21 Response *** Sure dennis, which coverage are you concerned about, home, health, life, liability, or auto? 
+2017-08-20T04:25:41.502Z Level 40 User *** dfn21 Said *** 'life'
+2017-08-20T04:25:42.128Z Level 40 User *** dfn21 Response *** Besides Open Insurance, do you have life insurance coverage at other companies?
+2017-08-20T04:25:58.197Z Level 40 User *** dfn21 Said *** 'yes'
+2017-08-20T04:25:58.972Z Level 40 User *** dfn21 Response *** What company and type of policy?
+2017-08-20T04:26:13.007Z Level 40 User *** dfn21 Said *** 'abc term'
+2017-08-20T04:26:13.640Z Level 40 User *** dfn21 Response *** dennis, what is the term in years on the policy, 10 to 30 years? 
+2017-08-20T04:26:21.973Z Level 40 User *** dfn21 Said *** '30'
+2017-08-20T04:26:22.563Z Level 40 User *** dfn21 Response *** What is the coverage amount and monthly cost?
+2017-08-20T04:26:27.809Z Level 40 User *** dfn21 Said *** '130'
+2017-08-20T04:26:28.516Z Level 40 User *** dfn21 Response *** I see that you have Sydney, your 14 year old daughter, on your policy with us. Are there any other family members that depend on you financially dennis? 
+2017-08-20T04:26:38.291Z Level 40 User *** dfn21 Said *** 'no'
+2017-08-20T04:26:39.042Z Level 40 User *** dfn21 Response *** In the event of your death, would your estate provide assets to meet her needs until she is 25? 
+2017-08-20T04:26:42.861Z Level 40 User *** dfn21 Said *** 'no'
+2017-08-20T04:26:44.357Z Level 40 User *** dfn21 Response *** Here is what I see dennis.  As of 2016 statistics,  at age 14, it costs on average 165,000 dollars to raise a teenager to 25, and that could be as high as 350,000 if she goes to college. Since you have your home, auto, and life with us, I would suggest  an umbrella policy with life coverage of 500,000 dollars.  Your cost for total coverage will decrease by 150 dollars a month and you can work with one carrier for all your needs.  Does that sound good to you? 
+2017-08-20T04:26:51.831Z Level 40 User *** dfn21 Said *** 'yes'
+2017-08-20T04:26:52.612Z Level 40 User *** dfn21 Response *** dennis, Everyone's needs for life insurance are different and it is essential that we focus on customizing your policy for your specific needs. Sally Smith, your financial advisor, can help finalize your policy, can I schedule a call?
+2017-08-20T05:03:07.907Z Level 50 saved flow revision: 8b7e2bb0416f9fec956f4bbf5cfef445
+2017-08-20T05:03:07.910Z Level 40 Stopping flows
+2017-08-20T05:03:08.136Z Level 40 Started flows
+2017-08-20T05:03:07.943Z Level 40 Stopped flows
+2017-08-20T05:03:07.944Z Level 40 Starting flows
+2017-08-20T05:03:08.105Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T05:03:26.143Z Level 40 User *** dfn22 Said *** 'yes'
+2017-08-20T05:03:27.517Z Level 20 TypeError: d.getFullYear is not a function
+2017-08-20T05:05:04.953Z Level 50 saved flow revision: 710bf34d8dfc5b78a9bce861d9849a27
+2017-08-20T05:05:04.953Z Level 40 Stopping flows
+2017-08-20T05:05:05.162Z Level 40 Started flows
+2017-08-20T05:05:04.987Z Level 40 Stopped flows
+2017-08-20T05:05:04.988Z Level 40 Starting flows
+2017-08-20T05:05:05.132Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T05:05:21.689Z Level 40 User *** dfn22 Said *** 'yes'
+2017-08-20T05:05:22.479Z Level 20 TypeError: d.getFullYear is not a function
+2017-08-20T05:05:39.766Z Level 50 saved flow revision: d0ef961db75a06b6123268e497444b63
+2017-08-20T05:05:39.958Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T05:05:39.994Z Level 40 Started flows
+2017-08-20T05:05:39.766Z Level 40 Stopping flows
+2017-08-20T05:05:39.796Z Level 40 Starting flows
+2017-08-20T05:05:39.796Z Level 40 Stopped flows
+2017-08-20T05:05:45.340Z Level 40 User *** dfn22 Said *** 'yes'
+2017-08-20T05:05:45.993Z Level 40 User *** dfn22 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-20T05:12:54.687Z Level 50 saved flow revision: da42a9c4c2b5a1c4ae17e50f9a93433f
+2017-08-20T05:12:54.851Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T05:12:54.880Z Level 40 Started flows
+2017-08-20T05:12:54.687Z Level 40 Stopping flows
+2017-08-20T05:12:54.719Z Level 40 Starting flows
+2017-08-20T05:12:54.719Z Level 40 Stopped flows
+2017-08-20T05:13:01.527Z Level 40 User *** dfn22 Said *** 'yes'
+2017-08-20T05:13:02.564Z Level 40 User *** dfn22 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-20T05:15:39.307Z Level 50 saved flow revision: d7cc984461ee2830029aceb9fa407c17
+2017-08-20T05:15:39.309Z Level 40 Stopping flows
+2017-08-20T05:15:39.510Z Level 40 Started flows
+2017-08-20T05:15:39.337Z Level 40 Stopped flows
+2017-08-20T05:15:39.338Z Level 40 Starting flows
+2017-08-20T05:15:39.478Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T05:15:50.052Z Level 40 User *** dfn23 Said *** 'yes'
+2017-08-20T05:15:50.729Z Level 40 User *** dfn23 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-20T05:18:28.508Z Level 50 saved flow revision: bf1e7fd1d9eb48cbc296947c0a3811dc
+2017-08-20T05:18:28.509Z Level 40 Stopping flows
+2017-08-20T05:18:28.534Z Level 40 Stopped flows
+2017-08-20T05:18:28.535Z Level 40 Starting flows
+2017-08-20T05:18:28.678Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T05:18:28.710Z Level 40 Started flows
+2017-08-20T05:18:37.187Z Level 40 User *** dfn23 Said *** 'yes'
+2017-08-20T05:18:38.275Z Level 40 User *** dfn23 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-20T05:20:40.394Z Level 50 saved flow revision: 24924084dbe9614d08b0b3888818dee0
+2017-08-20T05:20:40.576Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T05:20:40.609Z Level 40 Started flows
+2017-08-20T05:20:40.395Z Level 40 Stopping flows
+2017-08-20T05:20:40.431Z Level 40 Stopped flows
+2017-08-20T05:20:40.433Z Level 40 Starting flows
+2017-08-20T05:20:44.753Z Level 40 User *** dfn23 Said *** 'yes'
+2017-08-20T05:20:45.370Z Level 40 User *** dfn23 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-20T05:22:28.701Z Level 50 saved flow revision: 203c7c4c11fbd6c2a5f40e76f7fce2d5
+2017-08-20T05:22:28.875Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T05:22:28.909Z Level 40 Started flows
+2017-08-20T05:22:28.703Z Level 40 Stopping flows
+2017-08-20T05:22:28.737Z Level 40 Stopped flows
+2017-08-20T05:22:28.738Z Level 40 Starting flows
+2017-08-20T05:26:31.998Z Level 50 saved flow revision: 1f132df61f56931e503cba2582ce64fc
+2017-08-20T05:26:31.999Z Level 40 Stopping flows
+2017-08-20T05:26:32.196Z Level 40 Started flows
+2017-08-20T05:26:32.021Z Level 40 Stopped flows
+2017-08-20T05:26:32.022Z Level 40 Starting flows
+2017-08-20T05:26:32.161Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T05:26:45.549Z Level 20 RequestError: Invalid column name 'convoDialogIntent'.
+2017-08-20T05:27:26.523Z Level 50 saved flow revision: 9aac678f487163a2ab4bc3d1bdd38c78
+2017-08-20T05:27:26.695Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T05:27:26.729Z Level 40 Started flows
+2017-08-20T05:27:26.524Z Level 40 Stopping flows
+2017-08-20T05:27:26.556Z Level 40 Stopped flows
+2017-08-20T05:27:26.557Z Level 40 Starting flows
+2017-08-20T05:27:35.311Z Level 40 User *** dfn23 Said *** 'yes'
+2017-08-20T05:27:36.039Z Level 40 User *** dfn23 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-20T05:29:24.825Z Level 40 User *** dfn23 Said *** 'status of my claim'
+2017-08-20T05:29:25.682Z Level 40 User *** dfn23 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-20T05:30:48.196Z Level 50 saved flow revision: d167fe283257053efead063eb3e948e9
+2017-08-20T05:30:48.219Z Level 40 Starting flows
+2017-08-20T05:30:48.396Z Level 40 Started flows
+2017-08-20T05:30:48.196Z Level 40 Stopping flows
+2017-08-20T05:30:48.218Z Level 40 Stopped flows
+2017-08-20T05:30:48.367Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T05:30:55.142Z Level 40 User *** dfn23 Said *** 'status of my claim'
+2017-08-20T05:30:55.797Z Level 40 User *** dfn23 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-20T05:31:14.796Z Level 40 User *** dfn24 Said *** 'status of my claim'
+2017-08-20T05:31:15.425Z Level 40 User *** dfn24 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-20T05:40:34.323Z Level 40 User *** dfn25 Said *** 'pizza'
+2017-08-20T05:40:35.047Z Level 40 User *** dfn25 Response *** Don't know about that one, will note it for my future training. What other insurance questions are on your mind?
+2017-08-20T17:54:20.516Z Level 40 User *** dfn26 Said *** 'status of my claim'
+2017-08-20T17:54:21.241Z Level 40 User *** dfn26 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-20T17:54:29.424Z Level 40 User *** dfn26 Said *** 'yes'
+2017-08-20T17:54:30.061Z Level 40 User *** dfn26 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-20T17:54:31.642Z Level 40 User *** dfn26 Said *** 'yes'
+2017-08-20T17:54:32.284Z Level 40 User *** dfn26 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-20T17:54:38.533Z Level 40 User *** dfn26 Said *** 'nope'
+2017-08-20T17:54:39.163Z Level 40 User *** dfn26 Response *** Sorry you didn't receive your letter. Based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-20T17:54:51.061Z Level 40 User *** dfn26 Said *** 'how do claims work'
+2017-08-20T17:54:51.729Z Level 40 User *** dfn26 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-20T17:55:01.529Z Level 40 User *** dfn26 Said *** 'yes'
+2017-08-20T17:55:02.237Z Level 40 User *** dfn26 Response *** dennis, the letter advises you on your coverage for the roof damage and any other related damage, clean up, and items required by city ordinance. May I continue? 
+2017-08-20T17:55:06.267Z Level 40 User *** dfn26 Said *** 'yes'
+2017-08-20T17:55:06.964Z Level 40 User *** dfn26 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-20T17:55:21.209Z Level 40 User *** dfn26 Said *** 'schedule call'
+2017-08-20T17:55:21.872Z Level 40 User *** dfn26 Response *** Sure dennis, I can set up a time for your representative, George Jetson, to call you? He is available 4 PM today, 9:30 AM tomorrow, or 1 PM tomorrow. 
+2017-08-20T17:55:39.049Z Level 40 User *** dfn26 Said *** '1 PM'
+2017-08-20T17:55:39.663Z Level 40 User *** dfn26 Response *** Great, I have created an appointment at '1 PM' for you and George.  Any more questions for me?
+2017-08-20T17:57:52.468Z Level 40 User *** dfn26 Said *** 'what is my deductable'
+2017-08-20T17:57:53.072Z Level 40 User *** dfn26 Response *** Your deductable is 5,000 per claim. There are limits on the dwelling of 1.2 million, liability of 1 million, medical payments of 10,000 and contents at replacement cost. Anything else on your mind?
+2017-08-20T17:58:10.005Z Level 40 User *** dfn26 Said *** 'do I have enough insurance'
+2017-08-20T17:58:10.612Z Level 40 User *** dfn26 Response *** Sure dennis, which coverage are you concerned about, home, health, life, liability, or auto? 
+2017-08-20T17:58:17.545Z Level 40 User *** dfn26 Said *** 'life'
+2017-08-20T17:58:18.174Z Level 40 User *** dfn26 Response *** Besides Open Insurance, do you have life insurance coverage at other companies?
+2017-08-20T17:58:33.753Z Level 40 User *** dfn26 Said *** 'abc company and term'
+2017-08-20T17:58:34.371Z Level 40 User *** dfn26 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-20T17:58:45.703Z Level 40 User *** dfn26 Said *** 'yes'
+2017-08-20T17:58:46.345Z Level 40 User *** dfn26 Response *** Besides Open Insurance, do you have life insurance coverage at other companies?
+2017-08-20T17:58:51.147Z Level 40 User *** dfn26 Said *** 'yes'
+2017-08-20T17:58:51.803Z Level 40 User *** dfn26 Response *** What company and type of policy?
+2017-08-20T17:58:59.411Z Level 40 User *** dfn26 Said *** 'abc and term'
+2017-08-20T17:59:00.027Z Level 40 User *** dfn26 Response *** dennis, what is the term in years on the policy, 10 to 30 years? 
+2017-08-20T17:59:08.615Z Level 40 User *** dfn26 Said *** '10'
+2017-08-20T17:59:09.296Z Level 40 User *** dfn26 Response *** What is the coverage amount and monthly cost?
+2017-08-20T17:59:12.258Z Level 40 User *** dfn26 Said *** '100'
+2017-08-20T17:59:12.874Z Level 40 User *** dfn26 Response *** I see that you have Sydney, your 14 year old daughter, on your policy with us. Are there any other family members that depend on you financially dennis? 
+2017-08-20T17:59:19.951Z Level 40 User *** dfn26 Said *** 'no'
+2017-08-20T17:59:20.615Z Level 40 User *** dfn26 Response *** In the event of your death, would your estate provide assets to meet her needs until she is 25? 
+2017-08-20T17:59:22.039Z Level 40 User *** dfn26 Said *** 'no'
+2017-08-20T17:59:22.706Z Level 40 User *** dfn26 Response *** Here is what I see dennis.  As of 2016 statistics,  at age 14, it costs on average 165,000 dollars to raise a teenager to 25, and that could be as high as 350,000 if she goes to college. Since you have your home, auto, and life with us, I would suggest  an umbrella policy with life coverage of 500,000 dollars.  Your cost for total coverage will decrease by 150 dollars a month and you can work with one carrier for all your needs.  Does that sound good to you? 
+2017-08-20T17:59:29.879Z Level 40 User *** dfn26 Said *** 'yes
+2017-08-20T17:59:30.516Z Level 40 User *** dfn26 Response *** dennis, Everyone's needs for life insurance are different and it is essential that we focus on customizing your policy for your specific needs. Sally Smith, your financial advisor, can help finalize your policy, can I schedule a call?
+2017-08-20T17:59:37.479Z Level 40 User *** dfn26 Said *** 'yes
+2017-08-20T17:59:38.081Z Level 40 User *** dfn26 Response *** Great, Sally is available at these times, 2 PM today, 10:00 AM tomorrow, 2 PM Thursday. 
+2017-08-20T17:59:46.326Z Level 40 User *** dfn26 Said *** '2Pm'
+2017-08-20T17:59:46.963Z Level 40 User *** dfn26 Response *** Great, I have created an appointment for you and Sally for '2Pm'
+2017-08-20T17:59:56.304Z Level 40 User *** dfn26 Said *** 'bye'
+2017-08-20T17:59:56.916Z Level 40 User *** dfn26 Response *** dennis, have a wonderful day! Remember, you can chat with me anytime and anywhere! I'm here for you.
+2017-08-20T19:23:45.656Z Level 50 saved flow revision: 7a128b4310a96bd9129b7b1a5d0c705f
+2017-08-20T19:23:45.659Z Level 40 Stopping flows
+2017-08-20T19:23:45.689Z Level 40 Stopped flows
+2017-08-20T19:23:45.690Z Level 40 Starting flows
+2017-08-20T19:23:45.879Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T19:23:45.924Z Level 40 Started flows
+2017-08-20T19:24:20.516Z Level 40 User *** dfn26 Said *** 'status of my claiam'
+2017-08-20T19:24:21.191Z Level 40 User *** dfn26 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-20T19:25:03.310Z Level 40 User *** dfn26 Said *** 'Bye'
+2017-08-20T19:25:03.975Z Level 40 User *** dfn26 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-20T19:25:09.991Z Level 40 User *** dfn26 Said *** 'Ye'
+2017-08-20T19:25:10.603Z Level 40 User *** dfn26 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-20T19:25:52.536Z Level 50 saved flow revision: 26ab8132089f644258cfe2f1cabb2592
+2017-08-20T19:25:52.537Z Level 40 Stopping flows
+2017-08-20T19:25:52.714Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T19:25:52.562Z Level 40 Stopped flows
+2017-08-20T19:25:52.562Z Level 40 Starting flows
+2017-08-20T19:25:52.743Z Level 40 Started flows
+2017-08-20T19:30:33.560Z Level 40 User *** dfn26 Said *** 'Yes'
+2017-08-20T19:30:34.185Z Level 40 User *** dfn26 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-20T19:30:37.350Z Level 40 User *** dfn26 Said *** 'Yes'
+2017-08-20T19:30:37.992Z Level 40 User *** dfn26 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-20T19:30:44.908Z Level 40 User *** dfn26 Said *** 'Yes'
+2017-08-20T19:30:45.541Z Level 40 User *** dfn26 Response *** Great, based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-20T19:30:58.262Z Level 40 User *** dfn26 Said *** 'schedule a call'
+2017-08-20T19:30:58.904Z Level 40 User *** dfn26 Response *** Sure dennis, I can set up a time for your representative, George Jetson, to call you? He is available 4 PM today, 9:30 AM tomorrow, or 1 PM tomorrow. 
+2017-08-20T19:32:13.326Z Level 40 User *** dfn26 Said *** '1pm'
+2017-08-20T19:32:13.923Z Level 40 User *** dfn26 Response *** Great, I have created an appointment at '1pm' for you and George.  Any more questions for me?
+2017-08-20T19:33:20.943Z Level 40 User *** dfn26 Said *** 'I'm afraid of insurance'
+2017-08-20T19:33:28.502Z Level 40 User *** dfn26 Response *** Don't know about that one, will note it for my future training. What other insurance questions are on your mind?
+2017-08-20T19:34:11.690Z Level 40 User *** dfn26 Said *** 'Im afraid of insurance'
+2017-08-20T19:34:12.318Z Level 40 User *** dfn26 Response *** Don't know about that one, will note it for my future training. What other insurance questions are on your mind?
+2017-08-20T19:37:26.299Z Level 50 saved flow revision: 43d2a36c516200682309d2063edede13
+2017-08-20T19:37:26.342Z Level 40 Starting flows
+2017-08-20T19:37:26.501Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-20T19:37:26.301Z Level 40 Stopping flows
+2017-08-20T19:37:26.341Z Level 40 Stopped flows
+2017-08-20T19:37:26.531Z Level 40 Started flows
+2017-08-20T20:44:41.153Z Level 50 saved flow revision: 5a9cd730835e8abedf487248855fd8cf
+2017-08-20T20:44:41.154Z Level 40 Stopping flows
+2017-08-20T20:44:41.372Z Level 40 Started flows
+2017-08-20T20:44:41.187Z Level 40 Stopped flows
+2017-08-20T20:44:41.187Z Level 40 Starting flows
+2017-08-20T20:44:41.343Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T00:33:00.413Z Level 40 User *** dfn27 Said *** 'Status of my claim'
+2017-08-21T00:33:01.201Z Level 40 User *** dfn27 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T00:33:32.209Z Level 40 User *** dfn27 Said *** 'yes'
+2017-08-21T00:33:32.846Z Level 40 User *** dfn27 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-21T00:33:34.720Z Level 40 User *** dfn27 Said *** 'yes'
+2017-08-21T00:33:35.327Z Level 40 User *** dfn27 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-21T00:33:41.976Z Level 40 User *** dfn27 Said *** 'nope'
+2017-08-21T00:33:42.633Z Level 40 User *** dfn27 Response *** Sorry you didn't receive your letter. Based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-21T00:33:55.050Z Level 40 User *** dfn27 Said *** 'how do claims work'
+2017-08-21T00:33:55.663Z Level 40 User *** dfn27 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-21T00:34:05.635Z Level 40 User *** dfn27 Said *** 'yes'
+2017-08-21T00:34:06.245Z Level 40 User *** dfn27 Response *** dennis, the letter advises you on your coverage for the roof damage and any other related damage, clean up, and items required by city ordinance. May I continue? 
+2017-08-21T00:34:09.607Z Level 40 User *** dfn27 Said *** 'yes'
+2017-08-21T00:34:10.284Z Level 40 User *** dfn27 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-21T00:34:23.881Z Level 40 User *** dfn27 Said *** 'Please schedule a call'
+2017-08-21T00:34:24.513Z Level 40 User *** dfn27 Response *** Sure dennis, I can set up a time for your representative, George Jetson, to call you? He is available 4 PM today, 9:30 AM tomorrow, or 1 PM tomorrow. 
+2017-08-21T00:34:36.306Z Level 40 User *** dfn27 Said *** '1 PM'
+2017-08-21T00:34:36.927Z Level 40 User *** dfn27 Response *** Great, I have created an appointment at '1 PM' for you and George.  Any more questions for me?
+2017-08-21T00:38:10.522Z Level 50 saved flow revision: 31771500a23562d5cab494c4fa91843c
+2017-08-21T00:38:10.856Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T00:38:10.524Z Level 40 Stopping flows
+2017-08-21T00:38:10.571Z Level 40 Stopped flows
+2017-08-21T00:38:10.572Z Level 40 Starting flows
+2017-08-21T00:38:10.905Z Level 40 Started flows
+2017-08-21T00:38:28.285Z Level 40 User *** dfn27 Said *** 'please schedule a call'
+2017-08-21T00:38:28.944Z Level 20 ReferenceError: convoDialogConfidence is not defined (line 73, col 10)
+2017-08-21T00:39:39.554Z Level 50 saved flow revision: e0ae45fc28f684d97dac6d398a78b022
+2017-08-21T00:39:39.583Z Level 40 Starting flows
+2017-08-21T00:39:39.554Z Level 40 Stopping flows
+2017-08-21T00:39:39.581Z Level 40 Stopped flows
+2017-08-21T00:39:39.734Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T00:39:39.769Z Level 40 Started flows
+2017-08-21T00:39:43.514Z Level 40 User *** dfn27 Said *** 'please schedule a call'
+2017-08-21T00:39:44.146Z Level 40 User *** dfn27 Response *** Sure dennis, I can set up a time for your representative, George Jetson, to call you? He is available 4 PM today, 9:30 AM tomorrow, or 1 PM tomorrow. 
+2017-08-21T00:40:54.960Z Level 50 saved flow revision: f3d43e80848622362c1b87f2c4f299c2
+2017-08-21T00:40:55.152Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T00:40:54.963Z Level 40 Stopping flows
+2017-08-21T00:40:54.999Z Level 40 Stopped flows
+2017-08-21T00:40:55.001Z Level 40 Starting flows
+2017-08-21T00:40:55.188Z Level 40 Started flows
+2017-08-21T00:40:59.708Z Level 40 User *** dfn27 Said *** 'please schedule a call'
+2017-08-21T00:41:00.438Z Level 40 User *** dfn27 Response *** Great, I have created an appointment at 'please schedule a call' for you and George.  Any more questions for me?
+2017-08-21T00:41:25.053Z Level 40 User *** dfn27 Said *** 'please schedule a call'
+2017-08-21T00:41:25.675Z Level 40 User *** dfn27 Response *** Sure dennis, I can set up a time for your representative, George Jetson, to call you? He is available 4 PM today, 9:30 AM tomorrow, or 1 PM tomorrow. 
+2017-08-21T00:43:30.216Z Level 40 User *** dfn28 Said *** 'status of my claim'
+2017-08-21T00:43:30.868Z Level 40 User *** dfn28 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T00:43:39.842Z Level 40 User *** dfn28 Said *** 'yes'
+2017-08-21T00:43:40.452Z Level 40 User *** dfn28 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-21T00:43:44.265Z Level 40 User *** dfn28 Said *** 'yes'
+2017-08-21T00:43:44.887Z Level 40 User *** dfn28 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-21T00:43:51.510Z Level 40 User *** dfn28 Said *** 'nope'
+2017-08-21T00:43:52.123Z Level 40 User *** dfn28 Response *** Sorry you didn't receive your letter. Based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-21T00:44:05.740Z Level 40 User *** dfn28 Said *** 'How do claims work'
+2017-08-21T00:44:06.362Z Level 40 User *** dfn28 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-21T00:44:14.761Z Level 40 User *** dfn28 Said *** 'yes'
+2017-08-21T00:44:15.403Z Level 40 User *** dfn28 Response *** dennis, the letter advises you on your coverage for the roof damage and any other related damage, clean up, and items required by city ordinance. May I continue? 
+2017-08-21T00:44:19.663Z Level 40 User *** dfn28 Said *** 'yes'
+2017-08-21T00:44:20.273Z Level 40 User *** dfn28 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-21T00:44:26.900Z Level 40 User *** dfn28 Said *** 'no'
+2017-08-21T00:44:27.513Z Level 40 User *** dfn28 Response *** We can schedule a call anytime. What else is on your mind?
+2017-08-21T00:44:39.906Z Level 40 User *** dfn28 Said *** 'what is my deductable'
+2017-08-21T00:44:40.514Z Level 40 User *** dfn28 Response *** Your deductable is 5,000 per claim. There are limits on the dwelling of 1.2 million, liability of 1 million, medical payments of 10,000 and contents at replacement cost. Anything else on your mind?
+2017-08-21T00:54:14.766Z Level 50 saved flow revision: dfb2b31b2d7b9a6d39ec94c0b2d2e40a
+2017-08-21T00:54:14.769Z Level 40 Stopping flows
+2017-08-21T00:54:14.812Z Level 40 Starting flows
+2017-08-21T00:54:14.811Z Level 40 Stopped flows
+2017-08-21T00:54:14.974Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T00:54:15.009Z Level 40 Started flows
+2017-08-21T00:59:26.858Z Level 50 saved flow revision: bf068c56e6d918384648848974f6f76d
+2017-08-21T00:59:27.030Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T00:59:27.062Z Level 40 Started flows
+2017-08-21T00:59:26.858Z Level 40 Stopping flows
+2017-08-21T00:59:26.885Z Level 40 Stopped flows
+2017-08-21T00:59:26.885Z Level 40 Starting flows
+2017-08-21T00:59:49.842Z Level 40 User *** dfn30 Said *** 'status of my claim'
+2017-08-21T00:59:50.600Z Level 40 User *** dfn30 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T01:02:52.736Z Level 50 saved flow revision: ee0788afea1fc906b42e873e5e5293fa
+2017-08-21T01:02:52.769Z Level 40 Starting flows
+2017-08-21T01:02:52.919Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T01:02:52.738Z Level 40 Stopping flows
+2017-08-21T01:02:52.768Z Level 40 Stopped flows
+2017-08-21T01:02:52.946Z Level 40 Started flows
+2017-08-21T01:03:42.458Z Level 50 saved flow revision: 1d3c7d47350172209b2b3b5bddc8df04
+2017-08-21T01:03:42.459Z Level 40 Stopping flows
+2017-08-21T01:03:42.663Z Level 40 Started flows
+2017-08-21T01:03:42.493Z Level 40 Stopped flows
+2017-08-21T01:03:42.493Z Level 40 Starting flows
+2017-08-21T01:03:42.631Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T01:03:47.206Z Level 40 User *** dfn30 Said *** 'status of my claim'
+2017-08-21T01:03:48.082Z Level 40 User *** dfn30 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-21T01:05:28.747Z Level 50 saved flow revision: c8f834f0138664454b02614af6abcf06
+2017-08-21T01:05:28.748Z Level 40 Stopping flows
+2017-08-21T01:05:28.780Z Level 40 Stopped flows
+2017-08-21T01:05:28.781Z Level 40 Starting flows
+2017-08-21T01:05:28.937Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T01:05:28.970Z Level 40 Started flows
+2017-08-21T01:05:35.626Z Level 40 User *** dfn30 Said *** 'status of my claim'
+2017-08-21T01:05:36.279Z Level 40 User *** dfn30 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T01:05:37.099Z Level 20 RequestError: Incorrect syntax near 'status'.
+2017-08-21T01:10:24.923Z Level 50 saved flow revision: 447c92dd760d08a97e45a58a57fab449
+2017-08-21T01:10:24.925Z Level 40 Stopping flows
+2017-08-21T01:10:25.137Z Level 40 Started flows
+2017-08-21T01:10:24.955Z Level 40 Stopped flows
+2017-08-21T01:10:24.955Z Level 40 Starting flows
+2017-08-21T01:10:25.106Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T01:10:34.616Z Level 40 User *** dfn30 Said *** status of my claim
+2017-08-21T01:10:35.247Z Level 40 User *** dfn30 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T01:18:42.826Z Level 50 saved flow revision: 0d83d7c237a29b544f97b3850f15c849
+2017-08-21T01:18:42.871Z Level 40 Starting flows
+2017-08-21T01:18:43.043Z Level 40 Started flows
+2017-08-21T01:18:42.827Z Level 40 Stopping flows
+2017-08-21T01:18:42.870Z Level 40 Stopped flows
+2017-08-21T01:18:43.015Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T01:18:48.392Z Level 40 User *** dfn30 Said *** status of my claim
+2017-08-21T01:18:49.101Z Level 40 User *** dfn30 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-21T01:18:49.918Z Level 20 RequestError: Unclosed quotation mark after the character string ')
+'.
+2017-08-21T01:18:51.388Z Level 40 User *** dfn30 Said *** status of my claim
+2017-08-21T01:18:52.004Z Level 40 User *** dfn30 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-21T01:18:52.713Z Level 20 RequestError: Unclosed quotation mark after the character string ')
+'.
+2017-08-21T01:31:45.876Z Level 50 saved flow revision: 4cde88b7f9c582a55d545bb754f5bf06
+2017-08-21T01:31:46.062Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T01:31:45.877Z Level 40 Stopping flows
+2017-08-21T01:31:45.916Z Level 40 Stopped flows
+2017-08-21T01:31:45.917Z Level 40 Starting flows
+2017-08-21T01:31:46.091Z Level 40 Started flows
+2017-08-21T01:31:58.664Z Level 40 User *** dfn30 Said *** status of my claim
+2017-08-21T01:31:59.302Z Level 40 User *** dfn30 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-21T01:32:00.149Z Level 20 RequestError: Unclosed quotation mark after the character string ')
+'.
+2017-08-21T01:32:24.173Z Level 40 User *** dfn30 Said *** status of my claim
+2017-08-21T01:32:24.795Z Level 40 User *** dfn30 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-21T01:32:25.663Z Level 20 RequestError: Unclosed quotation mark after the character string ')
+'.
+2017-08-21T01:33:30.177Z Level 50 saved flow revision: 663fe66625398c32c15fc4ce9e1e4961
+2017-08-21T01:33:30.180Z Level 40 Stopping flows
+2017-08-21T01:33:30.223Z Level 40 Stopped flows
+2017-08-21T01:33:30.224Z Level 40 Starting flows
+2017-08-21T01:33:30.375Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T01:33:30.410Z Level 40 Started flows
+2017-08-21T01:33:34.621Z Level 40 User *** dfn30 Said *** status of my claim
+2017-08-21T01:33:35.351Z Level 40 User *** dfn30 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-21T01:33:36.200Z Level 20 RequestError: Unclosed quotation mark after the character string ')
+'.
+2017-08-21T01:37:55.301Z Level 50 saved flow revision: 08d70fc0678e8a20ed26822e7a81289b
+2017-08-21T01:37:55.301Z Level 40 Stopping flows
+2017-08-21T01:37:55.501Z Level 40 Started flows
+2017-08-21T01:37:55.330Z Level 40 Stopped flows
+2017-08-21T01:37:55.331Z Level 40 Starting flows
+2017-08-21T01:37:55.474Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T01:37:59.229Z Level 40 User *** dfn30 Said *** status of my claim
+2017-08-21T01:38:00.009Z Level 40 User *** dfn30 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-21T01:38:00.838Z Level 20 RequestError: Unclosed quotation mark after the character string ')
+'.
+2017-08-21T01:38:42.407Z Level 50 saved flow revision: 755262194b04a852020a8bf33851de99
+2017-08-21T01:38:42.408Z Level 40 Stopping flows
+2017-08-21T01:38:42.609Z Level 40 Started flows
+2017-08-21T01:38:42.434Z Level 40 Starting flows
+2017-08-21T01:38:42.433Z Level 40 Stopped flows
+2017-08-21T01:38:42.577Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T01:38:45.522Z Level 40 User *** dfn30 Said *** status of my claim
+2017-08-21T01:38:46.144Z Level 40 User *** dfn30 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-21T01:39:58.105Z Level 50 saved flow revision: 6375b3e909eb987f9840d596a0d92017
+2017-08-21T01:39:58.135Z Level 40 Starting flows
+2017-08-21T01:39:58.106Z Level 40 Stopping flows
+2017-08-21T01:39:58.134Z Level 40 Stopped flows
+2017-08-21T01:39:58.285Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T01:39:58.315Z Level 40 Started flows
+2017-08-21T01:40:03.348Z Level 40 User *** dfn30 Said *** status of my claim
+2017-08-21T01:40:03.989Z Level 40 User *** dfn30 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T01:44:50.190Z Level 40 User *** dfn30 Said *** status of my claim
+2017-08-21T01:44:50.757Z Level 40 User *** dfn30 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-21T05:53:03.702Z Level 40 User *** dfn30 Said *** status of my claim
+2017-08-21T05:53:04.904Z Level 40 User *** dfn30 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T05:53:23.424Z Level 40 User *** dfn30 Said *** yes
+2017-08-21T05:53:24.188Z Level 40 User *** dfn30 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-21T05:55:19.067Z Level 50 saved flow revision: e98d4ba0ff333ae67cda45ede7659c4f
+2017-08-21T05:55:19.069Z Level 40 Stopping flows
+2017-08-21T05:55:19.104Z Level 40 Stopped flows
+2017-08-21T05:55:19.105Z Level 40 Starting flows
+2017-08-21T05:55:19.250Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T05:55:19.281Z Level 40 Started flows
+2017-08-21T05:57:15.466Z Level 40 User *** dfn30 Said *** status of my claim
+2017-08-21T05:57:16.275Z Level 40 User *** dfn30 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-21T06:10:19.976Z Level 40 User *** dfn31 Said *** status of my claim
+2017-08-21T06:10:20.602Z Level 40 User *** dfn31 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T06:10:29.812Z Level 40 User *** dfn31 Said *** yes
+2017-08-21T06:10:30.476Z Level 40 User *** dfn31 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-21T06:10:32.845Z Level 40 User *** dfn31 Said *** yes
+2017-08-21T06:10:34.076Z Level 40 User *** dfn31 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-21T06:10:41.448Z Level 40 User *** dfn31 Said *** nope
+2017-08-21T06:10:42.078Z Level 40 User *** dfn31 Response *** Sorry you didn't receive your letter. Based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-21T06:10:43.063Z Level 20 RequestError: String or binary data would be truncated.
+2017-08-21T06:10:57.557Z Level 40 User *** dfn31 Said *** How do claims work
+2017-08-21T06:10:58.217Z Level 40 User *** dfn31 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-21T06:11:12.105Z Level 40 User *** dfn31 Said *** yes
+2017-08-21T06:11:13.827Z Level 40 User *** dfn31 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-21T06:11:24.226Z Level 40 User *** dfn31 Said *** nope
+2017-08-21T06:11:25.208Z Level 40 User *** dfn31 Response *** Sorry you didn't receive your letter. Based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-21T06:11:25.972Z Level 20 RequestError: String or binary data would be truncated.
+2017-08-21T06:11:37.257Z Level 40 User *** dfn31 Said *** how do claims work
+2017-08-21T06:11:37.927Z Level 40 User *** dfn31 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-21T06:18:14.072Z Level 40 User *** dfn31 Said *** how do claims work
+2017-08-21T06:18:15.546Z Level 40 User *** dfn31 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-21T06:18:36.224Z Level 40 User *** dfn31 Said *** ye
+2017-08-21T06:18:36.987Z Level 40 User *** dfn31 Response *** dennis, the letter advises you on your coverage for the roof damage and any other related damage, clean up, and items required by city ordinance. May I continue? 
+2017-08-21T06:18:54.817Z Level 40 User *** dfn31 Said *** yes
+2017-08-21T06:18:55.788Z Level 40 User *** dfn31 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-21T06:19:10.026Z Level 40 User *** dfn31 Said *** no
+2017-08-21T06:19:10.666Z Level 40 User *** dfn31 Response *** We can schedule a call anytime. What else is on your mind?
+2017-08-21T06:19:22.186Z Level 40 User *** dfn31 Said *** status of my claim
+2017-08-21T06:19:23.719Z Level 40 User *** dfn31 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T06:19:31.596Z Level 40 User *** dfn31 Said *** yes
+2017-08-21T06:19:33.607Z Level 40 User *** dfn31 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-21T06:19:37.204Z Level 40 User *** dfn31 Said *** yes
+2017-08-21T06:19:37.860Z Level 40 User *** dfn31 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-21T06:19:48.304Z Level 40 User *** dfn31 Said *** nope
+2017-08-21T06:19:48.929Z Level 40 User *** dfn31 Response *** Sorry you didn't receive your letter. Based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-21T06:20:25.186Z Level 40 User *** dfn31 Said *** what is my deductable
+2017-08-21T06:20:25.838Z Level 40 User *** dfn31 Response *** Your deductable is 5,000 per claim. There are limits on the dwelling of 1.2 million, liability of 1 million, medical payments of 10,000 and contents at replacement cost. Anything else on your mind?
+2017-08-21T06:20:41.884Z Level 40 User *** dfn31 Said *** pizza
+2017-08-21T06:20:42.532Z Level 40 User *** dfn31 Response *** Don't know about that one, will note it for my future training. What other insurance questions are on your mind?
+2017-08-21T06:31:34.762Z Level 40 User *** dfn31 Said *** yes
+2017-08-21T06:31:35.431Z Level 40 User *** dfn31 Response *** Okay, you can ask me questions like: Can I get a status of my claim?  What is  my deductible,  or, How do claims work? So how can I help?
+2017-08-21T06:49:33.886Z Level 50 saved flow revision: da9e26f7b8c19deb62da46ccba070d17
+2017-08-21T06:49:33.888Z Level 40 Stopping flows
+2017-08-21T06:49:34.105Z Level 40 Started flows
+2017-08-21T06:49:33.925Z Level 40 Stopped flows
+2017-08-21T06:49:33.927Z Level 40 Starting flows
+2017-08-21T06:49:34.079Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T06:51:48.660Z Level 40 User *** dfn32 Said *** status of my claim
+2017-08-21T06:51:49.403Z Level 40 User *** dfn32 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T07:08:18.990Z Level 40 User *** dfn33 Said *** status of my claim
+2017-08-21T07:08:19.795Z Level 40 User *** dfn33 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T07:10:09.375Z Level 40 User *** dfn34 Said *** status of my claim
+2017-08-21T07:10:11.621Z Level 40 User *** dfn34 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T07:13:13.914Z Level 40 User *** dfn35 Said *** status of my claim
+2017-08-21T07:13:15.087Z Level 40 User *** dfn35 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T07:19:31.086Z Level 40 User *** dfn36 Said *** status of my claim
+2017-08-21T07:19:31.799Z Level 40 User *** dfn36 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T07:21:59.973Z Level 40 User *** dfn37 Said *** how do claims work
+2017-08-21T07:22:00.593Z Level 40 User *** dfn37 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-21T07:23:53.994Z Level 40 User *** dfn38 Said *** Status of my claim
+2017-08-21T07:23:54.902Z Level 40 User *** dfn38 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T07:32:29.060Z Level 50 saved flow revision: c42faf21e5c6d4eec82771d00fa6b015
+2017-08-21T07:32:29.099Z Level 40 Starting flows
+2017-08-21T07:32:29.280Z Level 40 Started flows
+2017-08-21T07:32:29.062Z Level 40 Stopping flows
+2017-08-21T07:32:29.097Z Level 40 Stopped flows
+2017-08-21T07:32:29.251Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T07:33:09.835Z Level 40 User *** dfn39 Said *** Status of my claim
+2017-08-21T07:33:10.574Z Level 40 User *** dfn39 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-21T07:34:07.724Z Level 40 User *** dfn39 Said *** yes
+2017-08-21T07:34:08.377Z Level 40 User *** dfn39 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-21T07:34:11.793Z Level 40 User *** dfn39 Said *** yes
+2017-08-21T07:34:12.452Z Level 40 User *** dfn39 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-21T07:34:22.360Z Level 40 User *** dfn39 Said *** nope
+2017-08-21T07:34:23.433Z Level 40 User *** dfn39 Response *** Sorry you didn't receive your letter. Based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-21T07:34:37.723Z Level 40 User *** dfn39 Said *** how do claims work
+2017-08-21T07:34:38.385Z Level 40 User *** dfn39 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-21T07:34:47.902Z Level 40 User *** dfn39 Said *** yes
+2017-08-21T07:34:48.551Z Level 40 User *** dfn39 Response *** dennis, the letter advises you on your coverage for the roof damage and any other related damage, clean up, and items required by city ordinance. May I continue? 
+2017-08-21T07:34:52.238Z Level 40 User *** dfn39 Said *** yes
+2017-08-21T07:34:53.573Z Level 40 User *** dfn39 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-21T07:35:05.799Z Level 40 User *** dfn39 Said *** schedule a call
+2017-08-21T07:35:06.454Z Level 40 User *** dfn39 Response *** Sure dennis, I can set up a time for your representative, George Jetson, to call you? He is available 4 PM today, 9:30 AM tomorrow, or 1 PM tomorrow. 
+2017-08-21T07:56:00.350Z Level 50 saved flow revision: 338309978b76dae48ef8ac38528bc484
+2017-08-21T07:56:00.549Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T07:56:00.577Z Level 40 Started flows
+2017-08-21T07:56:00.353Z Level 40 Stopping flows
+2017-08-21T07:56:00.392Z Level 40 Stopped flows
+2017-08-21T07:56:00.393Z Level 40 Starting flows
+2017-08-21T08:03:38.328Z Level 50 saved flow revision: d04516f4989d471cae5ca1bbc0520c32
+2017-08-21T08:03:38.367Z Level 40 Starting flows
+2017-08-21T08:03:38.549Z Level 40 Started flows
+2017-08-21T08:03:38.329Z Level 40 Stopping flows
+2017-08-21T08:03:38.367Z Level 40 Stopped flows
+2017-08-21T08:03:38.517Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T14:42:50.613Z Level 50 saved flow revision: 71ee0ffa240f3792e85bf301a76b5b5a
+2017-08-21T14:42:50.926Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T14:42:50.974Z Level 40 Started flows
+2017-08-21T14:42:50.614Z Level 40 Stopping flows
+2017-08-21T14:42:50.647Z Level 40 Stopped flows
+2017-08-21T14:42:50.648Z Level 40 Starting flows
+2017-08-21T14:45:00.497Z Level 50 saved flow revision: 295730b1862584b63224a0663bea9b97
+2017-08-21T14:45:00.516Z Level 40 Stopped flows
+2017-08-21T14:45:00.497Z Level 40 Stopping flows
+2017-08-21T14:45:00.517Z Level 40 Starting flows
+2017-08-21T14:45:00.664Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T14:45:00.697Z Level 40 Started flows
+2017-08-21T14:49:01.835Z Level 50 saved flow revision: 9ae8901c26a4654744ba4e6eae659ef7
+2017-08-21T14:49:02.018Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-21T14:49:02.049Z Level 40 Started flows
+2017-08-21T14:49:01.835Z Level 40 Stopping flows
+2017-08-21T14:49:01.875Z Level 40 Starting flows
+2017-08-21T14:49:01.875Z Level 40 Stopped flows
+2017-08-21T14:57:13.172Z Level 40 Stopping flows
+2017-08-21T14:57:13.172Z Level 50 saved flow revision: 6d8eccff3b6ae9981f074d670a943da3
+2017-08-21T14:57:13.385Z Level 40 Started flows
+2017-08-21T14:57:13.210Z Level 40 Stopped flows
+2017-08-21T14:57:13.211Z Level 40 Starting flows
+2017-08-21T14:57:13.355Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T03:37:03.518Z Level 40 User *** dfn39 Said *** 1 pm
+2017-08-22T03:37:04.232Z Level 40 User *** dfn39 Response *** Hello! I'm your personal insurance virtual assistant. You can ask me about anything?
+2017-08-22T03:37:39.714Z Level 40 User *** dfn39 Said *** call rep now
+2017-08-22T03:37:40.355Z Level 40 User *** dfn39 Response *** Would you like George to call you on your home, mobile, or work phone number? 
+2017-08-22T03:46:23.814Z Level 40 User *** dfn39 Said *** call rep now
+2017-08-22T03:46:24.628Z Level 40 User *** dfn39 Response *** Would you like George to call you on your home, mobile, or work phone number? 
+2017-08-22T03:49:35.282Z Level 40 User *** dfn40 Said *** call rep now
+2017-08-22T03:49:35.926Z Level 40 User *** dfn40 Response *** Would you like George to call you on your home, mobile, or work phone number? 
+2017-08-22T04:01:56.391Z Level 50 saved flow revision: 416f112d1e212488fb7a96d51fde8852
+2017-08-22T04:01:56.393Z Level 40 Stopping flows
+2017-08-22T04:01:56.641Z Level 40 Started flows
+2017-08-22T04:01:56.431Z Level 40 Stopped flows
+2017-08-22T04:01:56.432Z Level 40 Starting flows
+2017-08-22T04:01:56.605Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T04:02:19.540Z Level 40 User *** dfn41 Said *** status of my claim
+2017-08-22T04:02:20.227Z Level 40 User *** dfn41 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-22T04:02:28.313Z Level 40 User *** dfn41 Said *** yes
+2017-08-22T04:02:29.006Z Level 40 User *** dfn41 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-22T04:02:31.433Z Level 40 User *** dfn41 Said *** yes
+2017-08-22T04:02:32.077Z Level 40 User *** dfn41 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-22T04:02:40.244Z Level 40 User *** dfn41 Said *** nope
+2017-08-22T04:02:40.894Z Level 40 User *** dfn41 Response *** Sorry you didn't receive your letter. Based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-22T04:02:52.323Z Level 40 User *** dfn41 Said *** call rep now
+2017-08-22T04:02:52.948Z Level 40 User *** dfn41 Response *** Would you like George to call you on your home, mobile, or work phone number? 
+2017-08-22T04:03:03.554Z Level 40 User *** dfn41 Said *** work
+2017-08-22T04:03:04.165Z Level 40 User *** dfn41 Response *** George will call you on your work within the next 10 minutes.
+2017-08-22T04:03:17.835Z Level 40 User *** dfn41 Said *** how do claims work
+2017-08-22T04:03:18.499Z Level 40 User *** dfn41 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-22T04:03:28.766Z Level 40 User *** dfn41 Said *** yes
+2017-08-22T04:03:29.461Z Level 40 User *** dfn41 Response *** dennis, the letter advises you on your coverage for the roof damage and any other related damage, clean up, and items required by city ordinance. May I continue? 
+2017-08-22T04:03:32.593Z Level 40 User *** dfn41 Said *** yes
+2017-08-22T04:03:33.195Z Level 40 User *** dfn41 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-22T04:03:39.877Z Level 40 User *** dfn41 Said *** no
+2017-08-22T04:03:40.477Z Level 40 User *** dfn41 Response *** We can schedule a call anytime. What else is on your mind?
+2017-08-22T05:05:26.035Z Level 50 saved flow revision: 418cfb240841189ffb36e1bb071a710a
+2017-08-22T05:05:26.037Z Level 40 Stopping flows
+2017-08-22T05:05:26.242Z Level 40 Started flows
+2017-08-22T05:05:26.063Z Level 40 Stopped flows
+2017-08-22T05:05:26.064Z Level 40 Starting flows
+2017-08-22T05:05:26.212Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T05:09:58.939Z Level 50 saved flow revision: 35e90585a7501e5f60639fac1c0d9114
+2017-08-22T05:09:59.109Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T05:09:59.139Z Level 40 Started flows
+2017-08-22T05:09:58.939Z Level 40 Stopping flows
+2017-08-22T05:09:58.971Z Level 40 Stopped flows
+2017-08-22T05:09:58.971Z Level 40 Starting flows
+2017-08-22T05:12:30.610Z Level 40 Stopping flows
+2017-08-22T05:12:30.643Z Level 40 Starting flows
+2017-08-22T05:12:30.812Z Level 40 Started flows
+2017-08-22T05:12:30.610Z Level 50 saved flow revision: c57780706b64ef4f11e89ee8ad64e5c7
+2017-08-22T05:12:30.643Z Level 40 Stopped flows
+2017-08-22T05:12:30.781Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T05:13:37.146Z Level 40 User *** dfn42 Said *** status of my claim
+2017-08-22T05:13:37.893Z Level 20 ReferenceError: foundEntities is not defined (line 64, col 21)
+2017-08-22T05:14:35.193Z Level 40 Stopping flows
+2017-08-22T05:14:35.206Z Level 40 Starting flows
+2017-08-22T05:14:35.192Z Level 50 saved flow revision: 4b58336cccba5f74b3bd4945e7fc42f7
+2017-08-22T05:14:35.205Z Level 40 Stopped flows
+2017-08-22T05:14:35.348Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T05:14:35.377Z Level 40 Started flows
+2017-08-22T05:14:47.227Z Level 40 User *** dfn42 Said *** status of my claim
+2017-08-22T05:14:48.045Z Level 20 TypeError: Cannot read property 'confidence' of undefined
+2017-08-22T05:20:59.360Z Level 50 saved flow revision: 2e4bb68bc860518a69e4808120033481
+2017-08-22T05:20:59.361Z Level 40 Stopping flows
+2017-08-22T05:20:59.574Z Level 40 Started flows
+2017-08-22T05:20:59.393Z Level 40 Stopped flows
+2017-08-22T05:20:59.394Z Level 40 Starting flows
+2017-08-22T05:20:59.541Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T05:21:13.014Z Level 40 User *** dfn42 Said *** status of my claim
+2017-08-22T05:21:14.556Z Level 20 TypeError: Cannot read property 'confidence' of undefined
+2017-08-22T05:24:04.052Z Level 50 saved flow revision: f3778215eb2fe29ad4818c0b4c066ecc
+2017-08-22T05:24:04.079Z Level 40 Stopped flows
+2017-08-22T05:24:04.221Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T05:24:04.053Z Level 40 Stopping flows
+2017-08-22T05:24:04.080Z Level 40 Starting flows
+2017-08-22T05:24:04.251Z Level 40 Started flows
+2017-08-22T05:24:13.279Z Level 40 User *** dfn42 Said *** status of my claim
+2017-08-22T05:24:14.078Z Level 40 User *** dfn42 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-22T05:28:36.529Z Level 40 User *** dfn42 Said *** yes
+2017-08-22T05:28:37.176Z Level 40 User *** dfn42 Response *** dennis, we are sorry for your loss.  I see by your recent claim that a tree appears to have fallen on your roof.  Can you confirm? 
+2017-08-22T05:28:39.513Z Level 40 User *** dfn42 Said *** yes
+2017-08-22T05:28:40.186Z Level 40 User *** dfn42 Response *** Looking at your file, I see that Mr. Fred Balboni filed his report with us on October 1st. Coverage was confirmed and we issued a letter to you with instructions on October 5th. Have you received that letter? 
+2017-08-22T05:28:47.531Z Level 40 User *** dfn42 Said *** nope
+2017-08-22T05:28:48.166Z Level 40 User *** dfn42 Response *** Sorry you didn't receive your letter. Based on the contents of the letter, your property coverage is replacement cost up to the agreed assessed replacement value of your house. We see from the adjuster’s notes that this should be well under that amount. You should have plenty of coverage. Any questions about your claim or coverage? 
+2017-08-22T05:29:08.077Z Level 40 User *** dfn42 Said *** call rep now
+2017-08-22T05:29:08.695Z Level 40 User *** dfn42 Response *** Would you like George to call you on your home, mobile, or work phone number? 
+2017-08-22T05:29:19.482Z Level 40 User *** dfn42 Said *** work
+2017-08-22T05:29:20.407Z Level 40 User *** dfn42 Response *** George will call you on your work within the next 10 minutes.
+2017-08-22T05:29:34.062Z Level 40 User *** dfn42 Said *** how to claims work
+2017-08-22T05:29:34.695Z Level 40 User *** dfn42 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-22T05:29:55.725Z Level 40 User *** dfn42 Said *** yes
+2017-08-22T05:29:56.345Z Level 40 User *** dfn42 Response *** dennis, the letter advises you on your coverage for the roof damage and any other related damage, clean up, and items required by city ordinance. May I continue? 
+2017-08-22T05:29:59.843Z Level 40 User *** dfn42 Said *** yes
+2017-08-22T05:30:01.423Z Level 40 User *** dfn42 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-22T05:30:14.933Z Level 40 User *** dfn42 Said *** no
+2017-08-22T05:30:15.584Z Level 40 User *** dfn42 Response *** We can schedule a call anytime. What else is on your mind?
+2017-08-22T05:54:34.686Z Level 50 saved flow revision: 7156214197e5bd958b479d0c909a589e
+2017-08-22T05:54:34.716Z Level 40 Starting flows
+2017-08-22T05:54:34.867Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T05:54:34.688Z Level 40 Stopping flows
+2017-08-22T05:54:34.715Z Level 40 Stopped flows
+2017-08-22T05:54:34.894Z Level 40 Started flows
+2017-08-22T05:57:25.964Z Level 40 User *** dfn42 Said *** status of my claim
+2017-08-22T05:57:26.664Z Level 40 User *** dfn42 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-22T05:57:27.446Z Level 20 RequestError: Column name or number of supplied values does not match table definition.
+2017-08-22T05:59:56.118Z Level 50 saved flow revision: 4dc92c3d66a7eef0eaaf26e05da5be60
+2017-08-22T05:59:56.156Z Level 40 Starting flows
+2017-08-22T05:59:56.297Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T05:59:56.118Z Level 40 Stopping flows
+2017-08-22T05:59:56.155Z Level 40 Stopped flows
+2017-08-22T05:59:56.325Z Level 40 Started flows
+2017-08-22T06:00:14.974Z Level 40 User *** dfn42 Said *** status of my claim
+2017-08-22T06:00:16.348Z Level 40 User *** dfn42 Response *** Hi dennis, I see by our records that you are a policy holder with Open Insurance. Is that correct? 
+2017-08-22T06:01:04.699Z Level 40 User *** dfn42 Said *** call rep now
+2017-08-22T06:01:05.561Z Level 40 User *** dfn42 Response *** Didn't expect that answer, may I ask the question again? 
+2017-08-22T06:01:19.393Z Level 40 User *** dfn42 Said *** yes
+2017-08-22T06:01:58.741Z Level 40 User *** dfn42 Said *** yes
+2017-08-22T06:02:02.144Z Level 40 User *** dfn42 Response *** dennis, have a wonderful day! Remember, you can chat with me anytime and anywhere! I'm here for you.
+2017-08-22T06:02:30.031Z Level 40 User *** dfn42 Said *** call rep now
+2017-08-22T06:02:31.985Z Level 40 User *** dfn42 Response *** Would you like George to call you on your home, mobile, or work phone number? 
+2017-08-22T13:30:13.703Z Level 50 saved flow revision: cb2d0417c296bd49e1f6fddcc7283ca3
+2017-08-22T13:30:14.044Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T13:30:14.097Z Level 40 Started flows
+2017-08-22T13:30:13.709Z Level 40 Stopping flows
+2017-08-22T13:30:13.758Z Level 40 Stopped flows
+2017-08-22T13:30:13.759Z Level 40 Starting flows
+2017-08-22T13:30:33.483Z Level 50 saved flow revision: e4b87245921d0455be141c12a2416304
+2017-08-22T13:30:33.521Z Level 40 Stopped flows
+2017-08-22T13:30:33.788Z Level 40 Started flows
+2017-08-22T13:30:33.484Z Level 40 Stopping flows
+2017-08-22T13:30:33.522Z Level 40 Starting flows
+2017-08-22T13:30:33.735Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T15:46:18.570Z Level 50 saved flow revision: 54d8847daac812f41612bafef532eb50
+2017-08-22T15:46:18.577Z Level 40 Stopping flows
+2017-08-22T15:46:18.855Z Level 40 Started flows
+2017-08-22T15:46:18.615Z Level 40 Stopped flows
+2017-08-22T15:46:18.618Z Level 40 Starting flows
+2017-08-22T15:46:18.811Z Level 20 Client requires an Account SID and Auth Token set explicitly or via the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables
+2017-08-22T15:49:07.917Z Level 40 User *** dfn42 Said *** work
+2017-08-22T15:49:08.912Z Level 40 User *** dfn42 Response *** George will call you on your work within the next 10 minutes.
+2017-08-22T15:51:12.207Z Level 40 User *** dfn42 Said *** How do claims work
+2017-08-22T15:51:12.870Z Level 40 User *** dfn42 Response *** Awesome question dennis, the letter we sent you provides details on the process and  commonly asked questions. Can I walk you through the process? 
+2017-08-22T15:51:25.458Z Level 40 User *** dfn42 Said *** Yes
+2017-08-22T15:51:26.118Z Level 40 User *** dfn42 Response *** dennis, the letter advises you on your coverage for the roof damage and any other related damage, clean up, and items required by city ordinance. May I continue? 
+2017-08-22T15:51:30.045Z Level 40 User *** dfn42 Said *** Yes
+2017-08-22T15:51:30.710Z Level 40 User *** dfn42 Response *** You may choose your own repair service, but we have provided you with three in your area who we have contracted with us to take direct payments. This option automates the payment process. Can I contact your claim representative, George Jetson for a call now or schedule one? 
+2017-08-22T15:51:45.076Z Level 40 User *** dfn42 Said *** Schedule a call
+2017-08-22T15:51:45.677Z Level 40 User *** dfn42 Response *** Sure dennis, I can set up a time for your representative, George Jetson, to call you? He is available 4 PM today, 9:30 AM tomorrow, or 1 PM tomorrow. 
+2017-08-22T15:51:55.638Z Level 40 User *** dfn42 Said *** 1 PM
+2017-08-22T15:51:56.308Z Level 40 User *** dfn42 Response *** Great, I have created an appointment at 1 PM for you and George.  Any more questions for me?
+2017-08-22T15:52:39.379Z Level 40 User *** dfn42 Said *** Pizza please
+2017-08-22T15:52:40.142Z Level 40 User *** dfn42 Response *** Which Demo would you like to do?
+2017-08-22T15:52:51.986Z Level 40 User *** dfn42 Said *** Pizza
+2017-08-22T15:52:52.587Z Level 40 User *** dfn42 Response *** Don't know about that one, will note it for my future training. What other insurance questions are on your mind?
