@@ -27,7 +27,7 @@ Steps to build /data
       - add node-red-node-watson via palette
       - add node-red-bluemix via palette
       - add node-red-contrib-redis via palette
-      - add node-red-mssql-redis via palette
+      - add node-red-contrib-mssql via palette
      You will see a new directory called node-modules
 
   8
